@@ -1,21 +1,31 @@
 /*
    Import partials below
 */
+<<<<<<< HEAD
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
 
+=======
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+>>>>>>> master
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
+<<<<<<< HEAD
   /* 2 */
 }
 
@@ -29,11 +39,23 @@ html {
 body {
   margin: 0;
 }
+=======
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+>>>>>>> master
 
 /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
+<<<<<<< HEAD
 
 h1 {
   font-size: 2em;
@@ -43,29 +65,48 @@ h1 {
 /* Grouping content
      ========================================================================== */
 
+=======
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+>>>>>>> master
 /**
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
+<<<<<<< HEAD
   /* 2 */
 }
 
@@ -79,63 +120,104 @@ pre {
 a {
   background-color: transparent;
 }
+=======
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+>>>>>>> master
 
 /**
    * 1. Remove the bottom border in Chrome 57-
    * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
+<<<<<<< HEAD
   text-decoration: underline dotted;
   /* 2 */
 }
+=======
+          text-decoration: underline dotted;
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */
+<<<<<<< HEAD
 
 b,
 strong {
   font-weight: bolder;
 }
+=======
+b,
+strong {
+  font-weight: bolder; }
+>>>>>>> master
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * Add the correct font size in all browsers.
    */
+<<<<<<< HEAD
 
 small {
   font-size: 80%;
 }
+=======
+small {
+  font-size: 80%; }
+>>>>>>> master
 
 /**
    * Prevent `sub` and `sup` elements from affecting the line height in
    * all browsers.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
+<<<<<<< HEAD
   vertical-align: baseline;
 }
 
@@ -161,11 +243,34 @@ img {
 /* Forms
      ========================================================================== */
 
+=======
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+>>>>>>> master
 /**
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 button,
 input,
 optgroup,
@@ -178,72 +283,116 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */
+<<<<<<< HEAD
 
 button,
 input {
   /* 1 */
   overflow: visible;
 }
+=======
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+>>>>>>> master
 
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
+<<<<<<< HEAD
 
 button,
 select {
   /* 1 */
   text-transform: none;
 }
+=======
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+>>>>>>> master
 
 /**
    * Correct the inability to style clickable types in iOS and Safari.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+<<<<<<< HEAD
   -webkit-appearance: button;
 }
+=======
+  -webkit-appearance: button; }
+>>>>>>> master
 
 /**
    * Remove the inner border and padding in Firefox.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
+<<<<<<< HEAD
   padding: 0;
 }
+=======
+  padding: 0; }
+>>>>>>> master
 
 /**
    * Restore the focus styles unset by the previous rule.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
+<<<<<<< HEAD
   outline: 1px dotted ButtonText;
 }
+=======
+  outline: 1px dotted ButtonText; }
+>>>>>>> master
 
 /**
    * Correct the padding in Firefox.
    */
+<<<<<<< HEAD
 
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
+=======
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+>>>>>>> master
 
 /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -251,7 +400,10 @@ fieldset {
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -264,76 +416,119 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
+<<<<<<< HEAD
   /* 1 */
 }
+=======
+  /* 1 */ }
+>>>>>>> master
 
 /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
+<<<<<<< HEAD
 
 progress {
   vertical-align: baseline;
 }
+=======
+progress {
+  vertical-align: baseline; }
+>>>>>>> master
 
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
+<<<<<<< HEAD
 
 textarea {
   overflow: auto;
 }
+=======
+textarea {
+  overflow: auto; }
+>>>>>>> master
 
 /**
    * 1. Add the correct box sizing in IE 10.
    * 2. Remove the padding in IE 10.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
    */
+<<<<<<< HEAD
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+=======
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+>>>>>>> master
 
 /**
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
+<<<<<<< HEAD
   /* 2 */
 }
+=======
+  /* 2 */ }
+>>>>>>> master
 
 /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
+<<<<<<< HEAD
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+=======
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+>>>>>>> master
 
 /**
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
+<<<<<<< HEAD
   /* 2 */
 }
 
@@ -347,10 +542,22 @@ textarea {
 details {
   display: block;
 }
+=======
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+>>>>>>> master
 
 /*
    * Add the correct display in all browsers.
    */
+<<<<<<< HEAD
 
 summary {
   display: list-item;
@@ -366,11 +573,32 @@ summary {
 template {
   display: none;
 }
+=======
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+>>>>>>> master
 
 /**
    * Add the correct display in IE 10.
    */
+<<<<<<< HEAD
 
 [hidden] {
   display: none;
 }
+=======
+[hidden] {
+  display: none; }
+
+@aqua : #16ebfe;
+@blue : #181c27;
+@orange : #ff6007;
+>>>>>>> master
