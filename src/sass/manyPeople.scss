@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.manyPeople {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    font-family: "Acrom", sans-serif;
+    &__text {
+        display: flex;
+        flex-direction: column;
+        &__chapter {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+        &__about {
+            font-size: 13.5px;
+            line-height: 19.5px;
+            font-weight: bold;
+        }
+    }
+}
