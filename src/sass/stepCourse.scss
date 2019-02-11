@@ -4,7 +4,9 @@
     box-sizing: border-box;
  }
 
- 
+ .stepCourse {
+     padding: 30px 20px;
+ }
 
 .stepCourse__headr {
     display: flex;
@@ -32,7 +34,7 @@
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Acrom", sans-serif;
     font-weight: bolder;
 }
@@ -52,13 +54,13 @@
 
 .numer__title {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
 }
 
 .numer__abz {
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
 }
@@ -183,4 +185,112 @@
     font-family: "Acrom", sans-serif;
     font-weight: 400;
 
+}
+
+@media (min-width: 768px) {
+    .stepCourse__headr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .stepCourse__headr {
+        margin-bottom: 55px;
+    }
+
+    .txt__step {
+        font-size: 27px ;
+        text-transform: uppercase;
+        font-family: 'Acrom', sans-serif ;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .txt__fastStart1 {
+        font-size: 15px;
+        width: 70%;
+        font-family: 'Acrom', sans-serif ;
+        font-weight: bold;
+    }
+    .txt__fastStart {
+        display: flex;
+    }
+
+    .txt__fastStart::before {
+        content: '';
+        height: 4px;
+        width: 30px;
+        background-color: #000000;
+        display: block;
+    }
+
+    .headr__pic {
+        width: 50%;
+    }
+    
+    .headr__txt {
+        display: block;
+        width: 48%;
+    }
+    
+    .stepCourse__descr {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content: space-around;
+    }
+    
+    .descr__big {
+        width: 35%;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "Acrom", sans-serif;
+        font-weight: bolder;
+    }
+    
+    .descr__step {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    
+    .step__numer {
+        width: 31%;
+        margin: 0;
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 29px;
+    }
+    
+    .numer__title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-family: "Acrom", sans-serif;
+        font-weight: 400;
+    }
+    
+    .numer__abz {
+        font-size: 18px;
+        font-family: "Acrom", sans-serif;
+        font-weight: bold;
+    }
+    
+    .stepCourse__footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between
+    }
+
+    .wonder__how {
+        width: 70%;
+    }
+
+    .footer__btn {
+        width: 30%;
+    }
 }
