@@ -1,0 +1,72 @@
+.warning{
+    max-width: 90%;
+    padding: 0;
+    margin: auto;
+}
+.warning-box1{
+    display: none;
+}
+.warning-heds{
+    font-family: "Acrom", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+  font-size: 18px;
+  width: 50%;
+ padding-left: 100px;
+}
+.warning-text{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.warning-opus{
+    font-family: "Acrom", sans-serif;
+    font-style: normal;
+  font-weight: bold;
+    font-size: 14px;
+    padding-left: 100px;
+    width: 90%;
+    text-align: left;
+    position: relative;
+    
+   }
+.warning-opus::before{
+    content: '';
+    width: 21px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 60px;   
+}
+.warning-list {
+    display: flex;
+    flex-direction: column;
+    list-style: square outside url(/images/block-6/knopa.png);
+    width: 80%;
+    
+}
+.warning-list-item{
+font-family: "Acrom", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  
+}
+.warning-list-text{
+    font-family: "Acrom";
+    font-weight: 100;
+    font-style: normal;
+    text-transform: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 17px;
+}
+// @media(min-width:768px){
+//     {
+
+// }
+// }
