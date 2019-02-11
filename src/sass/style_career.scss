@@ -1,0 +1,53 @@
+.career {
+    max-width: 768px;
+    
+}
+.career__line {
+    border: 1px solid black;
+    width: 21px;
+    height: 3px;
+    background-color: black;
+    margin-right: 10px;
+}
+.square {
+    border: 8px solid black;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    background-color: black;
+}
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.flex_col_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  
+}
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.align_left {
+    text-align: left;
+}
+
+.img1 {
+    width: 60%;
+}
+.img2 {
+    width: 90%;
+}
+.margin_left {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
