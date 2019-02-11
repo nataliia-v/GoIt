@@ -20,6 +20,10 @@
     font-size: 18px;
 
 }
+.blackBgTextWhite {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
 .secondTextContainer {
     max-width: 60%;
     height: auto;
@@ -46,17 +50,34 @@
 
 }
 .slider {
+    position: relative;
     max-width: 70%;
-    padding: 20px 0 10px;
-    height: 213px;
-    height: auto;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
     box-shadow: 
     0px 10px 20px 5px 
     rgba(223,223,223,1);
+    
 }
+.slideContainer {
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 95%;
+    border-right: 1px solid rgb(223, 223, 223);
+
+}
+.slideContainer::after {
+    content: '';
+    bottom: 40px;
+    right: 3px;
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(90deg);
+}
+
 .sliderPictureContainer {
     max-width: 40%;
 }
@@ -66,19 +87,58 @@
 }
 
 .pictureTitle {
-    font-size: 6px;
+    font-size: 5px;
     font-family: "Acrom";
     font-weight: bolder;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 .sliderTitleAbout {
     max-width: 60%;
 }
 .titleAbout {
+    overflow: scroll;
+    height: 175px;
     font-size: 6px; 
     font-family: "Acrom";
     font-weight: 400;
     font-style: normal;
     line-height: 10px;
+    
 }
+.slideLeft {
+    position: absolute;
+    bottom: -17px;
+    right: 18px;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    background-image: 
+    url(../images/block-5/SliderButtonArrowLeft.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slideRight {
+    position: absolute;
+    bottom: -17px;
+    right: 0;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    background-image: 
+    url(../images/block-5/SliderButtonArrowRight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.EkaterinaIllarionova {
+    display: none;
+}
+.NatalyaIvanova {
+    display: none;
+}
+
