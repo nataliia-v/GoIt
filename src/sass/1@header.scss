@@ -1,0 +1,79 @@
+.header {
+    background-image: url(../images/block-1/bg-480.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 17px;
+    color: white;
+}
+
+.header__list-item1 {
+    width: 5px;
+    height: 2px;
+}
+
+.header__course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header__course--title {
+    font-family: "Acrom";
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 55px;
+}
+
+.header__course--text {
+    font-size: 21px;
+    color: white;
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header__course--text1 {
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+}
+
+.header__course--text2 {
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: 400;
+    color: #afb0b3;
+    font-size: 18px;
+}
+
+.header__course--button {
+    width: 219px;
+    border: none;
+    background-color: #ff6b08;
+}
+
+.course__button {
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 40px;
+}
