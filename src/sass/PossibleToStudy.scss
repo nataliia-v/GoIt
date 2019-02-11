@@ -10,6 +10,7 @@
 .PossybleToStudy {
     background-color: #ffffff;
     padding-top: 40px;
+    margin: auto;
 
 }
 .PossybleToStudy__title {
@@ -18,14 +19,45 @@
     margin: auto;
     margin-bottom: 21px;
     font-family: "Acrom";
-    font-weight: bold;
-    font-size: 47px;
+    font-weight: bolder;
+    font-size: 34px;
+}
+.PossybleToStudy__item {
+    width: 60%;
+    margin: auto;
+    font-family: "Acrom";
+    margin-bottom: 62px;
 }
 .PossybleToStudy__title2 {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 39px;
-    font-family: "Acrom";
+    
+    margin-bottom: 39px;  
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.PossybleToStudy__text {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 17px;
+}
+.PossybleToStudy__Img {
+    width: 90%;
+    margin:auto;
+    margin-bottom: 62px;
+}
+.PossybleToStudy__pic {
+    width: 100%;
+}
+.PossybleToStudy__text1 {
+    width: 60%;
+    margin: auto;
+    font-family: "Acrom";
+    font-size: 17px;
+    
+}
+.PossybleToStudy__text1::before {
+content: "";
+width: 10px;
+height: 2px;
+background-color: black;
+display:inline-block ;
 }
