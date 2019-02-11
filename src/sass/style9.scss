@@ -47,7 +47,7 @@
 .sec9-main {
     text-align: center;
     margin: auto;
-    width: 90%;
+    width: 95%;
 
 }
 .info-1 {
@@ -113,5 +113,57 @@ color: rgba(255, 107, 8, 255);
 text-align: left;
 width: 80%;
 margin: auto;
+}
+@media (min-width:768px) {
+    .sec9 {
+        display: flex;
+        width: 90%;
+        // justify-content: center;
+        margin: auto;
+        align-content: flex-start;
+        
+    }
+    .first-sec9 {
+        margin: 0;
+        width: 50%;
+        // justify-content: flex-start;
+        text-align: left;
+
+    }
+    .sec9-main {
+        width: 50%;
+        
+    }
+    .info-1 {
+        display: flex;
+        align-items: flex-start;
+           }
+    .info-01 {
+        margin: 0;
+    }
+    .header {
+        margin: 0;
+    }
+.cifra01 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: -4px;
+
+}
+.cifra01::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    margin-left: 8px;
+}
+.sec-h3 {
+    
+    font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 9px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 255);
+    width: 88px; 
+}
+
 
 }
