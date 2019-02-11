@@ -1,0 +1,117 @@
+
+*{
+    outline: 1px solid green;
+
+}
+
+.sec9 {
+    background-color: white;
+    text-align: center;
+    outline: 1px solid red; 
+    padding-top: 15px;
+    padding-bottom: 33px;
+}
+.first-sec9 {
+    text-align: center;
+    margin: auto;
+}
+.header {
+    width: 230px;
+    margin: auto;
+    font-family: Acrom-Bold, Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+.sec-9-header {
+    background-color: black;
+    color: white;
+    
+
+ }
+.sec9-h2 {
+    font-family: Acrom-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13.5px;
+    line-height: 19.5px;
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
+    margin: auto;
+    display: inline-block;
+    width: 260px;
+    margin-bottom: 60px;
+}
+.sec9-main {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+
+}
+.info-1 {
+    text-align: center;
+    margin: auto;
+
+}
+.info-01 {
+    text-align: left;
+    margin: auto;
+    display: flex; 
+    // flex-wrap: wrap;
+    margin: auto;
+    width: 290px;
+    // justify-content: flex-start;
+    position: relative;
+    margin-bottom: 33px;
+    overflow: hidden;
+}
+.text-sec-9 {
+    margin-left: 22px;
+}
+.cifra01 {
+    font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+font-size: 24.54px;
+line-height: 29.45px;
+color: rgba(0, 0, 0, 255);
+text-align: left;
+margin-left: -7px;
+}
+.cifra01::after {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background-color: #16ebfe;
+    display: block;
+    margin-left: 18px;
+
+}
+.sec-h3 {
+    text-transform: uppercase;
+    font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13.5px;
+    line-height: 21.27px;
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
+    margin-bottom: 17px;
+    width: 220px; 
+}
+.sec-h4 {
+    font-family: Acrom-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13.5px;
+    line-height: 19.5px;
+    color: rgba(63, 65, 68, 255);
+    text-align: left;
+    width: 230px;  
+}
+.main-sec9h5 {
+    font-family: Acrom-Medium, AdobeInvisFont, MyriadPro-Regular;
+font-size: 15px;
+line-height: 19.5px;
+color: rgba(255, 107, 8, 255);
+text-align: left;
+width: 80%;
+margin: auto;
+
+}

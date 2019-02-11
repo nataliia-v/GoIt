@@ -2,3 +2,11 @@
    Import partials below
 */
 @import './normalize';
+@import'./style9.scss';
+@import'./normalize.scss';
+@import'./fonts.scss';
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
