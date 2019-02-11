@@ -91,6 +91,7 @@ font-family: "Acrom", sans-serif;
     font-style: normal;
     font-weight: bolder;
     color: rgb(56, 56, 56);
+    text-align: left;
 
                        
         }
@@ -104,4 +105,10 @@ font-family: "Acrom", sans-serif;
             
         }
         
+}
+@media(min-width:1024px){
+    .box-hard-text{
+        margin:0;
+    }
+    
 }
