@@ -65,8 +65,23 @@ font-family: "Acrom", sans-serif;
     padding-top: 5px;
     padding-bottom: 17px;
 }
-// @media(min-width:768px){
-//     {
+@media(min-width:768px){
+            .warning{
+            max-width: 90%;
+            padding: 0;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .warning-box1{
+            display: block;
+            width: 50%;
+        }
+        .warning-box2{
+            width: 50%;
+        }
+        .box-hard {
+            transform: rotate(90deg);
+        }
 
-// }
-// }
+}
