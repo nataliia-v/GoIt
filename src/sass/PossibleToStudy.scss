@@ -13,6 +13,10 @@
     margin: auto;
 
 }
+.PossybleToStudy__conteiner {
+    display: flex;
+    flex-direction: column;
+}
 .PossybleToStudy__title {
     width: 80%;
     // display: block;
@@ -22,13 +26,21 @@
     font-weight: bolder;
     font-size: 34px;
 }
+.PossybleToStudy__none {
+    display: none;
+}
 .PossybleToStudy__descrip {
     width: 60%;
     margin: auto;
     font-family: "Acrom";
     margin-bottom: 62px;
 }
-.PossybleToStudy__position {
+
+.PossybleToStudy__descrip--position {
+    width: 60%;
+    margin: auto;
+    font-family: "Acrom";
+    margin-bottom: 62px;
     position: relative;
 }
 .PossybleToStudy__planet {
@@ -56,8 +68,7 @@
     width: 100%;
 }
 .PossybleToStudy__text1 {
-    width: 60%;
-    margin: auto;
+    
     font-family: "Acrom";
     font-size: 17px;
     margin-bottom: 29px;
@@ -65,18 +76,30 @@
 }
 .PossybleToStudy__text1::before {
 content: "";
-width: 10px;
-height: 2px;
+width: 20px;
+height: 3px;
 background-color: black;
-display:inline-block ;
-padding-top: 10px;
+position: absolute;
+top: 13px;
+left: 0px;
 
+
+}
+.PossybleToStudy__line {
+    width: 60%;
+    margin: auto;
+    padding-left: 30px;
+    position: relative;
 }
 
 .PossybleToStudy__text2 {
     background-color: black;
     color: white;
-    display: block;   
+    font-family: "Acrom";
+    font-weight: bold; 
+    
+}
+.PossybleToStudy__text2--black {
     margin: auto;
     width: 60%;
     margin-bottom: 29px;
@@ -110,15 +133,35 @@ width: 100%;
     .wrapper {
         max-width: 960px;
     }
-
+.PossybleToStudy__conteiner {
+    flex-direction: row; 
+}
+.PossybleToStudy__box1 {
+    width: 40%;
+}
+.PossybleToStudy__box2 {
+    width: 60%;
+}
+.PossybleToStudy__descrip {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 0; 
+    justify-content: space-around;
+}
 
     .PossybleToStudy__awwords {
         width: 90%;
         margin: auto; 
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-start;
+       
         
+    }
+    .PossybleToStudy__none {
+        display: block;
+    }
+    .PossybleToStudy__none1 {
+        display: none;
     }
     .PossybleToStudy__title2 {
         font-size: 16px;
@@ -127,6 +170,10 @@ width: 100%;
         font-size: 14px;
     }
     .PossybleToStudy__item {
-        margin-right: 30x;
+        margin-right: 30px;
+        margin-top: 0;
+    }
+    .PossybleToStudy__descrip--position {
+        margin-right: 30px;
     }
 }
