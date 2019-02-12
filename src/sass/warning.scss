@@ -80,7 +80,7 @@ font-family: "Acrom", sans-serif;
              z-index: 0;
         }
         .warning-box2{
-            width: 50%;
+            width: 60%;
             padding-top: 50px;
         }
         .box-hard {
@@ -92,14 +92,20 @@ font-family: "Acrom", sans-serif;
     font-weight: bolder;
     color: rgb(56, 56, 56);
     text-align: left;
-
+.box-hard-text{
+    position: absolute;
+    top: -20px;
+    left: -230px;
+    margin: 0;
+   
+}
                        
         }
         .box1-image{
             position: absolute;
             z-index: 5;
             top:15%;
-            left: 40%;
+            left: 25%;
             background-color: transparent;
             filter: drop-shadow(16px 16px 16px rgba(99, 98, 98, 0.6));
             
@@ -108,7 +114,30 @@ font-family: "Acrom", sans-serif;
 }
 @media(min-width:1024px){
     .box-hard-text{
-        margin:0;
+        position: absolute;
+        top: -200px;
+        left: -200px;
     }
-    
+}
+@media(min-width:1200px){
+    .box-hard-text{
+        margin:100px;
+    }
+    .box1-image{
+        width: 192px;
+        height:459px;
+        top:100px;
+        left: 280px;      
+    }
+    .warning-heds{
+        font-size: 30px;
+      width: 60%;
+     padding-left: 100px;
+    }
+    .warning-opus{
+        font-size: 16px;
+        }
+        .warning-list-item{
+            font-size: 18px;
+        }
 }
