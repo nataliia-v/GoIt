@@ -2,6 +2,10 @@
    Import partials below
 */
 @import './normalize';
+@import './1@header.scss';
+@import './variables.scss';
+
+@import'./warning.scss';
 @import './fonts.scss';
 @import './stepCourse.scss';
 @import './style-money.scss';
