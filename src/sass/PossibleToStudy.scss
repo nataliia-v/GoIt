@@ -1,179 +1,256 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
 }
 .wrapper {
-    max-width: 480px;
+  max-width: 480px;
 }
 .PossybleToStudy {
-    background-color: #ffffff;
-    padding-top: 40px;
-    margin: auto;
-
+  background-color: #ffffff;
+  padding-top: 40px;
+  margin: auto;
 }
 .PossybleToStudy__conteiner {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
 .PossybleToStudy__title {
-    width: 80%;
-    // display: block;
-    margin: auto;
-    margin-bottom: 21px;
-    font-family: "Acrom";
-    font-weight: bolder;
-    font-size: 34px;
+  width: 80%;
+  // display: block;
+  margin: auto;
+  margin-bottom: 21px;
+  font-family: "Acrom";
+  font-weight: bolder;
+  font-size: 34px;
 }
 .PossybleToStudy__none {
-    display: none;
+  display: none;
 }
 .PossybleToStudy__descrip {
-    width: 60%;
-    margin: auto;
-    font-family: "Acrom";
-    margin-bottom: 62px;
+  width: 60%;
+  margin: auto;
+  font-family: "Acrom";
+  margin-bottom: 62px;
 }
 
 .PossybleToStudy__descrip--position {
-    width: 60%;
-    margin: auto;
-    font-family: "Acrom";
-    margin-bottom: 62px;
-    position: relative;
+  font-family: "Acrom";
+  margin-bottom: 45px;
+  position: relative;
 }
 .PossybleToStudy__planet {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
 .PossybleToStudy__title2 {
-    
-    margin-bottom: 17px;  
-    font-weight: 400;
-    font-size: 17px;
-    text-transform: uppercase;
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 17px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
 }
 .PossybleToStudy__text {
-    font-weight: bold;
-    font-size: 17px;
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  z-index: 2;
 }
 .PossybleToStudy__Img {
-    width: 90%;
-    margin:auto;
-    margin-bottom: 62px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 62px;
 }
 .PossybleToStudy__pic {
-    width: 100%;
+  width: 100%;
 }
 .PossybleToStudy__text1 {
-    
-    font-family: "Acrom";
-    font-size: 17px;
-    margin-bottom: 29px;
-    
+  font-family: "Acrom";
+  font-size: 17px;
+  margin-bottom: 39px;
 }
 .PossybleToStudy__text1::before {
-content: "";
-width: 20px;
-height: 3px;
-background-color: black;
-position: absolute;
-top: 13px;
-left: 0px;
-
-
+  content: "";
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 13px;
+  left: 0px;
 }
 .PossybleToStudy__line {
-    width: 60%;
-    margin: auto;
-    padding-left: 30px;
-    position: relative;
+  width: 60%;
+  margin: auto;
+  padding-left: 30px;
+  position: relative;
 }
 
 .PossybleToStudy__text2 {
-    background-color: black;
-    color: white;
-    font-family: "Acrom";
-    font-weight: bold; 
-    
+  background-color: black;
+  color: white;
+  font-family: "Acrom";
+  font-weight: bold;
 }
 .PossybleToStudy__text2--black {
-    margin: auto;
-    width: 60%;
-    margin-bottom: 29px;
+  margin-bottom: 39px;
 }
 .PossybleToStudy__awwords {
-    display: flex;
-    flex-direction: column;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .PossybleToStudy__item {
-    width: 60%;
-    margin: auto;
-    font-family: "Acrom";
-    margin-bottom: 62px;
-    display: flex;
-    justify-content: space-around;
+  font-family: "Acrom";
+  margin-bottom: 62px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  
 }
 .PossybleToStudy__text--bold {
-    margin-bottom: 13px;  
-    font-weight: 400;
+  margin-bottom: 13px;
+  font-size: 17px;
+  font-weight: 400;
 }
 .PossybleToStudy__Img2 {
-    width: 65%;
-    height: auto;
+  width: 65%;
+  height: auto;
 }
 .PossybleToStudy__photo {
-width: 100%;
-
+  width: 100%;
+}
+.PossybleToStudy__number {
+font-size: 36px;
+color: #f2f2f2;
+transform: rotate(270deg); 
+display: block;
+position: absolute; 
+top: 7px;
+    right: 38px;
+}
+.PossybleToStudy__box {
+margin-right: 20px;
 }
 
 @media (min-width: 768px) {
-    .wrapper {
-        max-width: 960px;
-    }
-.PossybleToStudy__conteiner {
-    flex-direction: row; 
-}
-.PossybleToStudy__box1 {
+  .wrapper {
+    max-width: 960px;
+  }
+  .PossybleToStudy {
+    width: 85%;
+  }
+  .PossybleToStudy__conteiner {
+    flex-direction: row;
+  }
+  .PossybleToStudy__box1 {
     width: 40%;
-}
-.PossybleToStudy__box2 {
+    margin-right: 15px;
+  }
+  .PossybleToStudy__title {
+    width: 100%;
+    font-size: 27px;
+  }
+  .PossybleToStudy__line {
+    width: 100%;
+    padding-left: 45px;
+  }
+  .PossybleToStudy__box2 {
     width: 60%;
-}
-.PossybleToStudy__descrip {
+  }
+  .PossybleToStudy__descrip {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-bottom: 24px;
+    // justify-content: space-around;
+  }
+
+  .PossybleToStudy__awwords {
+    width: 100%;
+    margin: auto;
+    flex-direction: row;
+    
+  }
+  .PossybleToStudy__none {
+    display: block;
+  }
+  .PossybleToStudy__none1 {
+    display: none;
+  }
+  .PossybleToStudy__title2 {
+    font-size: 14px;
+    margin-bottom: 11px;
+     
+  }
+  .PossybleToStudy__text {
+    font-size: 11px;
+  }
+  .PossybleToStudy__item {
+    width: 30%;
+    margin-top: 0;
+    margin-right: 18px;
+  }
+  .PossybleToStudy__descrip--position {
+    margin-right: 30px;
+  }
+  .PossybleToStudy__text1 {
+      font-size: 14px;
+      margin-bottom: 0; 
+  }
+  .PossybleToStudy__text1::before {
+    width: 29px;
+    height: 4px;
+
+    top: 10px;
+    left: 0px;
+  }
+  .PossybleToStudy__it {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  .PossybleToStudy__box-item {
     display: flex;
     flex-direction: row; 
-    margin-bottom: 0; 
-    justify-content: space-around;
-}
-
-    .PossybleToStudy__awwords {
-        width: 90%;
-        margin: auto; 
-        flex-direction: row;
-        justify-content: space-around;
-       
-        
-    }
-    .PossybleToStudy__none {
-        display: block;
-    }
-    .PossybleToStudy__none1 {
-        display: none;
-    }
-    .PossybleToStudy__title2 {
-        font-size: 16px;
-    }
-    .PossybleToStudy__text {
-        font-size: 14px;
-    }
-    .PossybleToStudy__item {
-        margin-right: 30px;
-        margin-top: 0;
-    }
-    .PossybleToStudy__descrip--position {
-        margin-right: 30px;
+  }
+  .PossybleToStudy__semi-awwords {
+    width: 27%;
+  }
+  .PossybleToStudy__box {
+    margin-right: 0;
+    width: 73%;
+  }
+  .PossybleToStudy__Img2 {
+    width: 30%;
+    margin-left: 10px;
+  }
+  .PossybleToStudy__text--bold {
+    font-size: 11px;
+  }
+  .PossybleToStudy__planet1 {
+    width: 75%;
+  }
+  .PossybleToStudy__planet {
+    top: -40px;
+    right: -20px;
+  }
+  .PossybleToStudy__text2 {
+    font-size: 12px;
+  }
+  .PossybleToStudy__photo {
+    max-height: 70%;
+    position: relative;
+    z-index: 3; 
+  }
+  .PossybleToStudy__number {
+    font-size: 30px; 
+    top: 7px;
+    right: -28px;
     }
 }
