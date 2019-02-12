@@ -1,16 +1,19 @@
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 
 }
+
 .wrapper {
    max-width: 480px;
    margin: auto;
 }
+
 .data {
    padding: 30px 0;
 }
+
 .data__item {
    text-align: center;
    text-transform: uppercase;
@@ -22,8 +25,10 @@
 .data__text {
    font-family: "Acrom";
    font-size: 17px;
-   font-weight: bolder; 
+   font-weight: bolder;
+   position: relative;
 }
+
 .data__box {
    width: 60%;
    display: flex;
@@ -33,21 +38,27 @@
    padding: 20px;
    margin: auto;
 }
-.data__line {
-   border-bottom: 1px solid black;
-   width: 40%;
+
+.data__text::before {
+   content: "";
+   width: 15%;
    height: 3px;
    background-color: black;
-   margin-right: 20px;   
-   margin-top: 4%;
+   display: block;
+   position: absolute;
+   top: 5%;
+   left: -25%;
+
 }
+
 .data__list {
    width: 90%;
    margin: auto;
    list-style: none;
    display: flex;
-   font-size: 17px;  
+   font-size: 17px;
 }
+
 .data__icon {
    width: 10%;
    fill: #ff6007;
@@ -56,43 +67,39 @@
    height: 13px;
    margin-top: 2%;
 }
+
 .data__list__text {
    width: 90%;
-    margin-left: 25px;
+   margin-left: 25px;
 }
-
-// .data__icon::before {
-//    content: '';
-//    background-color:#ff6007;;
-// 	width:7px;
-// 	height:7px;
-// 	margin:4px 4px 0 0;     
-// }
 
 .data__letter {
    font-family: "Acrom";
    font-weight: 400;
    font-size: 25px;
    text-transform: uppercase;
-
 }
+
 .data__list__text1 {
    font-family: "Acrom";
    font-weight: bolder;
    font-size: 17px;
    margin-bottom: 10px;
 }
+
 .data__list__text2 {
    background-color: #16ebfe;
    font-family: "Acrom";
    font-weight: bolder;
    margin-bottom: 20px;
 }
+
 .data__list__text3 {
    font-family: "Acrom";
    font-weight: bold;
    margin-bottom: 20px;
 }
+
 .data__pic {
    display: none;
 }
@@ -101,51 +108,83 @@
    .wrapper {
       max-width: 960px;
    }
+
    .data {
+      width: 90%;
       display: flex;
    }
+
    .data__icon {
       display: none;
    }
+
    .data__list {
       width: 50%;
       flex-direction: column;
-      font-size: 15px; 
+      font-size: 15px;
+      margin-top: 0;
    }
+
    .data__container {
       width: 40%;
    }
+
    .data__container__text {
       display: flex;
       flex-wrap: wrap;
-      position: relative;
-      z-index: 999;
-   //   align-items: flex-start;
-   align-content: flex-start;
-      
+      align-content: flex-start;
    }
+
    .data__letter {
       font-size: 20px;
    }
+
+   .data__list__text {
+      z-index: 999;
+   }
+
    .data__list__text2 {
-      font-size: 17px;
+      font-size: 13px;
    }
+
    .data__list__text3 {
-      font-size: 17px;
+      font-size: 11px;
    }
+
    .data__item {
       font-size: 18px;
    }
+
    .data__text {
-      font-size: 15px;
+      font-size: 13px;
    }
+
    .data__pic {
       display: block;
       position: absolute;
       top: 70%;
       left: 55%;
    }
+
    .data__img {
       width: 100%;
    }
+
+   .data__list__change1 {
+      order: 1
+   }
+
+   .data__list__change2 {
+      order: 4;
+   }
+
+   .data__list__change3 {
+      order: 3;
+   }
+
+   .data__list__change4 {
+      order: 1;
+      position: relative;
+   }
+
 }
