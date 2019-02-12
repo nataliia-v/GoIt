@@ -67,7 +67,6 @@
 
 .slideContainer {
     overflow-y: scroll;
-    scroll-behavior: auto;
     padding: 20px 0 20px;
     display: flex;
     justify-content: space-evenly;
@@ -203,7 +202,7 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 0 0;
+        padding: 55px 0 55px 0;
     }
 
     .textContainer {
@@ -261,7 +260,7 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 0 0;
+        padding: 55px 0 55px 0;
     }
 
     .textContainer {
@@ -336,7 +335,7 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 0 0;
+        padding: 55px 0 55px 0;
     }
 
     .textContainer {
