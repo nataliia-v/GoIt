@@ -96,3 +96,9 @@
     text-decoration: none;
     color: white;
 }
+
+@media (min-width: 767px) {
+    .header {
+        background-image: url(../images/block-1/bg-768.png);
+    }
+}
