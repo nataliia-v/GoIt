@@ -11,6 +11,7 @@
 }
 
 .data {
+   width: 80%;
    padding: 30px 0;
 }
 
@@ -62,7 +63,7 @@
 .data__icon {
    width: 10%;
    fill: #ff6007;
-   background-color: blue;
+   background-color: #ff6007;
    width: 13px;
    height: 13px;
    margin-top: 2%;
@@ -110,7 +111,7 @@
    }
 
    .data {
-      width: 90%;
+      width: 84%;
       display: flex;
    }
 
@@ -119,24 +120,27 @@
    }
 
    .data__list {
-      width: 50%;
+      width: 35%;
       flex-direction: column;
       font-size: 15px;
       margin-top: 0;
+      margin-left: 0;
+      margin-right: 4%;
    }
 
    .data__container {
-      width: 40%;
+      width: 55%;
    }
 
    .data__container__text {
       display: flex;
       flex-wrap: wrap;
       align-content: flex-start;
+      padding-left: 3%;
    }
 
    .data__letter {
-      font-size: 20px;
+      font-size: 17px;
    }
 
    .data__list__text {
@@ -144,26 +148,28 @@
    }
 
    .data__list__text2 {
-      font-size: 13px;
+      font-size: 8px;
    }
 
    .data__list__text3 {
-      font-size: 11px;
+      font-size: 8px;
    }
 
    .data__item {
-      font-size: 18px;
+      font-size: 20px;
+      width: 100%;
+      text-align: left;
    }
 
    .data__text {
-      font-size: 13px;
+      font-size: 9px;
    }
 
    .data__pic {
       display: block;
       position: absolute;
-      top: 70%;
-      left: 55%;
+      top: 20%;
+      left: 70%;
    }
 
    .data__img {
@@ -187,4 +193,28 @@
       position: relative;
    }
 
+}
+@media (min-width: 1200px) {
+   .data__item {
+      font-size: 30px;
+   }
+   .data__text {
+      font-size: 20px;
+   }
+   .data__list__text1 {
+      font-size: 20px;
+   }
+   .data__letter {
+      font-size: 22px;
+   }
+   .data__list__text2 {
+      font-size: 14px;
+   }
+
+   .data__list__text3 {
+      font-size: 14px;
+   }
+   .data__pic {
+      top: 12%; 
+   }
 }
