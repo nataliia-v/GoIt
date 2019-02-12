@@ -1,12 +1,12 @@
 * {
-    outline: 1px solid green;
+    // outline: 1px solid green;
 
 }
 
 .sec9 {
     background-color: white;
     text-align: center;
-    outline: 1px solid red;
+    // outline: 1px solid red;
     padding-top: 15px;
     padding-bottom: 33px;
 }
@@ -14,17 +14,17 @@
 .first-sec9 {
     text-align: center;
     margin: auto;
+    width: 95%;
     position: relative;
-    z-index: 10;
 }
+
 .sec9-back {
-   position: absolute;
-   background-image: url(../images/block-9/Composed-layer@1X.png);
-   width: 147px;
-   height: 146px;
-   top: 0;
-   left: 0;
-   z-index: 999;
+    position: absolute;
+    width: 147px;
+    height: 146px;
+    top: 20px;
+    left: 20%;
+    z-index: 1;
 }
 
 .header {
@@ -38,13 +38,15 @@
     color: black;
     text-transform: uppercase;
     margin-bottom: 21px;
+    position: relative;
+    z-index: 10;
 }
 
 .sec-9-header {
     background-color: black;
     color: white;
-
-
+    position: relative;
+    z-index: 5;
 }
 
 .sec9-h2 {
@@ -58,20 +60,19 @@
     width: 260px;
     margin-bottom: 60px;
     position: relative;
+    z-index: 10
 }
+
 .sec9-h2::before {
     content: "";
     width: 21px;
     height: 3px;
     background-color: black;
     display: block;
-    position: absolute;;
+    position: absolute;
+    ;
     top: 8px;
-    left:-30px;
-
-
-    
-
+    left: -30px;
 }
 
 .sec9-main {
@@ -91,10 +92,8 @@
     text-align: left;
     margin: auto;
     display: flex;
-    // flex-wrap: wrap;
     margin: auto;
     width: 290px;
-    // justify-content: flex-start;
     position: relative;
     margin-bottom: 33px;
     overflow: hidden;
@@ -120,7 +119,6 @@
     background-color: #16ebfe;
     display: block;
     margin-left: 18px;
-
 }
 
 .sec-h3 {
@@ -149,10 +147,11 @@
     line-height: 19.5px;
     color: rgba(255, 107, 8, 255);
     text-align: left;
-    width: 80%;
+    width:276px;
     margin: auto;
     position: relative;
 }
+
 .main-sec9h5::before {
     content: "";
     background: url(../images/block-9/Shape10@1X.png);
@@ -169,7 +168,6 @@
     .sec9 {
         display: flex;
         width: 90%;
-        // justify-content: center;
         margin: auto;
         align-content: flex-start;
     }
@@ -177,15 +175,16 @@
     .first-sec9 {
         margin: 0;
         width: 50%;
-        // justify-content: flex-start;
         text-align: left;
+        margin-left: 10%;
 
     }
 
     .header {
         font-size: 27px;
         line-height: 33px;
-
+        margin: 0;
+        margin-bottom: 22px;
     }
 
     .sec9-h2 {
@@ -195,69 +194,132 @@
         margin-left: 30px;
     }
 
-        .sec9-main {
-            width: 50%;
-            margin: 0;
-
-        }
-
-        .info-1 {
-            display: flex;
-            align-items: flex-start;
-        }
-
-        .info-01 {
-            margin: 0;
-        }
-
-        .header {
-            margin: 0;
-        }
-
-        .cifra01 {
-            font-size: 16px;
-            line-height: 20px;
-            margin-left: -4px;
-
-        }
-
-        .cifra01::after {
-            content: '';
-            width: 7px;
-            height: 7px;
-            margin-left: 8px;
-        }
-
-        .sec-h3 {
-
-            font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
-            font-size: 9px;
-            line-height: 14px;
-            color: rgba(0, 0, 0, 255);
-            width: 88px;
-        }
-
-        .sec-h4sec-h4 {
-            font-size: 8px;
-            line-height: 12px;
-
-        }
-
-        .main-sec9h5 {
-            font-size: 9px;
-            line-height: 13px;
-            margin: auto;
-
-        }
-        .main-sec9h5::before {
-            content: "";
-            background: url(../images/block-9/Shape10@1X.png);
-            width: 12px;
-            height: 19px;
-            display: block;
-            position: absolute;
-            top: 0px;
-            left: -20px;
-        }
+    .sec9-main {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
     }
+
+    .info-1 {
+        display: flex;
+        align-items: flex-start;
+        width: 100%
+    }
+
+    .info-01 {
+        margin: 0;
+    }
+
+    .cifra01 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: -4px;
+
+    }
+
+    .cifra01::after {
+        content: '';
+        width: 7px;
+        height: 7px;
+        margin-left: 8px;
+    }
+
+    .sec-h3 {
+
+        font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+        font-size: 9px;
+        line-height: 14px;
+        color: rgba(0, 0, 0, 255);
+        width: 88px;
+    }
+
+    .sec-h4sec-h4 {
+        font-size: 8px;
+        line-height: 12px;
+        width: 105px;
+
+    }
+
+    .main-sec9h5 {
+        font-size: 9px;
+        line-height: 13px;
+        margin: 0;
+        width: 276px;
+        margin-left: 20px;
+
+    }
+
+    .main-sec9h5::before {
+        content: "";
+        width: 12px;
+        height: 19px;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: -20px;
+        z-index: 1;
+    }
+
+    .sec9-back {
+        top: 0px;
+        left: 23%;
+        width: 210px;
+        height: 210px;
+    }
+
+    .sec9 {
+        padding-top: 50px;
+        padding-bottom: 56px;
+    }
+
+    .text-sec-9 {
+        margin-bottom: 26px;
+    }
+}
+
+@media (min-width:1200px) {
+    .header {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0;
+        margin-bottom: 26px;
+    }
+
+    .sec9-h2 {
+        font-size: 10px;
+        line-height: 15px;
+        width: 120px;
+        margin-left: 30px;
+    }
+
+    .cifra01 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: -4px;
+    }
+
+    .sec-h3 {
+
+        font-size: 10px;
+        line-height: 16px;
+        width: 88px;
+    }
+
+    .sec-h4sec-h4 {
+        font-size: 9px;
+        line-height: 13px;
+        width: 105px;
+    }
+
+    .main-sec9h5 {
+        font-size: 10px;
+        line-height: 15px;
+        margin: 0;
+        width: 276px;
+        margin-left: 20px;
+    }
+
+}
