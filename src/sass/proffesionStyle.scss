@@ -1,0 +1,76 @@
+.proffesion {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.proffesion__all {
+    display: flex;
+    flex-direction: column;
+}
+
+.all__hended {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
+
+.hended__proff {
+    font-size: 22px;
+    font-family: "Acrom" , sans-serif;
+    font-weight: 400;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+}
+
+.hended__brain {
+    font-family: "Acrom" , sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 85%;
+    margin-bottom: 24px;
+}
+
+.beforeCacher {
+    display: flex;
+}
+
+.beforeCacher::before {
+    content: '';
+    height: 4px;
+    width: 15px;
+    background-color: #000000;
+    display: block;
+    margin-right: 10px;
+}
+
+.all__pic {
+    width: 100%;
+    margin-bottom: 39px;
+}
+
+.pic__friends {
+    width: 100%;
+}
+
+.all__years {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.years__sistem {
+    font-family: "Acrom" , sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.years__simple {
+    font-size: 15px;
+    font-family: "Acrom" , sans-serif;
+    font-weight: bold;
+}
