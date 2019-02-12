@@ -167,9 +167,10 @@
     bottom: -25px;
     left: 75px;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
     
     .FiveSectionLook {
+        min-width: 50%;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
@@ -213,10 +214,10 @@
         height: 240px;
     }
 }
-@media (min-width: 1240px) {
+@media (min-width: 1024px) {
     
     .FiveSectionLook {
-        width: 60%;
+        width: 80%;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
@@ -227,7 +228,7 @@
     }
     .mainTextContainer {
         max-width: 60%;
-        margin: 0 auto 20px;
+        margin: 0 auto 40px;
     }
     .mainText {
         font-size: 27px;
@@ -235,12 +236,18 @@
 
     }
     .secondTextContainer {
-        max-width: 38%;
+        max-width: 40%;
         margin: 0 auto 0 120px;
+        font-size: 16px;
 
     }
     .secondText {
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .secondTextContainer::before {
+        width: 35px;
+        height: 4px;
+        margin-left: -15px;
     }
     .SliderPicture {
         width: 75px;
@@ -252,11 +259,77 @@
     .titleAbout {
         font-size: 8px;
     }
+    .slideContainer {
+        padding: 30px 0 30px;
+    }
     .slider {
         max-width: 60%;
-        height: 280px;
+        height: 320px;
     }
     .titleAbout {
-        height: 240px;
+        line-height: 15px;
+        font-size: 12px;
+        height: 230px;
+    }
+    .sliderLinks {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1440px) {
+
+    .FiveSectionLook {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 55px 0 0 0;
+    }
+    .textContainer {
+        max-width: 50%;
+    }
+    .mainTextContainer {
+        max-width: 50%;
+        margin: 0 auto 40px;
+    }
+    .mainText {
+        font-size: 30px;
+        margin: 0;
+
+    }
+    .secondTextContainer {
+        max-width: 40%;
+        margin: 0 auto 0 160px;
+        font-size: 18px;
+
+    }
+    .secondText {
+        font-size: 16px;
+    }
+    .SliderPicture {
+        width: 75px;
+        height: 75px;
+    }
+    .pictureTitle {
+        font-size: 12px;
+    }
+    .titleAbout {
+        font-size: 10px;
+    }
+    .slider {
+        max-width: 60%;
+        height: 350px;
+    }
+    .titleAbout {
+        line-height: 15px;
+        font-size: 12px;
+        height: 270px;
+    }
+    .secondTextContainer::before {
+        width: 35px;
+        height: 4px;
+        margin-left: -15px;
+    }
+    .sliderLinks {
+        font-size: 12px;
     }
 }
