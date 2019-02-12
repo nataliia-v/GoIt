@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-expert {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  font-family: "Acrom" , sans-serif;
+}
+
+.wrapper-image {
+  margin: auto;
+  text-align: center;
+}
+
+.man-with-tea {
+  margin-bottom: 34px;
+  width: 100%;
+}
+.man-with-tea768 {
+  display: none;
+}
+
+.section-name {
+  text-align: left;
+  width: 80%;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 255);
+
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: auto auto 10px;
+
+}
+.section-name-end {
+  background-color: black;
+}
+
+.motivation {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 255);
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+
+.section-text {
+  font-size: 15px;
+  color: rgba(63, 65, 68, 255);
+  text-align: left;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+
+.blue-color {
+  background-color: aqua;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.line-with-text{
+  display: flex;
+  text-align: left;
+  width: 80%;
+  margin: auto auto 43px;
+  &__wrapper {
+    width: 14px;
+    margin-right: 10px;
+  }
+  &__line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin-right: 10px;
+  }
+  &__text {
+    font-size: 15px;
+
+  }
+}
+
+
+.item-list {
+  width: 90%;
+  text-align: left;
+  list-style-type: square;
+  margin: auto;
+  &__name {
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    font-size: 16px;
+  }
+  &__text {
+    color: rgba(63, 65, 68, 255);
+    margin-bottom: 28px;
+    font-size: 15px;
+  }
+}
+
+
+@media  (min-width: 768px) {
+
+
+  .man-with-tea {
+    display: none;
+  }
+  .man-with-tea768 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto auto 32px;
+  }
+
+  .section-expert {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+
+  .box-1-photo {
+    width: 40%;
+  }
+  .box-2-text {
+    width: 48%;
+  }
+
+
+  .line-with-text{
+    &__wrapper {
+      width: 29px;
+      margin-right: 10px;
+    }
+    &__line {
+      margin-top: 7px;
+      margin-right: 29px;
+    }
+    &__text {
+      font-size: 15px;
+      margin-bottom: 48px;
+
+    }
+  }
+
+  .wrapper-future {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper-future-1 {
+    width: 35%;
+    margin-right: 7px;
+  }
+  .wrapper-future-2 {
+    width: 64%;
+  }
+
+  .section-name {
+    width: 100%;
+    margin: 0;
+    font-size: 21px;
+  }
+
+
+  .small-text {
+    font-size: 13px;
+    line-height: 1.7;
+
+  }
+
+  .motivation {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .box-2-section {
+    margin-bottom: 21px;
+  }
+}
