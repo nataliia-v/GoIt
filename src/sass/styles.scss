@@ -2,8 +2,7 @@
    Import partials below
 */
 @import './normalize';
-<<<<<<< HEAD
-@import './style_career.scss';
+
 @import './fonts.scss';
 
 * {
@@ -11,7 +10,7 @@
    padding: 0;
    box-sizing: border-box;
 }
-=======
+
 @import './1@header.scss';
 @import './variables.scss';
 
@@ -21,6 +20,7 @@
 @import './style-money.scss';
 @import "../sass/mixin.scss";
 @import "../sass/variables.scss";
+@import './style_career.scss';
 
 
->>>>>>> master
+
