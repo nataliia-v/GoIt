@@ -1,5 +1,4 @@
-
-*{
+* {
     outline: 1px solid green;
 
 }
@@ -7,14 +6,27 @@
 .sec9 {
     background-color: white;
     text-align: center;
-    outline: 1px solid red; 
+    outline: 1px solid red;
     padding-top: 15px;
     padding-bottom: 33px;
 }
+
 .first-sec9 {
     text-align: center;
     margin: auto;
+    position: relative;
+    z-index: 10;
 }
+.sec9-back {
+   position: absolute;
+   background-image: url(../images/block-9/Composed-layer@1X.png);
+   width: 147px;
+   height: 146px;
+   top: 0;
+   left: 0;
+   z-index: 999;
+}
+
 .header {
     width: 230px;
     margin: auto;
@@ -27,12 +39,14 @@
     text-transform: uppercase;
     margin-bottom: 21px;
 }
+
 .sec-9-header {
     background-color: black;
     color: white;
-    
 
- }
+
+}
+
 .sec9-h2 {
     font-family: Acrom-Medium, AdobeInvisFont, MyriadPro-Regular;
     font-size: 13.5px;
@@ -43,22 +57,40 @@
     display: inline-block;
     width: 260px;
     margin-bottom: 60px;
+    position: relative;
 }
+.sec9-h2::before {
+    content: "";
+    width: 21px;
+    height: 3px;
+    background-color: black;
+    display: block;
+    position: absolute;;
+    top: 8px;
+    left:-30px;
+
+
+    
+
+}
+
 .sec9-main {
     text-align: center;
     margin: auto;
     width: 95%;
 
 }
+
 .info-1 {
     text-align: center;
     margin: auto;
 
 }
+
 .info-01 {
     text-align: left;
     margin: auto;
-    display: flex; 
+    display: flex;
     // flex-wrap: wrap;
     margin: auto;
     width: 290px;
@@ -67,17 +99,20 @@
     margin-bottom: 33px;
     overflow: hidden;
 }
+
 .text-sec-9 {
     margin-left: 22px;
 }
+
 .cifra01 {
     font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
-font-size: 24.54px;
-line-height: 29.45px;
-color: rgba(0, 0, 0, 255);
-text-align: left;
-margin-left: -7px;
+    font-size: 24.54px;
+    line-height: 29.45px;
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
+    margin-left: -7px;
 }
+
 .cifra01::after {
     content: '';
     width: 11px;
@@ -87,6 +122,7 @@ margin-left: -7px;
     margin-left: 18px;
 
 }
+
 .sec-h3 {
     text-transform: uppercase;
     font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
@@ -95,34 +131,49 @@ margin-left: -7px;
     color: rgba(0, 0, 0, 255);
     text-align: left;
     margin-bottom: 17px;
-    width: 220px; 
+    width: 220px;
 }
+
 .sec-h4 {
     font-family: Acrom-Regular, AdobeInvisFont, MyriadPro-Regular;
     font-size: 13.5px;
     line-height: 19.5px;
     color: rgba(63, 65, 68, 255);
     text-align: left;
-    width: 230px;  
+    width: 230px;
 }
+
 .main-sec9h5 {
     font-family: Acrom-Medium, AdobeInvisFont, MyriadPro-Regular;
-font-size: 15px;
-line-height: 19.5px;
-color: rgba(255, 107, 8, 255);
-text-align: left;
-width: 80%;
-margin: auto;
+    font-size: 15px;
+    line-height: 19.5px;
+    color: rgba(255, 107, 8, 255);
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    position: relative;
 }
+.main-sec9h5::before {
+    content: "";
+    background: url(../images/block-9/Shape10@1X.png);
+    width: 16px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+
 @media (min-width:768px) {
+
     .sec9 {
         display: flex;
         width: 90%;
         // justify-content: center;
         margin: auto;
         align-content: flex-start;
-        
     }
+
     .first-sec9 {
         margin: 0;
         width: 50%;
@@ -130,40 +181,83 @@ margin: auto;
         text-align: left;
 
     }
-    .sec9-main {
-        width: 50%;
-        
-    }
-    .info-1 {
-        display: flex;
-        align-items: flex-start;
-           }
-    .info-01 {
-        margin: 0;
-    }
+
     .header {
-        margin: 0;
+        font-size: 27px;
+        line-height: 33px;
+
     }
-.cifra01 {
-    font-size: 16px;
-    line-height: 20px;
-    margin-left: -4px;
 
-}
-.cifra01::after {
-    content: '';
-    width: 7px;
-    height: 7px;
-    margin-left: 8px;
-}
-.sec-h3 {
-    
-    font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 9px;
-    line-height: 14px;
-    color: rgba(0, 0, 0, 255);
-    width: 88px; 
-}
+    .sec9-h2 {
+        font-size: 9px;
+        line-height: 13px;
+        width: 120px;
+        margin-left: 30px;
+    }
 
+        .sec9-main {
+            width: 50%;
+            margin: 0;
 
-}
+        }
+
+        .info-1 {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .info-01 {
+            margin: 0;
+        }
+
+        .header {
+            margin: 0;
+        }
+
+        .cifra01 {
+            font-size: 16px;
+            line-height: 20px;
+            margin-left: -4px;
+
+        }
+
+        .cifra01::after {
+            content: '';
+            width: 7px;
+            height: 7px;
+            margin-left: 8px;
+        }
+
+        .sec-h3 {
+
+            font-family: Acrom-ExtraBold, AdobeInvisFont, MyriadPro-Regular;
+            font-size: 9px;
+            line-height: 14px;
+            color: rgba(0, 0, 0, 255);
+            width: 88px;
+        }
+
+        .sec-h4sec-h4 {
+            font-size: 8px;
+            line-height: 12px;
+
+        }
+
+        .main-sec9h5 {
+            font-size: 9px;
+            line-height: 13px;
+            margin: auto;
+
+        }
+        .main-sec9h5::before {
+            content: "";
+            background: url(../images/block-9/Shape10@1X.png);
+            width: 12px;
+            height: 19px;
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: -20px;
+        }
+
+    }
