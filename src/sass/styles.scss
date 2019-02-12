@@ -1,12 +1,18 @@
 /*
    Import partials below
 */
-@import './normalize';
-@import'./style9.scss';
 @import'./normalize.scss';
 @import'./fonts.scss';
+@import './1@header.scss';
+@import './variables.scss';
+@import'./warning.scss';
+@import './stepCourse.scss';
+@import './style-money.scss';
+@import "../sass/mixin.scss";
+@import "../sass/variables.scss";
+@import'./style9.scss';
 
 *{margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+   padding: 0;
+   box-sizing: border-box;
+   }
