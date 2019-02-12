@@ -1,7 +1,7 @@
-* {
-    // outline: 1px solid green;
+// * {
+//     // outline: 1px solid green;
 
-}
+// }
 
 .sec9 {
     background-color: white;
@@ -9,6 +9,7 @@
     // outline: 1px solid red;
     padding-top: 15px;
     padding-bottom: 33px;
+    max-width: 712px;
 }
 
 .first-sec9 {
@@ -281,6 +282,7 @@
 }
 
 @media (min-width:1200px) {
+
     .header {
         font-size: 30px;
         line-height: 37px;
