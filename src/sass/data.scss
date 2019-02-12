@@ -8,18 +8,21 @@
    max-width: 480px;
    margin: auto;
 }
+.data {
+   padding: 30px 0;
+}
 .data__item {
    text-align: center;
    text-transform: uppercase;
-   font-size: 46px;
+   font-size: 22px;
    font-family: "Acrom";
-   font-weight: bold;
+   font-weight: 400;
 }
 
 .data__text {
    font-family: "Acrom";
    font-size: 17px;
-   font-weight: bold; 
+   font-weight: bolder; 
 }
 .data__box {
    width: 60%;
@@ -32,25 +35,117 @@
 }
 .data__line {
    border-bottom: 1px solid black;
-   width: 15%;
-   height: 1px;
+   width: 40%;
+   height: 3px;
    background-color: black;
    margin-right: 20px;   
+   margin-top: 4%;
 }
 .data__list {
-   width: 80%;
+   width: 90%;
    margin: auto;
-   list-style-type: square;
-   font-size: 17px;
-  
+   list-style: none;
+   display: flex;
+   font-size: 17px;  
 }
+.data__icon {
+   width: 10%;
+   fill: #ff6007;
+   background-color: blue;
+   width: 13px;
+   height: 13px;
+   margin-top: 2%;
+}
+.data__list__text {
+   width: 90%;
+    margin-left: 25px;
+}
+
+// .data__icon::before {
+//    content: '';
+//    background-color:#ff6007;;
+// 	width:7px;
+// 	height:7px;
+// 	margin:4px 4px 0 0;     
+// }
+
 .data__letter {
    font-family: "Acrom";
-   font-weight: bolder;
-   font-size: 20px;
+   font-weight: 400;
+   font-size: 25px;
    text-transform: uppercase;
 
 }
+.data__list__text1 {
+   font-family: "Acrom";
+   font-weight: bolder;
+   font-size: 17px;
+   margin-bottom: 10px;
+}
 .data__list__text2 {
    background-color: #16ebfe;
+   font-family: "Acrom";
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+.data__list__text3 {
+   font-family: "Acrom";
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.data__pic {
+   display: none;
+}
+
+@media (min-width: 768px) {
+   .wrapper {
+      max-width: 960px;
+   }
+   .data {
+      display: flex;
+   }
+   .data__icon {
+      display: none;
+   }
+   .data__list {
+      width: 50%;
+      flex-direction: column;
+      font-size: 15px; 
+   }
+   .data__container {
+      width: 40%;
+   }
+   .data__container__text {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 999;
+   //   align-items: flex-start;
+   align-content: flex-start;
+      
+   }
+   .data__letter {
+      font-size: 20px;
+   }
+   .data__list__text2 {
+      font-size: 17px;
+   }
+   .data__list__text3 {
+      font-size: 17px;
+   }
+   .data__item {
+      font-size: 18px;
+   }
+   .data__text {
+      font-size: 15px;
+   }
+   .data__pic {
+      display: block;
+      position: absolute;
+      top: 70%;
+      left: 55%;
+   }
+   .data__img {
+      width: 100%;
+   }
 }
