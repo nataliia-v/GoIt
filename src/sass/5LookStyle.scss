@@ -59,27 +59,23 @@
     
 }
 .slideContainer {
+    overflow-y: scroll;
+    scroll-behavior: auto;
     padding: 20px 0 20px;
     display: flex;
     justify-content: space-evenly;
     max-width: 95%;
-    border-right: 1px solid rgb(223, 223, 223);
 
 }
-.slideContainer::after {
-    content: '';
-    bottom: 40px;
-    right: 3px;
-    position: absolute;
-    display: inline-block;
-    width: 25px;
-    height: 2px;
-    background-color: rgb(0, 0, 0);
-    transform: rotate(90deg);
-}
+.slideContainer::-webkit-scrollbar { width: 2px; height: 25px; background-color: rgb(0, 0, 0);}
+.slideContainer::-webkit-scrollbar-track { background-color: rgb(223, 223, 223);}
+.slideContainer::-webkit-scrollbar-track-piece { background-color: rgb(223, 223, 223);}
+.slideContainer::-webkit-scrollbar-thumb { height: 25px; background-color: rgb(0, 0, 0);}
 
 .sliderPictureContainer {
     max-width: 40%;
+    position: sticky;
+    top: 0; 
 }
 
 .SliderPicture {
@@ -98,7 +94,6 @@
     max-width: 60%;
 }
 .titleAbout {
-    overflow: scroll;
     height: 175px;
     font-size: 6px; 
     font-family: "Acrom";
@@ -119,6 +114,7 @@
     url(../images/block-5/SliderButtonArrowLeft.png);
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 .slideRight {
     position: absolute;
@@ -132,6 +128,7 @@
     url(../images/block-5/SliderButtonArrowRight.png);
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 
 }
 
@@ -141,4 +138,31 @@
 .NatalyaIvanova {
     display: none;
 }
+.sliderLinks {
+    text-decoration: none;
+    position: absolute;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    font-family: "Acrom";
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+.sliderLinks:hover {
+    font-size: 15px;
+    text-decoration: line-through;
+}
 
+.sliderChengeToOne{
+    bottom: -25px;
+    left: 25px;
+}
+
+.sliderChengeToTwo {
+    bottom: -25px;
+    left: 50px;
+}
+.sliderChengeToThree {
+    bottom: -25px;
+    left: 75px;
+}
