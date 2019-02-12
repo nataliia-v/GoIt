@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .FiveSectionLook {
     max-width: 90%;
     margin: 0 auto;
@@ -165,4 +166,50 @@
 .sliderChengeToThree {
     bottom: -25px;
     left: 75px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    
+    .FiveSectionLook {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 55px 0 0 0;
+    }
+    .textContainer {
+        max-width: 40%;
+    }
+    .mainTextContainer {
+        max-width: 60%;
+        margin: 0 auto 20px;
+    }
+    .mainText {
+        font-size: 27px;
+        margin: 0;
+
+    }
+    .secondTextContainer {
+        max-width: 38%;
+        margin: 0 auto 0 120px;
+
+    }
+    .secondText {
+        font-size: 10px;
+    }
+    .SliderPicture {
+        width: 75px;
+        height: 75px;
+    }
+    .pictureTitle {
+        font-size: 9px;
+    }
+    .titleAbout {
+        font-size: 8px;
+    }
+    .slider {
+        max-width: 60%;
+        height: 280px;
+    }
+    .titleAbout {
+        height: 240px;
+    }
 }
