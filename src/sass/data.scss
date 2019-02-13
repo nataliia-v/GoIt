@@ -168,8 +168,8 @@
    .data__pic {
       display: block;
       position: absolute;
-      top: 20%;
-      left: 70%;
+      top: 113px;
+      right: 33px;
    }
 
    .data__img {
@@ -194,7 +194,11 @@
    }
 
 }
+
 @media (min-width: 1200px) {
+   .data {
+      width: 90%;
+   }
    .data__item {
       font-size: 30px;
    }
@@ -215,6 +219,7 @@
       font-size: 14px;
    }
    .data__pic {
-      top: 12%; 
+      top: 189px;
+      right: 117px;
    }
 }
