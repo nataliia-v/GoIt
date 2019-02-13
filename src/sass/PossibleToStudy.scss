@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 .wrapper {
   max-width: 480px;
@@ -19,7 +18,6 @@
 
 .PossybleToStudy__title {
   width: 80%;
-  // display: block;
   margin: auto;
   margin-bottom: 21px;
   font-family: "Acrom";
@@ -28,6 +26,26 @@
 }
 .PossybleToStudy__none {
   display: none;
+}
+.PossybleToStudy__text1 {
+  font-family: "Acrom";
+  font-size: 17px;
+  margin-bottom: 39px;
+}
+.PossybleToStudy__text1::before {
+  content: "";
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 13px;
+  left: 0px;
+}
+.PossybleToStudy__line {
+  width: 60%;
+  margin: auto;
+  padding-left: 30px;
+  position: relative;
 }
 .PossybleToStudy__descrip {
   width: 60%;
@@ -69,27 +87,13 @@
 .PossybleToStudy__pic {
   width: 100%;
 }
-.PossybleToStudy__text1 {
-  font-family: "Acrom";
-  font-size: 17px;
-  margin-bottom: 39px;
-}
-.PossybleToStudy__text1::before {
-  content: "";
-  width: 20px;
-  height: 3px;
-  background-color: black;
-  position: absolute;
-  top: 13px;
-  left: 0px;
-}
-.PossybleToStudy__line {
+
+.PossybleToStudy__awwords {
   width: 60%;
   margin: auto;
-  padding-left: 30px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-
 .PossybleToStudy__text2 {
   background-color: black;
   color: white;
@@ -99,19 +103,12 @@
 .PossybleToStudy__text2--black {
   margin-bottom: 39px;
 }
-.PossybleToStudy__awwords {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
 .PossybleToStudy__item {
   font-family: "Acrom";
   margin-bottom: 62px;
   display: flex;
   justify-content: space-around;
   position: relative;
-  
 }
 .PossybleToStudy__text--bold {
   margin-bottom: 13px;
@@ -122,20 +119,17 @@
   width: 65%;
   height: auto;
 }
-.PossybleToStudy__photo {
-  width: 100%;
-}
 .PossybleToStudy__number {
-font-size: 36px;
-color: #f2f2f2;
-transform: rotate(270deg); 
-display: block;
-position: absolute; 
-top: 7px;
-    right: 38px;
+  font-size: 36px;
+  color: #f2f2f2;
+  transform: rotate(270deg);
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 38px;
 }
 .PossybleToStudy__box {
-margin-right: 20px;
+  margin-right: 20px;
 }
 
 @media (min-width: 768px) {
@@ -168,14 +162,6 @@ margin-right: 20px;
     flex-direction: row;
     width: 75%;
     margin-bottom: 24px;
-    // justify-content: space-around;
-  }
-
-  .PossybleToStudy__awwords {
-    width: 100%;
-    margin: auto;
-    flex-direction: row;
-    
   }
   .PossybleToStudy__none {
     display: block;
@@ -186,29 +172,37 @@ margin-right: 20px;
   .PossybleToStudy__title2 {
     font-size: 14px;
     margin-bottom: 11px;
-     
   }
   .PossybleToStudy__text {
     font-size: 11px;
   }
-  .PossybleToStudy__item {
-    width: 30%;
-    margin-top: 0;
-    margin-right: 18px;
-  }
-  .PossybleToStudy__descrip--position {
-    margin-right: 30px;
-  }
   .PossybleToStudy__text1 {
-      font-size: 14px;
-      margin-bottom: 0; 
+    font-size: 14px;
+    margin-bottom: 0;
   }
   .PossybleToStudy__text1::before {
     width: 29px;
     height: 4px;
-
     top: 10px;
     left: 0px;
+  }
+  .PossybleToStudy__awwords {
+    width: 100%;
+    margin: auto;
+    flex-direction: row;
+  }
+  .PossybleToStudy__semi-awwords {
+    width: 27%;
+  }
+  .PossybleToStudy__descrip--position {
+    margin-right: 30px;
+  }
+  .PossybleToStudy__planet1 {
+    width: 75%;
+  }
+  .PossybleToStudy__planet {
+    top: -40px;
+    right: -20px;
   }
   .PossybleToStudy__it {
     display: flex;
@@ -217,10 +211,12 @@ margin-right: 20px;
   }
   .PossybleToStudy__box-item {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
   }
-  .PossybleToStudy__semi-awwords {
-    width: 27%;
+  .PossybleToStudy__item {
+    width: 30%;
+    margin-top: 0;
+    margin-right: 18px;
   }
   .PossybleToStudy__box {
     margin-right: 0;
@@ -233,24 +229,32 @@ margin-right: 20px;
   .PossybleToStudy__text--bold {
     font-size: 11px;
   }
-  .PossybleToStudy__planet1 {
-    width: 75%;
-  }
-  .PossybleToStudy__planet {
-    top: -40px;
-    right: -20px;
-  }
+
   .PossybleToStudy__text2 {
     font-size: 12px;
   }
   .PossybleToStudy__photo {
     max-height: 70%;
     position: relative;
-    z-index: 3; 
+    z-index: 3;
+  }
+  .PossybleToStudy__photo1 {
+    width: 100%;
   }
   .PossybleToStudy__number {
-    font-size: 30px; 
+    font-size: 30px;
     top: 7px;
     right: -28px;
-    }
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    max-width: 1440px;
+  }
+  .PossybleToStudy {
+    width: 80%;
+  }  
+  .PossybleToStudy__title {
+    font-size: 30px;
+  }
 }
