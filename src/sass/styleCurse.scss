@@ -127,13 +127,25 @@ padding-left: 30%;
     width: 80%;
 }
 .curse__futuresBlock__block {
-
+    padding-left: 30%;
+    
 }
 .curse__futuresBlock__block__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    width: 60%;
 
 }
 .line2 {
-
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    height: 20px;
+    transform: rotate(270deg);
+    background-color: #ff6b08;
+    text-align: center;
 }
 
 //  price block
