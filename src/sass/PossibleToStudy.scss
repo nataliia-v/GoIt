@@ -134,7 +134,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 960px;
+    max-width: 1200px;
   }
   .PossybleToStudy {
     width: 85%;
@@ -157,6 +157,10 @@
   .PossybleToStudy__box2 {
     width: 60%;
   }
+  .PossybleToStudy__Img {
+    width: 100%;
+  }
+    
   .PossybleToStudy__descrip {
     display: flex;
     flex-direction: row;
@@ -247,7 +251,7 @@
     right: -28px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .wrapper {
     max-width: 1440px;
   }
@@ -256,5 +260,20 @@
   }  
   .PossybleToStudy__title {
     font-size: 30px;
+  }
+  .PossybleToStudy__photo1 {
+    width: auto;
+  }
+  .PossybleToStudy__number {
+    font-size: 30px;
+    top: 7px;
+    right: -28px;
+  }
+  .PossybleToStudy__item {
+    width: 28%;
+
+  }
+  .PossybleToStudy__box-item{
+    justify-content: space-between; 
   }
 }
