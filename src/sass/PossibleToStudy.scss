@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 .wrapper {
   max-width: 480px;
@@ -21,8 +22,9 @@
   margin: auto;
   margin-bottom: 21px;
   font-family: "Acrom";
-  font-weight: bolder;
+  font-weight: 400;
   font-size: 34px;
+  text-transform: uppercase;
 }
 .PossybleToStudy__none {
   display: none;
@@ -52,6 +54,7 @@
   margin: auto;
   font-family: "Acrom";
   margin-bottom: 62px;
+  
 }
 
 .PossybleToStudy__descrip--position {
@@ -79,7 +82,7 @@
   position: relative;
   z-index: 2;
 }
-.PossybleToStudy__Img {
+.PossybleToStudy__ {
   width: 90%;
   margin: auto;
   margin-bottom: 62px;
@@ -115,7 +118,7 @@
   font-size: 17px;
   font-weight: 400;
 }
-.PossybleToStudy__Img2 {
+.PossybleToStudy__2 {
   width: 65%;
   height: auto;
 }
@@ -141,10 +144,11 @@
   }
   .PossybleToStudy__conteiner {
     flex-direction: row;
+        margin-bottom: 45px;
   }
   .PossybleToStudy__box1 {
-    width: 40%;
-    margin-right: 15px;
+    width: 36%;
+    margin-right: 64px;
   }
   .PossybleToStudy__title {
     width: 100%;
@@ -155,9 +159,9 @@
     padding-left: 45px;
   }
   .PossybleToStudy__box2 {
-    width: 60%;
+    width: 54%;
   }
-  .PossybleToStudy__Img {
+  .PossybleToStudy__ {
     width: 100%;
   }
     
@@ -165,7 +169,10 @@
     display: flex;
     flex-direction: row;
     width: 75%;
-    margin-bottom: 24px;
+    margin-bottom: 37px;
+    padding-top: 4px;
+    margin-left: 0;
+    padding-left: 20px;
   }
   .PossybleToStudy__none {
     display: block;
@@ -174,8 +181,9 @@
     display: none;
   }
   .PossybleToStudy__title2 {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 11px;
+    margin-right: 20px;
   }
   .PossybleToStudy__text {
     font-size: 11px;
@@ -205,7 +213,7 @@
     width: 75%;
   }
   .PossybleToStudy__planet {
-    top: -40px;
+    top: -44px;
     right: -20px;
   }
   .PossybleToStudy__it {
@@ -226,7 +234,7 @@
     margin-right: 0;
     width: 73%;
   }
-  .PossybleToStudy__Img2 {
+  .PossybleToStudy__2 {
     width: 30%;
     margin-left: 10px;
   }
@@ -260,6 +268,7 @@
   }  
   .PossybleToStudy__title {
     font-size: 30px;
+    margin-bottom: 80px;
   }
   .PossybleToStudy__photo1 {
     width: auto;
@@ -275,5 +284,15 @@
   }
   .PossybleToStudy__box-item{
     justify-content: space-between; 
+  }
+  .PossybleToStudy__box2 {
+    width: 58%;
+  }
+  .PossybleToStudy__box1 {
+    width: 36%;
+    margin-right: 145px;
+  }
+  .PossybleToStudy__text1::before {
+        top: 2px;   
   }
 }
