@@ -1,15 +1,20 @@
 /*
    Import partials below
 */
-@import './normalize';
-@import './1@header.scss';
-@import './variables.scss';
 
-@import'./warning.scss';
-@import './fonts.scss';
-@import './stepCourse.scss';
-@import './style-money.scss';
+@import '../sass/normalize.scss';
+@import '../sass/fonts.scss';
+@import './fonts';
 @import "../sass/mixin.scss";
 @import "../sass/variables.scss";
+@import "../sass/placeholder";
+@import './1@header.scss';
+@import'./warning.scss';
+@import './stepCourse.scss';
+@import '../sass/5LookStyle.scss';
+@import './style-money.scss';
 @import "../sass/section15.scss";
+@import "../sass/proffesionStyle.scss";
+@import './data';
+
 
