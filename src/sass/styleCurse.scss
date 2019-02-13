@@ -1,28 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 // main section
 .curse {
-
+    width: 80%;
+    margin: auto;
 }
 
 // header block
 .curse__hederBlock {
 
+
 }
 .curse__hederBlock__block {
+    display: flex;
+    justify-content: center;
 
 }
 .curse__hederBlock__heder {
 
 }
 .curse__hederBlock__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
-.line {
+.line { 
+    border: 1px solid black;
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    margin-right: 17px;
 
 }
 .curse__hederBlock__title__paragraph {
+    text-align: left;
+    width: 30%;
 
 }
 .curse__hederBlock__img {
+    width: 100%;
+    margin: auto;
 
 }
 
@@ -31,48 +54,96 @@
 
 }
 .curse__explanationBlock__block1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+}
+.curse__explanationBlock__block1__heder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
-.curse__explanationBlock__block1__heder {
+.curse__explanationBlock__block1__heder1{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+.curse__explanationBlock__block1__heder2{
+    display: inline;
+    background-color: black;
+    color: white;
+
+}
+.curse__explanationBlock__block1__heder3{
+    display: inline;
+    background-color: black;
+    color: white;
 
 }
 .curse__explanationBlock__block1__paragraph {
-
+    text-align: left;
+    width: 60%;
 }
 .curse__explanationBlock__block2 {
-
+display: flex;
+flex-direction: column;
+padding-left: 30%;
 }
 .curse__explanationBlock__block2__heder {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.curse__explanationBlock__block2__heder1 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+.curse__explanationBlock__block2__heder2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+.curse__explanationBlock__block2__heder3 {
+    display: inline-block;
+    background-color: black;
+    color: white;
 }
 .curse__explanationBlock__block2__paragraph {
-
+    text-align: left;
+    width: 60%;
 }
 
 // futures block
   
 .curse__futuresBlock {
-    
+
 }
 .curse__futuresBlock__header {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
+.curse__futuresBlock__block {
 
-.curse__futuresBlock__item {
-    
+}
+.curse__futuresBlock__block__item {
+
 }
 .line2 {
-    
+
 }
 
 //  price block
 
 .curse__priceBlock {
-    
+
 }
 .curse__priceBlock__header {
-    
+
 }
 .curse__priceBlock__price {
-    
+
 }
