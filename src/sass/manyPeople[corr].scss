@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Acrom";
+    // outline: 1px solid green;
 }
 .manyPeople {
     width: 90%;
@@ -115,14 +116,10 @@
             left: 0;
         }
         &__right {
-            display: flex;
-            align-items: center;
+            display: block;
             width: 50%;
             padding-left: 45px;
         }
-    }
-    .people-bottom__left--tablet {
-        display: block;
     }
     .people-bottom__left--mobile {
         display: none;
@@ -131,8 +128,9 @@
         width: 100%;
         flex-direction: row;
         &__left--tablet {
+            display: block;
             width: 50%;
-            padding: 0 45px;
+            padding: 0 35px;
         }
         &__right {
             width: 50%;
@@ -140,6 +138,7 @@
         &__vaserman {
             display: flex;
             justify-content: space-between;
+            padding: 0 30px 0 10px;
         }
         &__title {
             width: 27%;
@@ -147,7 +146,7 @@
             line-height: 14.58px;
         }
         &__text {
-            width: 60%;
+            width: 54.7%;
         }
         &__sign {
             font-size: 8.97px;
@@ -156,6 +155,57 @@
         &__about {
             font-size: 7.85px;
             line-height: 11.78px;
+            &--hidden {
+                display: inline;
+            }
+        }
+        &__start {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px 0 10px;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .manyPeople {
+        width: 60%;
+    }
+    .people-top {
+        &__chapter {
+            font-size: 30px;
+            line-height: 37.5px;
+        }
+        &__about {
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }
+    .people-bottom {
+        &__left--tablet {
+        padding: 0 55px 0 0;
+        }
+        &__vaserman {
+            padding: 0;
+        }
+        &__title {
+            font-size: 10px;
+            line-height: 16.25px;
+        }
+        &__text {
+            width: 58.8%;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__sign {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__about {
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__start {
+            padding: 0;
         }
     }
 }
