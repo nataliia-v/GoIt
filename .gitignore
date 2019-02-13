@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 
 node_modules/
 build/
+=======
+<<<<<<< HEAD
+node_modules/
+build/
+=======
+build/
+node_modules/
+>>>>>>> f28f205b926312d6abc8fbdcbef159421b7d7331
+>>>>>>> master
