@@ -13,6 +13,7 @@
 .data {
    width: 80%;
    padding: 30px 0;
+   overflow: hidden;
 }
 
 .data__item {
@@ -107,11 +108,11 @@
 
 @media (min-width: 768px) {
    .wrapper {
-      max-width: 960px;
+      max-width: 1200px;
    }
 
    .data {
-      width: 84%;
+      width: 80%;
       display: flex;
    }
 
@@ -169,7 +170,7 @@
       display: block;
       position: absolute;
       top: 113px;
-      right: 33px;
+      right: -43px;
    }
 
    .data__img {
@@ -197,13 +198,13 @@
 
 @media (min-width: 1200px) {
    .data {
-      width: 90%;
+      width: 80%;
    }
    .data__item {
       font-size: 30px;
    }
    .data__text {
-      font-size: 20px;
+      font-size: 16px;
    }
    .data__list__text1 {
       font-size: 20px;
@@ -219,7 +220,10 @@
       font-size: 14px;
    }
    .data__pic {
-      top: 189px;
-      right: 117px;
+      top: 192px;
+      right: -10px;
+   }
+   .data__container {
+      width: 100%;
    }
 }

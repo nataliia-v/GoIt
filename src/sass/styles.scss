@@ -3,7 +3,13 @@
 */
 @import './normalize';
 @import './fonts';
-@import './data';
 @import "../sass/mixin.scss";
 @import "../sass/variables.scss";
-@import "../sass/placeholder"
+@import "../sass/placeholder";
+@import './1@header.scss';
+@import'./warning.scss';
+@import './stepCourse.scss';
+@import './style-money.scss';
+@import './data';
+
+
