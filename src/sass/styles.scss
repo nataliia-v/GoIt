@@ -1,7 +1,19 @@
 /*
    Import partials below
 */
+
 @import '../sass/normalize.scss';
-@import '../sass/5LookStyle.scss';
 @import '../sass/fonts.scss';
+@import './normalize';
+@import './fonts';
+@import "../sass/mixin.scss";
+@import "../sass/variables.scss";
+@import "../sass/placeholder";
+@import './1@header.scss';
+@import'./warning.scss';
+@import './stepCourse.scss';
+@import '../sass/5LookStyle.scss';
+@import './style-money.scss';
+@import './data';
+
 
