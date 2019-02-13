@@ -64,7 +64,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/expert_numbers.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="383">
               <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
             </state>
           </provider>
@@ -176,12 +176,12 @@
       <updated>1549880400557</updated>
       <workItem from="1549880401678" duration="2060000" />
       <workItem from="1549994985938" duration="274000" />
-      <workItem from="1550042358313" duration="13470000" />
+      <workItem from="1550042358313" duration="13916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21494000" />
+    <option name="totallyTimeSpent" value="21940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +268,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/expert_numbers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="383">
           <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
         </state>
       </provider>
