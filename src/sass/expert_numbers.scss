@@ -9,6 +9,7 @@
   text-align: center;
   width: 80%;
   font-family: "Acrom" , sans-serif;
+  padding-top: 25px;
 }
 
 .wrapper-image {
@@ -35,12 +36,16 @@
   margin: auto auto 10px;
 
 }
+
+.wrapper-future-1 {
+  margin-bottom: 31px;
+}
 .section-name-end {
   background-color: black;
 }
 
 .motivation {
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 255);
   text-align: left;
   margin-bottom: 12px;
@@ -48,7 +53,7 @@
 
 
 .section-text {
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(63, 65, 68, 255);
   text-align: left;
   font-weight: 100;
@@ -64,22 +69,28 @@
 }
 
 .line-with-text{
+  margin: auto;
   display: flex;
-  text-align: left;
-  width: 80%;
-  margin: auto auto 43px;
+  justify-content: center;
+  width: 70%;
+  margin-bottom:  43px;
+
   &__wrapper {
     width: 14px;
     margin-right: 10px;
   }
   &__line {
-    width: 100%;
+    width: 14px;
     height: 4px;
     background-color: black;
     margin-right: 10px;
+    margin-top: 6px;
+
   }
   &__text {
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
 
   }
 }
@@ -122,6 +133,14 @@
   .first {
     width: 100%;
   }
+
+  .wrapper-name {
+    width: 100%git ;
+    text-align: center;
+    margin: auto;
+  }
+
+
 }
 
 
@@ -294,6 +313,7 @@
   }
   .box-2-text {
     width: 47%;
+    max-width: 300px;
   }
 
 
