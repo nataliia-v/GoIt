@@ -36,7 +36,7 @@
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 11px;
     font-family: "Acrom", sans-serif;
     font-weight: bolder;
 }
@@ -56,13 +56,13 @@
 
 .numer__title {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
 }
 
 .numer__abz {
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
 }
@@ -153,25 +153,27 @@
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: left
 }
 
 .wonder__how {
-    font-size: 15px;
+    font-size: 10px;
     color: #ff6007;
     text-align: left;
-    margin: auto;
-    width: 70%;
+    // margin: auto;
+    width: 80%;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
     
 }
 
-.wonder__how::before {
+.footer__wonder::before {
     content: '/';
     font-size: 30px ;
-    margin-right: 10px;
-    display: inline;
+    display: block;
     color: #000000;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .btn__get {
@@ -209,7 +211,7 @@
     }
     
     .txt__fastStart1 {
-        font-size: 15px;
+        font-size: 9px;
         width: 70%;
         font-family: 'Acrom', sans-serif ;
         font-weight: bold;
@@ -246,7 +248,7 @@
         width: 30%;
         margin: 0;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 14px;
         font-family: "Acrom", sans-serif;
         font-weight: bolder;
     }
@@ -271,13 +273,13 @@
     
     .numer__title {
         margin-bottom: 15px;
-        font-size: 20px;
+        font-size: 8px;
         font-family: "Acrom", sans-serif;
         font-weight: 400;
     }
     
     .numer__abz {
-        font-size: 18px;
+        font-size: 8px;
         font-family: "Acrom", sans-serif;
         font-weight: bold;
     }
@@ -304,6 +306,19 @@
         width: 28%;
     }
 
+    .numer__title {
+        font-size: 17px;;
+    }
+
+    .numer__abz {
+        font-size: 16px;
+    }
+
+
+    .descr__big {
+        font-size: 22px;
+    }
+
     .descr__step {
         width: 70%;
     }
@@ -319,4 +334,16 @@
         width: 80%;
     }
     
+
+    .wonder__how {
+        font-size: 13px;
+    }
+
+    .txt__step {
+        font-size: 40px;
+    }
+
+    .txt__fastStart1 {
+        font-size: 20px;
+    }
 }
