@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imp_wrapper {
+    padding: 50px 0;
+    font-family: "Acrom";
+    line-height: 19px;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+}
+
+.imp_blueBox {
+    padding: 65px 45px;
+    color: white;
+    background-color: #052139;
+    margin-bottom: 25px;
+}
+
+.imp_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+.imp_otstup {
+    margin-bottom: 25px;
+}
+
+.imp_blueBox-flex {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imp_grey {
+    color: rgba(63, 65, 68, 255);
+    margin-bottom: 15px;
+    font-size: 12px;
+    margin-left: 20px;
+
+}
+.imp_firstPrice {
+    padding-top: 18px;
+    font-size: 16px;
+
+}
+
+.imp_orange {
+    font-size: 14.4px;
+    color: #ff6b08;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 20px;
+
+}
+
+.imp_orange::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 28px;
+    background-color: black;
+    display: block;
+    left: -20px;
+    top: 4px;
+    transform: rotate(30deg);
+}
+.imp_hrn {
+    font-size: 16px;
+}
+.imp_rel {
+    position: relative;
+}
+
+.imp_bold {
+    font-size: 14.4px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 20px;
+
+}
+
+.imp_title {
+    font-weight: 18px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.imp_blueBox-left {
+    width: 40%;
+    font-size: 13px;
+
+}
+
+.imp_aqua {
+    width: 70%;
+    color: #052139;
+    background-color: #16ebfe;
+}
+
+.imp_whiteLine {
+    
+    margin-top: 28px;
+    width: 40px;
+    height: 1px;
+    background-color: white;
+}
+
+.imp_button {
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: #ff6b08;
+}
+
+.imp_price {
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 50px ;
+}
+
+.imp_center {
+    text-align: center;
+}
+
+.imp_tablet {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .imp_mobile {
+        display: none;
+    }
+
+    .imp_tablet {
+        padding: 55px 25px;
+        width: 45%;
+        display: block;
+        background-color: #052139;
+    }
+
+    .imp_flex-tablet {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .imp_flex {
+        width: 45%;
+    }
+
+    .imp_button {
+        padding: 10px 10px;
+
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .imp_title {
+        font-size: 32px;
+        text-align: left;
+        margin-bottom: 35px;
+        font-weight: 500;
+    }
+
+    .imp_bold {
+        font-weight: 500;
+
+        color: black;
+        font-size: 12px;
+        line-height: 15px;
+        width: 90%;
+        margin-bottom: 7px;
+    }
+
+    .imp_orange {
+        font-size: 10px;
+
+        width: 70%;
+        margin-bottom: 25px;
+        line-height: 15px;
+
+    }
+
+    .imp_grey {
+        line-height: 15px;
+
+        width: 70%;
+        margin-bottom: 10px;
+        font-size: 10px;
+font-weight: 400;
+    }
+
+    .imp_orange::before {
+        font-size: 10px;
+        width: 3px;
+        height: 20px;
+        font-weight: 200;
+    }
+    .imp_price {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .imp_blueBox-left {
+        font-size: 10px;
+        line-height: 15px;
+
+    }
+    .imp_whiteLine {
+    margin-top: 22px;
+        width: 26px;
+        }
+    .imp_firstPrice {
+        padding-top: 12px;
+    }
+    .imp_hrn {
+        font-size: 12px;
+    }
+}
