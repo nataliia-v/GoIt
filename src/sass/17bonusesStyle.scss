@@ -8,46 +8,107 @@
     width: 90%;
     margin: 0 auto;
     padding: 40px 0 45px;
-}
-
-.TitleContainer {
-    width: 70%;
-    margin: 0 auto;
-
-    .mainTitleConteiner {
-        margin: 0 auto 60px;
-        
-        .blackBG {
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
-        }
-        .topTitle_takeBonuses {
-            margin: 0 auto 22px;
-            font-family: "Acrom";
-            font-size: 18px;
-            text-transform: uppercase;
     
-        }
+    .TitleContainer {
+        width: 70%;
+        margin: 0 auto;
     
-        .bottomTitle_takeBonuses::before {
-            content: '';
-            position: absolute;
-            top: 8px;
-            left: 0;
-            display: block;
-            width: 20px;
-            height: 3px;
-            background-color: rgb(0, 0, 0);
-        }
-    
-        .bottomTitle_takeBonuses {
-            padding: 0 40px 0 40px;
-            position: relative;
-            font-size: 14px;
-            font-family: "Acrom";
-        }
-        .secondTitleContainer {
+        .mainTitleConteiner {
+            margin: 0 auto 60px;
             
+            .topTitle_takeBonuses {
+                margin: 0 auto 18px;
+                font-family: "Acrom";
+                font-size: 18px;
+                text-transform: uppercase;
+
+                .blackBG_txt {
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+            }
+            .bottomTitle_takeBonuses::before {
+                content: '';
+                position: absolute;
+                top: 10px;
+                left: 20px;
+                display: block;
+                width: 20px;
+                height: 3px;
+                background-color: rgb(0, 0, 0);
+            }
+        
+            .bottomTitle_takeBonuses {
+                padding: 0 20px 0 60px;
+                position: relative;
+                font-size: 14px;
+                font-family: "Acrom";
+                line-height: 20px;
+            }
+        }
+
+        .secondTitleContainer {
+            width: 100%;
+            height: auto;
+            margin: 0 auto 28px;
+            padding: 0 0 0 50px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 5px 0 10px 0 rgb(255, 255, 255);
+
+            .proffesionCard_pdf::before {
+                content: '01.';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -8px;
+                font-size: 26px;
+                z-index: -10;
+            }
+            .translatorTo_pdf::before {
+                content: '02.';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -8px;
+                font-size: 26px;
+                z-index: -10;
+            }
+
+           .bottomTitle_PDF::before {
+               content: '';
+               display: block;
+               width: 10px;
+               height: 10px;
+               background-color: rgb(22, 235, 254);
+               position: absolute;
+               top: 30px;
+               left: 25px;
+
+           }
+
+            .topTitle_PDF {
+                margin: 0 auto 10px;
+                text-transform: uppercase;
+                font-family: "Acrom";
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            .bottomTitle_PDF {
+                font-family: "Acrom";
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 20px;
+
+                .blackBG_txt {
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                }
+            }
         }
     }
 }
+
+
+

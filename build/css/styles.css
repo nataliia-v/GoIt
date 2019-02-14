@@ -415,41 +415,103 @@ template {
   padding: 40px 0 45px;
 }
 
-.TitleContainer {
+.bonusesMainContainer .TitleContainer {
   width: 70%;
   margin: 0 auto;
 }
 
-.TitleContainer .mainTitleConteiner {
+.bonusesMainContainer .TitleContainer .mainTitleConteiner {
   margin: 0 auto 60px;
 }
 
-.TitleContainer .mainTitleConteiner .blackBG {
-  background-color: black;
-  color: white;
-}
-
-.TitleContainer .mainTitleConteiner .topTitle_takeBonuses {
-  margin: 0 auto 22px;
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses {
+  margin: 0 auto 18px;
   font-family: "Acrom";
   font-size: 18px;
   text-transform: uppercase;
 }
 
-.TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses .blackBG_txt {
+  background-color: black;
+  color: white;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
   content: '';
   position: absolute;
-  top: 8px;
-  left: 0;
+  top: 10px;
+  left: 20px;
   display: block;
   width: 20px;
   height: 3px;
   background-color: black;
 }
 
-.TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses {
-  padding: 0 40px 0 40px;
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses {
+  padding: 0 20px 0 60px;
   position: relative;
   font-size: 14px;
   font-family: "Acrom";
+  line-height: 20px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 28px;
+  padding: 0 0 0 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 5px 0 10px 0 white;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .proffesionCard_pdf::before {
+  content: '01.';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -8px;
+  font-size: 26px;
+  z-index: -10;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .translatorTo_pdf::before {
+  content: '02.';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -8px;
+  font-size: 26px;
+  z-index: -10;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .topTitle_PDF {
+  margin: 0 auto 10px;
+  text-transform: uppercase;
+  font-family: "Acrom";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF {
+  font-family: "Acrom";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF .blackBG_txt {
+  background-color: black;
+  color: white;
 }
