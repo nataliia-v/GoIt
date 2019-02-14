@@ -5,14 +5,28 @@
 @import'./fonts.scss';
 @import './1@header.scss';
 @import './variables.scss';
+@import '../sass/normalize.scss';
+@import './fonts.scss';
+@import './manyPeople[corr].scss';
+@import "./mixin.scss";
+@import "./variables.scss";
+@import './PossibleToStudy.scss';
+@import './expert_numbers.scss';
+@import './variables.scss';
+@import '../sass/fonts.scss';
+@import "../sass/mixin.scss";
+@import './1@header.scss';
+@import'./register19.scss';
+@import "../sass/placeholder";
 @import'./warning.scss';
 @import './stepCourse.scss';
+@import '../sass/5LookStyle.scss';
 @import './style-money.scss';
 @import "../sass/mixin.scss";
 @import "../sass/variables.scss";
-@import'./style9.scss';
+@import './style_career.scss';
+@import "../sass/section15.scss";
+@import "../sass/proffesionStyle.scss";
+@import "./12new.scss";
+@import './data';
 
-*{margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   }
