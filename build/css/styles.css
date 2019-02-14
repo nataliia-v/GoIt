@@ -331,7 +331,6 @@ template {
   box-sizing: border-box; }
 
 .stepCourse {
-  width: 80%;
   margin: auto;
   padding: 30px 0; }
 
@@ -339,8 +338,9 @@ template {
   display: flex; }
 
 .headr__pic {
-  width: 100%;
-  margin-bottom: 1.25rem; }
+  width: 93%;
+  margin-bottom: 30px;
+  margin: auto; }
 
 .pic__TeaTime {
   width: 100%; }
@@ -350,26 +350,27 @@ template {
 
 .stepCourse__descr {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 30px; }
 
 .descr__big {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 11px;
   font-family: "Acrom", sans-serif;
-  font-weight: bolder; }
+  font-weight: 400; }
 
 .descr__step {
   display: flex;
   flex-direction: column; }
 
 .step__numer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: flex;
   align-items: baseline;
-  margin-bottom: 29px; }
+  margin-bottom: 35px; }
 
 .numer__title {
   margin-bottom: 15px;
@@ -457,21 +458,22 @@ template {
 .stepCourse__footer {
   display: flex;
   flex-direction: column-reverse;
-  width: 80%; }
+  width: 100%;
+  margin: auto; }
 
 .footer__wonder {
   display: flex;
   margin: auto;
   text-align: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   justify-content: left; }
 
 .wonder__how {
-  font-size: 10px;
+  font-size: 11px;
   color: #ff6007;
   text-align: left;
-  width: 80%;
+  width: 100%;
   font-family: "Acrom", sans-serif;
   font-weight: bold; }
 
@@ -494,9 +496,12 @@ template {
   text-align: center;
   margin: auto;
   font-family: "Acrom", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  text-transform: uppercase; }
 
 @media (min-width: 768px) {
+  .stepCourse {
+    width: 80%; }
   .stepCourse__headr {
     display: flex;
     align-items: center;
@@ -523,17 +528,18 @@ template {
     background-color: #000000;
     display: block; }
   .headr__pic {
-    width: 50%; }
+    width: 48%; }
   .headr__txt {
     display: block;
-    width: 48%; }
+    width: 45%; }
   .stepCourse__descr {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin: auto; }
   .descr__big {
-    width: 30%;
+    width: 28%;
     margin: 0;
     margin-bottom: 20px;
     font-size: 14px;
