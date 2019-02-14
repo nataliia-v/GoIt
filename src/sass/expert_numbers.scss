@@ -7,7 +7,7 @@
 .section-expert {
   margin: auto;
   text-align: center;
-  width: 80%;
+  width: 93%;
   font-family: "Acrom" , sans-serif;
   padding-top: 25px;
 }
@@ -18,7 +18,7 @@
 }
 
 .man-with-tea {
-  margin-bottom: 34px;
+  margin-bottom: 32px;
   width: 100%;
 }
 .man-with-tea768 {
@@ -27,18 +27,24 @@
 
 .section-name {
   text-align: left;
-  width: 80%;
-  font-size: 18px;
+  width: 60%;
+  font-size: 15px;
   color: rgba(255, 255, 255, 255);
-
+  letter-spacing: 2.2px;
   font-weight: normal;
   text-transform: uppercase;
-  margin: auto auto 10px;
+  margin: auto auto 5px;
 
 }
 
+.list-section-expert {
+  margin-left: 18px;
+  word-spacing: 2px;
+}
+
 .wrapper-future-1 {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
+  padding-left: 10px;
 }
 .section-name-end {
   background-color: black;
@@ -48,7 +54,8 @@
   font-size: 13px;
   color: rgba(0, 0, 0, 255);
   text-align: left;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
 }
 
 
@@ -57,8 +64,9 @@
   color: rgba(63, 65, 68, 255);
   text-align: left;
   font-weight: 100;
-  line-height: normal;
-  margin-bottom: 52px;
+  line-height: 18px;
+  margin-bottom: 49px;
+  word-spacing: 2px;
 }
 
 .blue-color {
@@ -66,6 +74,7 @@
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
+  line-height: 20px;
 }
 
 .line-with-text{
@@ -73,7 +82,11 @@
   display: flex;
   justify-content: center;
   width: 70%;
-  margin-bottom:  43px;
+  margin-bottom:  44px;
+  padding-top: 13px;
+  padding-left: 12px;
+  line-height: 18px;
+  word-spacing: 4px;
 
   &__wrapper {
     width: 14px;
@@ -103,14 +116,16 @@
   margin: auto;
   &__name {
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
     font-size: 13px;
   }
   &__text {
     color: rgba(63, 65, 68, 255);
-    margin-bottom: 21px;
+    margin-bottom: 22px;
     font-size: 13px;
     font-weight: 100;
+    word-spacing: 3px;
+    line-height: 17px;
   }
 }
 .none-margin {
@@ -398,6 +413,7 @@
     text-align: left;
     margin-bottom: 0;
     font-weight: 100;
+    line-height: 17.2px;
   }
   .test-2 {
     display: none;
