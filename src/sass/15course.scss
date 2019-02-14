@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.afterTheCourse {
+    width: 60%;
+    margin: auto;
+    font-family: "Acrom", sans-serif;
+    padding-top: 60px;
+    overflow: hidden;
+}
+.course-left {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    &__chapter {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    &__text {
+        font-size: 13.5px;
+        line-height: 19.5px;
+    }
+    &__sign {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        position: relative;
+        &--first::before {
+            content: "01.";
+            display: block;
+            position: absolute;
+            font-size: 16.07px;
+            line-height: 19.28px;
+            top: 0;
+            left: -30px;
+        }
+    }
+    &__about {
+        color: #3f4144;
+        font-weight: 600;
+        margin-bottom: 35px;
+    }
+}
