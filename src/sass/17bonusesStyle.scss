@@ -199,6 +199,7 @@
 @media (min-width: 768px) {
 
     .bonusesMainContainer {
+        width: 90%;
         display: flex;
         padding: 57px 0 57px;
 
@@ -260,6 +261,84 @@
                     margin: 0 auto 21px;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .bonusesMainContainer {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding: 63px 0 63px;
+
+        .TitleContainer {
+            width: 35%;
+            margin: 0 ;
+
+            .mainTitleConteiner {
+                margin: 0 auto 45px;
+
+                .topTitle_takeBonuses {
+                    font-size: 30px;
+                    margin: 0 auto 26px;
+                    line-height: 41px;
+                }
+
+                .bottomTitle_takeBonuses::before {
+                    width: 30px;
+                    height: 3px;
+                    left: 0;
+                    top: 5px;
+                }
+
+                .bottomTitle_takeBonuses {
+                    font-size: 10px;
+                    padding: 0 160px 0 54px;
+                    line-height: 13px;
+
+                }
+
+            }
+
+            .secondTitleContainer {
+                padding: 0 130px 0 38px;
+                margin: 0 auto;
+
+                .proffesionCard_pdf::before {
+                    font-size: 17px;
+                }
+
+                .translatorTo_pdf::before {
+                    font-size: 17px;
+                }
+
+                .topTitle_PDF {
+                    font-size: 10px;
+                    margin: 0 auto 14px;
+
+                }
+
+                .bottomTitle_PDF::before {
+                    height: 8px;
+                    width: 8px;
+                    top: 20px;
+                    left: 12px;
+
+                }
+
+                .bottomTitle_PDF {
+                    font-size: 9px;
+                    line-height: 12px;
+                    margin: 0 auto 24px;
+                }
+            }
+        }
+        .formContainer {
+            width: 35%;
+            margin: 0;
+            padding: 62px;
         }
     }
 }
