@@ -2,160 +2,275 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
 // main section
 .curse {
-    width: 80%;
+    width: 90%;
     margin: auto;
+    
 }
 
 // header block
 .curse__hederBlock {
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .curse__hederBlock__block {
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    width: 100%;
+    padding-top: $curse__hederBlock__block__pt;
 }
 .curse__hederBlock__heder {
-
+    font-family: "Acrom";
+    font-weight: 400;
+    font-size: 18px;
+   
 }
 .curse__hederBlock__title {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    padding-top: $curse__hederBlock__title__pt;
+    padding-bottom: $curse__hederBlock__title__pb;
+    margin: auto;
+    width: 60%;
+    font-family: "Acrom";
+    font-weight: 400;
 }
-.line { 
+
+.line {
     border: 1px solid black;
     background-color: black;
     width: 20px;
     height: 3px;
-    margin-right: 17px;
-
+    margin-right: 14px;
 }
+
 .curse__hederBlock__title__paragraph {
     text-align: left;
-    width: 30%;
-
+    font-family: "Acrom";
+    font-weight: bold;
+    font-size: 14px;
 }
+
 .curse__hederBlock__img {
     width: 100%;
     margin: auto;
-
 }
 
 // explanation block
 .curse__explanationBlock {
-
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    
 }
+
 .curse__explanationBlock__block1 {
     display: flex;
     flex-direction: column;
-    padding-left: 30%;
 }
-.curse__explanationBlock__block1__heder{
+
+.curse__explanationBlock__block1__heder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    margin-top: $curse__explanationBlock__block1__heder__mt;
+    margin-bottom: $curse__explanationBlock__block1__heder__mb;
+    
 }
-.curse__explanationBlock__block1__heder1{
-    display: inline-block;
+
+.curse__explanationBlock__block1__heder1 {
     background-color: black;
     color: white;
+    font-family: "Acrom";
+    font-weight: 400;
+    margin-bottom: 3px;
+   
+   
 }
-.curse__explanationBlock__block1__heder2{
-    display: inline;
+
+.curse__explanationBlock__block1__heder2 {
     background-color: black;
     color: white;
-
+    font-family: "Acrom";
+    font-weight: 400;
+    margin-bottom: 3px;
 }
-.curse__explanationBlock__block1__heder3{
-    display: inline;
+
+.curse__explanationBlock__block1__heder3 {
     background-color: black;
     color: white;
-
+    font-family: "Acrom";
+    font-weight: 400;
 }
+
 .curse__explanationBlock__block1__paragraph {
     text-align: left;
-    width: 60%;
+    font-family: "Acrom";
+    font-weight: 400;
+    
 }
+
 .curse__explanationBlock__block2 {
-display: flex;
-flex-direction: column;
-padding-left: 30%;
+    display: flex;
+    flex-direction: column;
 }
+
 .curse__explanationBlock__block2__heder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: $curse__explanationBlock__block2__heder__mt;
+    margin-bottom: $curse__explanationBlock__block2__heder__mb;
+  
 }
+
 .curse__explanationBlock__block2__heder1 {
-    display: inline-block;
     background-color: black;
     color: white;
+    font-family: "Acrom";
+    font-weight: 400;
+    margin-bottom: 3px;
+    
+
 }
+
 .curse__explanationBlock__block2__heder2 {
     display: inline-block;
     background-color: black;
     color: white;
+    font-family: "Acrom";
+    font-weight: 400;
+    margin-bottom: 3px;
 }
+
 .curse__explanationBlock__block2__heder3 {
     display: inline-block;
     background-color: black;
     color: white;
+    font-family: "Acrom";
+    font-weight: 400;
 }
+
 .curse__explanationBlock__block2__paragraph {
     text-align: left;
-    width: 60%;
+    font-family: "Acrom";
+    font-weight: bold;
 }
 
 // futures block
-  
-.curse__futuresBlock {
 
+.curse__futuresBlock {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
 }
+.curse__futuresBlock__header__h {
+    font-family: "Acrom";
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .curse__futuresBlock__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    margin-top: $curse__futuresBlock__header__mt;
+    margin-bottom: $curse__futuresBlock__header__mb;
 }
+
 .curse__futuresBlock__block {
-    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 80%;
+    padding-left: 30px;
     
 }
+
 .curse__futuresBlock__block__item {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
     margin-bottom: 25px;
-    width: 60%;
-
 }
-.line2 {
+.curse__futuresBlock__block__item__content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Acrom";
+    font-weight: bold;
+}
+
+.line2 {
     width: 55px;
-    height: 20px;
     transform: rotate(270deg);
     background-color: #ff6b08;
     text-align: center;
+    line-height: 25px;
+    color: white;
+}
+
+.curse__futuresBlock__block__item__content__header {
+    font-family: "Acrom";
+    font-weight: 400;
+    margin-bottom: $curse__futuresBlock__block__item__content__header__mb;
 }
 
 //  price block
 
 .curse__priceBlock {
-
 }
+
 .curse__priceBlock__header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: "Acrom";
+    font-weight: 400;
+   
+}
+
+.curse__priceBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+
 
 }
-.curse__priceBlock__price {
 
+.curse__priceBlock__price__header1 {
+    font-family: "Acrom";
+    background-color: #16ebfe;
+    font-weight: 400;
+    margin-bottom: 3px;
+
+}
+.curse__priceBlock__price__header2 {
+    font-family: "Acrom";
+    background-color: #16ebfe;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+.curse__priceBlock__price__paragraph1 {
+    font-family: "Acrom";
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.curse__priceBlock__price__paragraph2 {
+    font-family: "Acrom";
+    font-weight: 400;
+    font-size: 25px;
 }
