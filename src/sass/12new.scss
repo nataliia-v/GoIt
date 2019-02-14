@@ -132,18 +132,23 @@
         }
 
         &_text {
-            line-height: 25px;
+            text-transform: none;
+
+            line-height: 20px;
+            font-size: 12px;
         }
 
         &_list {
+            list-style: square;
+            text-transform: uppercase;
             line-height: 45px;
-            font-size: 18px;
-            margin-bottom: 25px;
+            font-size: 12px;
+            margin-bottom: 1px;
         }
 
         &_title {
-            line-height: 45px;
-            font-size: 40px;
+            line-height: 35px;
+            font-size: 30px;
             text-align: left;
         }
 
@@ -168,6 +173,7 @@
     }
 
     .lineFlex {
+        width: 80%;
         padding: 15px 0;
     }
 
