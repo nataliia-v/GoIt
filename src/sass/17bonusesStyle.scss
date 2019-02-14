@@ -64,7 +64,6 @@
                 top: 0;
                 left: -8px;
                 font-size: 26px;
-                z-index: -10;
             }
 
             .translatorTo_pdf::before {
@@ -74,7 +73,6 @@
                 top: 0;
                 left: -8px;
                 font-size: 26px;
-                z-index: -10;
             }
 
             .bottomTitle_PDF::before {
@@ -167,10 +165,11 @@
             font-weight: bold;
 
         }
+
         .buttonContainer {
             width: 174px;
             height: 34px;
-        
+
 
             .formBTNgetVideo {
                 width: 174px;
@@ -186,8 +185,79 @@
                 &:hover {
                     background-color: rgb(23, 236, 255);
                 }
+
                 &:focus {
                     background-color: rgb(6, 164, 178);
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .bonusesMainContainer {
+        display: flex;
+        padding: 57px 0 57px;
+
+        .TitleContainer {
+            width: 54%;
+
+            .mainTitleConteiner {
+                margin: 0 auto 38px;
+
+                .topTitle_takeBonuses {
+                    font-size: 27px;
+                    margin: 0 auto 27px;
+                }
+
+                .bottomTitle_takeBonuses::before {
+                    width: 30px;
+                    height: 3px;
+                    left: 0;
+                    top: 6px;
+                }
+
+                .bottomTitle_takeBonuses {
+                    font-size: 9px;
+                    padding: 0 140px 0 48px;
+                    line-height: 13px;
+
+                }
+
+            }
+
+            .secondTitleContainer {
+                padding: 0 130px 0 38px;
+
+                .proffesionCard_pdf::before {
+                    font-size: 17px;
+                }
+
+                .translatorTo_pdf::before {
+                    font-size: 17px;
+                }
+
+                .topTitle_PDF {
+                    font-size: 9px;
+                    margin: 0 auto 12px;
+
+                }
+
+                .bottomTitle_PDF::before {
+                    height: 8px;
+                    width: 8px;
+                    top: 20px;
+                    left: 12px;
+
+                }
+
+                .bottomTitle_PDF {
+                    font-size: 8px;
+                    line-height: 12px;
+                    margin: 0 auto 21px;
                 }
             }
         }
