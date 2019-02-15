@@ -5,7 +5,6 @@
  }
 
  .stepCourse {
-     width: 80%;
      margin: auto;
      padding: 30px 0;
  }
@@ -15,8 +14,9 @@
 }
 
 .headr__pic {
-    width: 100%;
-    margin-bottom: 1.25rem;
+    width: 93%;
+    margin-bottom: 30px;
+    margin: auto;
 }
 
 .pic__TeaTime {
@@ -30,15 +30,16 @@
 .stepCourse__descr {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .descr__big {
-    width: 80%;
+    width: 60%;
     margin: auto;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-bottom: 40px;
+    font-size: 11px;
     font-family: "Acrom", sans-serif;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .descr__step {
@@ -47,22 +48,22 @@
 }
 
 .step__numer {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: flex;
     align-items: baseline;
-    margin-bottom: 29px;
+    margin-bottom: 35px;
 }
 
 .numer__title {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
 }
 
 .numer__abz {
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
 }
@@ -143,7 +144,8 @@
 .stepCourse__footer {
     display: flex;
     flex-direction: column-reverse;
-    width: 80%;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -152,26 +154,28 @@
     margin: auto;
     text-align: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    justify-content: left
 }
 
 .wonder__how {
-    font-size: 15px;
+    font-size: 11px;
     color: #ff6007;
     text-align: left;
-    margin: auto;
-    width: 70%;
+    // margin: auto;
+    width: 100%;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
     
 }
 
-.wonder__how::before {
+.footer__wonder::before {
     content: '/';
     font-size: 30px ;
-    margin-right: 10px;
-    display: inline;
+    display: block;
     color: #000000;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .btn__get {
@@ -186,10 +190,14 @@
     margin: auto;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
-
+text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
+    .stepCourse {
+        width: 80%;
+    }
+
     .stepCourse__headr {
         display: flex;
         align-items: center;
@@ -209,7 +217,7 @@
     }
     
     .txt__fastStart1 {
-        font-size: 15px;
+        font-size: 9px;
         width: 70%;
         font-family: 'Acrom', sans-serif ;
         font-weight: bold;
@@ -232,7 +240,7 @@
     
     .headr__txt {
         display: block;
-        width: 48%;
+        width: 45%;
     }
     
     .stepCourse__descr {
@@ -240,13 +248,15 @@
         flex-direction: row;
         align-items:flex-start;
         justify-content: space-around;
+        // width: 80%;
+        margin: auto;
     }
     
     .descr__big {
-        width: 30%;
+        width: 28%;
         margin: 0;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 14px;
         font-family: "Acrom", sans-serif;
         font-weight: bolder;
     }
@@ -271,13 +281,13 @@
     
     .numer__title {
         margin-bottom: 15px;
-        font-size: 20px;
+        font-size: 8px;
         font-family: "Acrom", sans-serif;
         font-weight: 400;
     }
     
     .numer__abz {
-        font-size: 18px;
+        font-size: 8px;
         font-family: "Acrom", sans-serif;
         font-weight: bold;
     }
@@ -304,6 +314,19 @@
         width: 28%;
     }
 
+    .numer__title {
+        font-size: 17px;;
+    }
+
+    .numer__abz {
+        font-size: 16px;
+    }
+
+
+    .descr__big {
+        font-size: 22px;
+    }
+
     .descr__step {
         width: 70%;
     }
@@ -319,4 +342,16 @@
         width: 80%;
     }
     
+
+    .wonder__how {
+        font-size: 13px;
+    }
+
+    .txt__step {
+        font-size: 40px;
+    }
+
+    .txt__fastStart1 {
+        font-size: 20px;
+    }
 }
