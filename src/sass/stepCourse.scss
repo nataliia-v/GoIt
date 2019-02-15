@@ -6,7 +6,7 @@
 
  .stepCourse {
      margin: auto;
-     padding: 30px 0;
+     padding: 0 0 45px 0;
  }
 
 .stepCourse__headr {
@@ -196,6 +196,7 @@ text-transform: uppercase;
 @media (min-width: 768px) {
     .stepCourse {
         width: 80%;
+        padding: 24px 0 48px 0;
     }
 
     .stepCourse__headr {
@@ -331,6 +332,7 @@ text-transform: uppercase;
 @media (min-width: 1200px) {
     .stepCourse {
         width: 60%;
+        padding: 76px 0;
     }
     
     // .step__numer {
