@@ -3940,6 +3940,7 @@ section {
 
   .headr__pic {
     width: 48%;
+    margin: 0;
   }
 
   .headr__txt {
@@ -3956,10 +3957,10 @@ section {
   }
 
   .descr__big {
-    width: 28%;
+    width: 20%;
     margin: 0;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Acrom", sans-serif;
     font-weight: bolder;
   }
@@ -3971,11 +3972,11 @@ section {
     align-content: flex-start;
     justify-content: space-around;
     margin-bottom: 30px;
-    width: 70%;
+    width: 75%;
   }
 
   .step__numer {
-    width: 30%;
+    width: 33%;
     margin: 0;
     display: flex;
     align-items: baseline;
@@ -3998,16 +3999,34 @@ section {
   .stepCourse__footer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 60%;
     justify-content: space-between;
+    margin: 0;
   }
 
   .wonder__how {
-    width: 70%;
+    width: 100%;
+    font-size: 10px;
   }
 
   .footer__btn {
     width: 30%;
+    margin: 0;
+  }
+
+  .btn__get {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff6007;
+    font-size: 7px;
+    line-height: 29px;
+    display: block;
+    width: 122px;
+    text-align: center;
+    margin: auto;
+    font-family: "Acrom", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
   }
 
   .FiveSectionLook {
@@ -5354,28 +5373,21 @@ section {
     padding-left: 16px;
   }
 
-  .step__numer {
-    width: 28%;
+  .stepCourse {
+    width: 60%;
   }
 
   .numer__title {
-    font-size: 17px;
+    font-size: 11px;
   }
 
   .numer__abz {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .descr__big {
-    font-size: 22px;
-  }
-
-  .descr__step {
-    width: 70%;
-  }
-
-  .descr__big {
-    width: 30%;
+    font-size: 12px;
+    width: 20%;
   }
 
   .txt__step {
@@ -5387,15 +5399,13 @@ section {
   }
 
   .wonder__how {
-    font-size: 13px;
-  }
-
-  .txt__step {
-    font-size: 40px;
+    font-size: 10px;
+    width: 80%;
   }
 
   .txt__fastStart1 {
-    font-size: 20px;
+    font-size: 10px;
+    width: 50%;
   }
 
   section {
