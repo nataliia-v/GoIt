@@ -2,7 +2,7 @@
   width: 80%;
   padding: 0;
   margin: auto;
-  padding-top: 40px;
+  padding: 16px 0 42px;
 }
 
 .register19 {
@@ -157,6 +157,9 @@
 }
 
 @media(min-width:768px) {
+  .register19-section {
+    padding: 57px 0 100px;
+  }
   .register19 {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -35,6 +35,8 @@
 
 .services {
     width: 100%;
+    margin: auto;
+    padding: 0 0 50px;
 }
 
 /*  Hide block */
@@ -148,11 +150,13 @@
             margin: 0px;
             padding: 0px;
         }
+        
         .services {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-content: center;
+            padding: 28px 0 47px;
           
         }
 

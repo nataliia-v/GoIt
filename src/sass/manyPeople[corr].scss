@@ -8,7 +8,7 @@
 .manyPeople {
     width: 90%;
     margin: auto;
-    padding-top: 35px;
+    padding: 24px 0 49px;
 }
 .people-top {
     width: 100%;
@@ -94,6 +94,9 @@
     }
 }
 @media (min-width: 768px) {
+    .manyPeople {
+        padding: 41px 0 53 px;
+    }
     .people-top {
         flex-direction: row;
         &__left {
