@@ -7,7 +7,7 @@
     width: 70%;
     margin: auto;
     font-family: "Acrom", sans-serif;
-    padding-top: 60px;
+    padding: 24px 0 48px;
     overflow: hidden;
 }
 .course-left {
@@ -113,6 +113,7 @@
     .afterTheCourse {
         display: flex;
         width: 83%;
+        padding: 30px 0 48px;
     }
     .course-left {
         display: block;
