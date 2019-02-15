@@ -3136,7 +3136,7 @@ template {
   padding: 65px 45px;
   color: white;
   background-color: #052139;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .imp_flex {
@@ -3157,9 +3157,10 @@ template {
 
 .imp_grey {
   color: #3f4144;
-  margin-bottom: 15px;
+  padding-bottom: 25px;
   font-size: 12px;
-  margin-left: 20px;
+  width: 80%;
+  margin: auto;
 }
 
 .imp_firstPrice {
@@ -3171,14 +3172,15 @@ template {
   font-size: 14.4px;
   color: #ff6b08;
   font-weight: bold;
-  margin-bottom: 25px;
-  margin-left: 20px;
+  padding-bottom: 25px;
+  width: 80%;
+  margin: auto;
 }
 
 .imp_orange::before {
   position: absolute;
   content: "";
-  width: 4px;
+  width: 2px;
   height: 28px;
   background-color: black;
   display: block;
@@ -3189,7 +3191,7 @@ template {
 }
 
 .imp_hrn {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .imp_rel {
@@ -3199,8 +3201,9 @@ template {
 .imp_bold {
   font-size: 14.4px;
   font-weight: bold;
-  margin-bottom: 15px;
-  margin-left: 20px;
+  padding-bottom: 15px;
+  width: 80%;
+  margin: auto;
 }
 
 .imp_title {
@@ -3216,7 +3219,7 @@ template {
 }
 
 .imp_aqua {
-  width: 70%;
+  width: 60%;
   color: #052139;
   background-color: #16ebfe;
 }
@@ -4698,7 +4701,7 @@ template {
   }
 
   .imp_tablet {
-    padding: 55px 25px;
+    height: 192px;
     width: 45%;
     display: block;
     background-color: #052139;
@@ -4720,33 +4723,36 @@ template {
   }
 
   .imp_title {
-    font-size: 32px;
+    font-size: 27px;
     text-align: left;
-    margin-bottom: 35px;
-    font-weight: 500;
+    margin-bottom: 30px;
+    font-weight: 700;
   }
 
   .imp_bold {
+    padding: 0;
     font-weight: 500;
     color: black;
-    font-size: 12px;
-    line-height: 15px;
-    width: 90%;
-    margin-bottom: 7px;
+    font-size: 9px;
+    line-height: 12px;
+    width: 80%;
+    margin-bottom: 10px;
   }
 
   .imp_orange {
-    font-size: 10px;
-    width: 70%;
-    margin-bottom: 25px;
-    line-height: 15px;
+    font-size: 9px;
+    padding: 0;
+    width: 80%;
+    margin-bottom: 20px;
+    line-height: 12px;
   }
 
   .imp_grey {
-    line-height: 15px;
-    width: 70%;
-    margin-bottom: 10px;
-    font-size: 10px;
+    line-height: 12px;
+    padding: 0;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 8px;
     font-weight: 400;
   }
 
@@ -4791,7 +4797,7 @@ template {
   }
 
   .imp_blueBox {
-    padding: 65px 25px;
+    padding: 45px 25px;
     margin-top: 25px;
   }
 }
@@ -5716,6 +5722,10 @@ template {
 
   .data__container {
     width: 100%;
+  }
+
+  .imp_wrapper {
+    max-width: 1440px;
   }
 
   .imp_blueBox {
