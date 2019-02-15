@@ -1,7 +1,6 @@
 .proffesion {
-    width: 80%;
     margin: auto;
-    padding: 30px 0;
+    padding: 31px 0 39px 0;
 }
 
 .proffesion__all {
@@ -12,7 +11,7 @@
 .all__hended {
     display: flex;
     flex-direction: column;
-    width: 67%;
+    width: 50%;
     margin: auto;
 }
 
@@ -27,9 +26,9 @@
 .hended__brain {
     font-family: "Acrom" , sans-serif;
     font-weight: bold;
-    font-size: 13.5px;
-    width: 85%;
+    font-size: 13.5px;;
     margin-bottom: 24px;
+    width: 90%;
 }
 
 .beforeCacher {
@@ -39,15 +38,16 @@
 .beforeCacher::before {
     content: '';
     height: 4px;
-    width: 13.5px;
+    width: 10%;
     background-color: #000000;
     display: block;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .all__pic {
-    width: 100%;
+    width: 94%;
     margin-bottom: 39px;
+    margin: auto;
 }
 
 .pic__friends {
@@ -57,8 +57,9 @@
 .all__years {
     display: flex;
     flex-direction: column;
-    width: 67%;
+    width: 50%;
     margin: auto;
+    padding-top: 45px;
 }
 
 .years__sistem {
@@ -76,6 +77,12 @@
 }
 
 @media (min-width: 768px) {
+    .proffesion {
+        width: 80%;
+        padding: 55px 0 37px 0;
+    }
+
+
     .proffesion__all {
         flex-direction: row;
         align-items: flex-start;
@@ -119,7 +126,7 @@
     }
     
     .all__pic {
-        width: 35%;
+        width: 30%;
         margin-bottom: 39px;
     }
     
@@ -132,6 +139,7 @@
         flex-direction: column;
         width: 20%;
         margin: 0;
+        padding: 0;
     }
     
     .years__sistem {
@@ -150,20 +158,28 @@
 }
 
 @media (min-width: 1200px) {
+    .proffesion {
+        width: 56%;
+        padding: 62px 0 62px 0;
+    }
+
     .hended__proff {
-        font-size: 37px;
+        font-size: 30px;
     }
 
     .hended__brain {
-        font-size: 18px;
+        font-size: 10px;
         width: 85%;
     }
 
     .years__sistem {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .years__simple {
-        font-size: 13.4px;
+        font-size: 10px;
+    }
+    .all__pic {
+        width: 30%;
     }
 }
