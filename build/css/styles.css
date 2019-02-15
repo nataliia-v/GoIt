@@ -414,6 +414,7 @@ template {
 .header__menu {
   display: flex;
   justify-content: space-between;
+  padding: 15px 0 40px 0;
 }
 
 .header__list {
@@ -441,60 +442,72 @@ template {
   text-align: center;
 }
 
+.header__wrapper1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__course--title {
-  font-family: "Acrom";
-  font-weight: 100;
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
+  font-weight: bold;
   color: white;
-  font-size: 55px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 
 .header__course--text {
-  font-size: 21px;
+  font-size: 14px;
   color: white;
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bold;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .arrow {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 25px;
   color: #17ecff;
   margin: 0 5px 0;
 }
 
 .header__course--text1 {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 13.5px;
   color: white;
   padding-top: 60px;
+  text-align: left;
 }
 
 .header__course--text2 {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: 400;
   color: #afb0b3;
-  font-size: 18px;
-  padding-bottom: 30px;
+  font-size: 14px;
+  padding: 20px 0 30px;
+  text-align: left;
+}
+
+.button__align {
+  text-align: center;
 }
 
 .header__course--button {
   width: 219px;
-  height: 50px;
-  border: none;
+  height: 54px;
+  border: 0;
   background-color: #ff6b08;
   margin-bottom: 40px;
 }
 
 .course__button {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
   font-size: 18px;
@@ -913,7 +926,7 @@ template {
 .manyPeople {
   width: 90%;
   margin: auto;
-  padding-top: 35px;
+  padding: 24px 0 49px;
 }
 
 .people-top {
@@ -1032,7 +1045,7 @@ template {
 
 .PossybleToStudy {
   background-color: #ffffff;
-  padding-top: 40px;
+  padding: 36px 0 58px;
   margin: auto;
 }
 
@@ -1192,7 +1205,7 @@ template {
   text-align: center;
   width: 80%;
   font-family: "Acrom" , sans-serif;
-  padding-top: 25px;
+  padding: 25px 0 40px;
 }
 
 .wrapper-image {
@@ -1347,6 +1360,7 @@ template {
 .header__menu {
   display: flex;
   justify-content: space-between;
+  padding: 15px 0 40px 0;
 }
 
 .header__list {
@@ -1374,60 +1388,72 @@ template {
   text-align: center;
 }
 
+.header__wrapper1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__course--title {
-  font-family: "Acrom";
-  font-weight: 100;
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
+  font-weight: bold;
   color: white;
-  font-size: 55px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 
 .header__course--text {
-  font-size: 21px;
+  font-size: 14px;
   color: white;
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bold;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .arrow {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 25px;
   color: #17ecff;
   margin: 0 5px 0;
 }
 
 .header__course--text1 {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 13.5px;
   color: white;
   padding-top: 60px;
+  text-align: left;
 }
 
 .header__course--text2 {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: 400;
   color: #afb0b3;
-  font-size: 18px;
-  padding-bottom: 30px;
+  font-size: 14px;
+  padding: 20px 0 30px;
+  text-align: left;
+}
+
+.button__align {
+  text-align: center;
 }
 
 .header__course--button {
   width: 219px;
-  height: 50px;
-  border: none;
+  height: 54px;
+  border: 0;
   background-color: #ff6b08;
   margin-bottom: 40px;
 }
 
 .course__button {
-  font-family: "Acrom";
+  font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
   font-size: 18px;
@@ -1443,7 +1469,7 @@ template {
   width: 80%;
   padding: 0;
   margin: auto;
-  padding-top: 40px;
+  padding: 16px 0 42px;
 }
 
 .register19 {
@@ -1591,7 +1617,7 @@ template {
 
 .warning {
   width: 80%;
-  padding: 0;
+  padding: 9px 0 47px;
   margin: auto;
 }
 
@@ -1608,9 +1634,10 @@ template {
   font-style: normal;
   font-weight: bolder;
   font-size: 18px;
-  width: 75%;
+  width: 80%;
   text-align: left;
-  padding: 40px 0 23px 55px;
+  text-transform: uppercase;
+  padding: 40px 0 23px 83px;
 }
 
 .warning-text {
@@ -1624,7 +1651,7 @@ template {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  padding: 0 39px 39px 55px;
+  padding: 0 0 42px 84px;
   width: 100%;
   text-align: left;
   position: relative;
@@ -1637,8 +1664,8 @@ template {
   display: block;
   background-color: black;
   position: absolute;
-  top: 10px;
-  left: 0;
+  top: 8px;
+  left: 45px;
 }
 
 .warning-list {
@@ -1646,8 +1673,8 @@ template {
   flex-direction: column;
   list-style-image: url(/images/block-6/knopa.png);
   width: 100%;
-  padding-left: 25px;
-  margin-bottom: 40px;
+  padding-left: 36px;
+  margin-bottom: 15px;
 }
 
 .warning-list-item {
@@ -1657,6 +1684,7 @@ template {
   text-transform: uppercase;
   font-style: normal;
   font-weight: 400;
+  padding-left: 10px;
 }
 
 .warning-list-text {
@@ -1678,9 +1706,8 @@ template {
 }
 
 .stepCourse {
-  width: 80%;
   margin: auto;
-  padding: 30px 0;
+  padding: 0 0 45px 0;
 }
 
 .stepCourse__headr {
@@ -1688,8 +1715,9 @@ template {
 }
 
 .headr__pic {
-  width: 100%;
-  margin-bottom: 1.25rem;
+  width: 93%;
+  margin-bottom: 30px;
+  margin: auto;
 }
 
 .pic__TeaTime {
@@ -1703,15 +1731,16 @@ template {
 .stepCourse__descr {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
 
 .descr__big {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 20px;
-  font-size: 15px;
+  margin-bottom: 40px;
+  font-size: 11px;
   font-family: "Acrom", sans-serif;
-  font-weight: bolder;
+  font-weight: 400;
 }
 
 .descr__step {
@@ -1720,22 +1749,22 @@ template {
 }
 
 .step__numer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: flex;
   align-items: baseline;
-  margin-bottom: 29px;
+  margin-bottom: 35px;
 }
 
 .numer__title {
   margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Acrom", sans-serif;
   font-weight: 400;
 }
 
 .numer__abz {
-  font-size: 15px;
+  font-size: 13px;
   font-family: "Acrom", sans-serif;
   font-weight: bold;
 }
@@ -1821,7 +1850,8 @@ template {
 .stepCourse__footer {
   display: flex;
   flex-direction: column-reverse;
-  width: 80%;
+  width: 100%;
+  margin: auto;
 }
 
 .footer__wonder {
@@ -1829,25 +1859,26 @@ template {
   margin: auto;
   text-align: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  justify-content: left;
 }
 
 .wonder__how {
-  font-size: 15px;
+  font-size: 11px;
   color: #ff6007;
   text-align: left;
-  margin: auto;
-  width: 70%;
+  width: 100%;
   font-family: "Acrom", sans-serif;
   font-weight: bold;
 }
 
-.wonder__how::before {
+.footer__wonder::before {
   content: '/';
   font-size: 30px;
-  margin-right: 10px;
-  display: inline;
+  display: block;
   color: #000000;
+  margin-left: 50px;
+  margin-right: 10px;
 }
 
 .btn__get {
@@ -1862,6 +1893,7 @@ template {
   margin: auto;
   font-family: "Acrom", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 * {
@@ -1873,7 +1905,7 @@ template {
 .FiveSectionLook {
   max-width: 90%;
   margin: 0 auto;
-  padding: 15px 0 45px 0;
+  padding: 15px 0 50px 0;
 }
 
 .mainTextContainer {
@@ -2057,12 +2089,6 @@ template {
   box-sizing: border-box;
 }
 
-section {
-  max-width: 768px;
-  font-family: 'Acrom', sans-serif;
-  font-weight: 600;
-}
-
 .wrapper {
   position: relative;
   width: 80%;
@@ -2201,8 +2227,7 @@ section {
 .sec9 {
   background-color: white;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 33px;
+  padding: 17px 0 33px;
   max-width: 712px;
 }
 
@@ -2395,6 +2420,8 @@ section {
 
 .services {
   width: 100%;
+  margin: auto;
+  padding: 0 0 50px;
 }
 
 /*  Hide block */
@@ -2503,9 +2530,141 @@ section {
 }
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.afterTheCourse {
+  width: 70%;
+  margin: auto;
+  font-family: "Acrom", sans-serif;
+  padding: 24px 0 48px;
+  overflow: hidden;
+}
+
+.course-left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.course-left__chapter {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.course-left__text {
+  width: 85%;
+  font-size: 13.5px;
+  line-height: 19.5px;
+  margin: auto;
+}
+
+.course-left__sign {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.course-left__sign--first::before {
+  content: "01.";
+  display: block;
+  width: 10px;
+  position: absolute;
+  font-size: 16.07px;
+  line-height: 19.28px;
+  top: 0;
+  left: -49px;
+}
+
+.course-left__sign--squer::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background-color: #16ebfe;
+  position: absolute;
+  top: 20px;
+  left: -32px;
+}
+
+.course-left__sign--second::before {
+  content: "02.";
+  display: block;
+  width: 10px;
+  position: absolute;
+  font-size: 16.07px;
+  line-height: 19.28px;
+  top: 0;
+  left: -49px;
+}
+
+.course-left__sign--third::before {
+  content: "03.";
+  display: block;
+  width: 10px;
+  position: absolute;
+  font-size: 16.07px;
+  line-height: 19.28px;
+  top: 0;
+  left: -49px;
+}
+
+.course-left__about {
+  color: #3f4144;
+  font-weight: 600;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.course-left__about--orange {
+  color: #ff6b08;
+}
+
+.course-left__about--fourth {
+  text-align: right;
+}
+
+.course-left__about--fourth::before {
+  content: "/";
+  font-size: 30px;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.course-left__btn {
+  width: 100%;
+  line-height: 45px;
+  background-color: #ff6b08;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 10.81px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.course-right {
+  display: none;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.sectionOne {
+  margin: auto;
+  padding: 16px 0 43px;
 }
 
 .wrapper {
@@ -2711,9 +2870,8 @@ section {
 }
 
 .proffesion {
-  width: 80%;
   margin: auto;
-  padding: 30px 0;
+  padding: 36px 0 31px;
 }
 
 .proffesion__all {
@@ -2724,7 +2882,7 @@ section {
 .all__hended {
   display: flex;
   flex-direction: column;
-  width: 67%;
+  width: 50%;
   margin: auto;
 }
 
@@ -2740,8 +2898,8 @@ section {
   font-family: "Acrom" , sans-serif;
   font-weight: bold;
   font-size: 13.5px;
-  width: 85%;
   margin-bottom: 24px;
+  width: 90%;
 }
 
 .beforeCacher {
@@ -2751,15 +2909,16 @@ section {
 .beforeCacher::before {
   content: '';
   height: 4px;
-  width: 13.5px;
+  width: 10%;
   background-color: #000000;
   display: block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .all__pic {
-  width: 100%;
+  width: 94%;
   margin-bottom: 39px;
+  margin: auto;
 }
 
 .pic__friends {
@@ -2769,8 +2928,9 @@ section {
 .all__years {
   display: flex;
   flex-direction: column;
-  width: 67%;
+  width: 50%;
   margin: auto;
+  padding-top: 45px;
 }
 
 .years__sistem {
@@ -2815,7 +2975,7 @@ section {
 }
 
 .forRec_wrapper {
-  padding: 35px 0;
+  padding: 19px 0 32px;
   width: 70%;
   margin: auto;
 }
@@ -2863,7 +3023,7 @@ section {
 
 .data {
   width: 80%;
-  padding: 30px 0;
+  padding: 39px 0 50px;
   overflow: hidden;
 }
 
@@ -2963,7 +3123,7 @@ section {
 }
 
 .imp_wrapper {
-  padding: 50px 0;
+  padding: 18px 0 66px;
   font-family: "Acrom";
   line-height: 19px;
   font-size: 14px;
@@ -3096,125 +3256,109 @@ section {
   box-sizing: border-box;
 }
 
-@media (min-width: 767px) {
-  .header {
-    background-image: url(../images/block-1/bg-768.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-
-  .header__course {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .header__wrapper1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  .header__wrapper2 {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-
-  .header__icons {
-    display: flex;
-    justify-content: flex-end;
-    color: #ffffff;
-  }
-
-  .header__course--text {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-  }
-
-  .header__course--title {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    font-size: 61px;
-  }
-
-  .header__course--text1 {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bolder;
-    color: white;
-    text-align: center;
-    padding: 0;
-    font-size: 21px;
-  }
-
-  .header {
-    background-image: url(../images/block-1/bg-768.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-
-  .header__course {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .header__wrapper1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  .header__wrapper2 {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-
-  .header__icons {
-    display: flex;
-    justify-content: flex-end;
-    color: #ffffff;
-  }
-
-  .header__course--text {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-  }
-
-  .header__course--title {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    font-size: 61px;
-  }
-
-  .header__course--text1 {
-    font-family: "Acrom";
-    font-style: normal;
-    font-weight: bolder;
-    color: white;
-    text-align: center;
-    padding: 0;
-    font-size: 21px;
-  }
-}
-
 @media (min-width: 768px) {
+  .header {
+    background-image: url(../images/block-1/bg-768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .header__course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px 0 35px 0;
+  }
+
+  .header__wrapper1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 200px;
+  }
+
+  .header__wrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 30px 0 170px;
+  }
+
+  .header__icons {
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+  }
+
+  .header__course--text {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 8px;
+  }
+
+  .header__course--title {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 45px;
+    padding: 30px 0;
+  }
+
+  .header__course--text1 {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    padding: 0;
+    font-size: 10.5px;
+  }
+
+  .header__course--text2 {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .course__button {
+    font-size: 7px;
+  }
+
+  .header__course--button {
+    width: 110px;
+    height: 28px;
+  }
+
+  .button__align {
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  .header__numbers {
+    width: 11px;
+    height: 17px;
+    color: white;
+    font-size: 15px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-bottom: 50px;
+  }
+
+  .manyPeople {
+    padding: 41px 0 53 px;
+  }
+
   .people-top {
     flex-direction: row;
   }
@@ -3309,6 +3453,7 @@ section {
 
   .PossybleToStudy {
     width: 85%;
+    padding: 46px 0 53px;
   }
 
   .PossybleToStudy__conteiner {
@@ -3461,6 +3606,108 @@ section {
     right: -28px;
   }
 
+  .header {
+    background-image: url(../images/block-1/bg-768.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .header__course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px 0 35px 0;
+  }
+
+  .header__wrapper1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 200px;
+  }
+
+  .header__wrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 30px 0 170px;
+  }
+
+  .header__icons {
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+  }
+
+  .header__course--text {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 8px;
+  }
+
+  .header__course--title {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 45px;
+    padding: 30px 0;
+  }
+
+  .header__course--text1 {
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    padding: 0;
+    font-size: 10.5px;
+  }
+
+  .header__course--text2 {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .course__button {
+    font-size: 7px;
+  }
+
+  .header__course--button {
+    width: 110px;
+    height: 28px;
+  }
+
+  .button__align {
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  .header__numbers {
+    width: 11px;
+    height: 17px;
+    color: white;
+    font-size: 15px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-bottom: 50px;
+  }
+
+  .register19-section {
+    padding: 57px 0 100px;
+  }
+
   .register19 {
     display: flex;
     flex-direction: row;
@@ -3578,7 +3825,7 @@ section {
 
   .warning {
     width: 80%;
-    padding: 0;
+    padding: 39px 0 54px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -3600,28 +3847,31 @@ section {
     font-size: 27px;
     width: 100%;
     text-align: left;
-    padding: 0 0 18px 1px;
+    padding: 0 0 18px 8px;
   }
 
   .warning-opus {
     font-size: 9px;
-    padding: 0 20px 39px 55px;
+    padding: 0 20px 45px 55px;
     width: 100%;
   }
 
   .warning-list-item {
     font-size: 9px;
-    padding-bottom: 11px;
+    padding-bottom: 0;
+    width: 80%;
   }
 
   .warning-list-text {
     font-size: 9px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
   }
 
   .warning-opus::before {
     width: 29px;
     height: 4px;
+    top: 1px;
+    left: 7px;
   }
 
   .box-hard {
@@ -3639,18 +3889,27 @@ section {
   .box-hard-text {
     position: absolute;
     top: -20px;
-    left: -250px;
+    left: -215px;
     z-index: 2;
   }
 
   .box1-image {
     position: absolute;
     z-index: 5;
-    top: 10%;
-    left: 22%;
+    top: 12%;
+    left: 9%;
     background-color: transparent;
     -webkit-filter: drop-shadow(16px 16px 16px rgba(99, 98, 98, 0.6));
     filter: drop-shadow(16px 16px 16px rgba(99, 98, 98, 0.6));
+  }
+
+  .warning-list {
+    padding-left: 24px;
+  }
+
+  .stepCourse {
+    width: 80%;
+    padding: 24px 0 48px 0;
   }
 
   .stepCourse__headr {
@@ -3672,7 +3931,7 @@ section {
   }
 
   .txt__fastStart1 {
-    font-size: 15px;
+    font-size: 9px;
     width: 70%;
     font-family: 'Acrom', sans-serif;
     font-weight: bold;
@@ -3691,12 +3950,13 @@ section {
   }
 
   .headr__pic {
-    width: 50%;
+    width: 48%;
+    margin: 0;
   }
 
   .headr__txt {
     display: block;
-    width: 48%;
+    width: 45%;
   }
 
   .stepCourse__descr {
@@ -3704,13 +3964,14 @@ section {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    margin: auto;
   }
 
   .descr__big {
-    width: 30%;
+    width: 20%;
     margin: 0;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 10px;
     font-family: "Acrom", sans-serif;
     font-weight: bolder;
   }
@@ -3722,11 +3983,11 @@ section {
     align-content: flex-start;
     justify-content: space-around;
     margin-bottom: 30px;
-    width: 70%;
+    width: 75%;
   }
 
   .step__numer {
-    width: 30%;
+    width: 33%;
     margin: 0;
     display: flex;
     align-items: baseline;
@@ -3735,13 +3996,13 @@ section {
 
   .numer__title {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 8px;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
   }
 
   .numer__abz {
-    font-size: 18px;
+    font-size: 8px;
     font-family: "Acrom", sans-serif;
     font-weight: bold;
   }
@@ -3749,16 +4010,34 @@ section {
   .stepCourse__footer {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 60%;
     justify-content: space-between;
+    margin: 0;
   }
 
   .wonder__how {
-    width: 70%;
+    width: 100%;
+    font-size: 10px;
   }
 
   .footer__btn {
     width: 30%;
+    margin: 0;
+  }
+
+  .btn__get {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff6007;
+    font-size: 7px;
+    line-height: 29px;
+    display: block;
+    width: 122px;
+    text-align: center;
+    margin: auto;
+    font-family: "Acrom", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
   }
 
   .FiveSectionLook {
@@ -3766,7 +4045,7 @@ section {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 55px 0 55px 0;
+    padding: 39px 0 39px 0;
   }
 
   .textContainer {
@@ -3860,6 +4139,7 @@ section {
     width: 90%;
     margin: auto;
     align-content: flex-start;
+    padding: 40px 0 54px;
   }
 
   .first-sec9 {
@@ -3973,6 +4253,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding: 28px 0 47px;
   }
 
   .services_hide {
@@ -4045,6 +4326,85 @@ section {
     margin-top: 17px;
   }
 
+  .afterTheCourse {
+    display: flex;
+    width: 83%;
+    padding: 30px 0 48px;
+  }
+
+  .course-left {
+    display: block;
+    width: 50%;
+  }
+
+  .course-left__chapter {
+    font-size: 27px;
+    line-height: 33.65px;
+  }
+
+  .course-left__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+
+  .course-left__item {
+    width: 50%;
+    padding-left: 40px;
+    overflow: hidden;
+  }
+
+  .course-left__sign {
+    font-size: 8.97px;
+    line-height: 14.58px;
+  }
+
+  .course-left__sign--squer::after {
+    width: 8px;
+    height: 8px;
+  }
+
+  .course-left__about {
+    font-size: 7.85px;
+    line-height: 10.09px;
+  }
+
+  .course-left__about--fourth {
+    font-size: 8.97px;
+    line-height: 13.46px;
+    text-align: left;
+  }
+
+  .course-left__about--fourth::before {
+    left: -20px;
+    top: 10px;
+    font-weight: 900;
+  }
+
+  .course-left__btn {
+    font-size: 6.73px;
+    line-height: 30px;
+  }
+
+  .course-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  .course-right__img {
+    width: 90%;
+    height: auto;
+    display: block;
+    max-width: 350px;
+  }
+
+  .sectionOne {
+    margin: auto;
+    padding: 37px 0 54px;
+  }
+
   .topOne {
     display: flex;
     width: 100%;
@@ -4109,6 +4469,11 @@ section {
     width: 80%;
   }
 
+  .proffesion {
+    width: 80%;
+    padding: 55px 0 37px 0;
+  }
+
   .proffesion__all {
     flex-direction: row;
     align-items: flex-start;
@@ -4152,7 +4517,7 @@ section {
   }
 
   .all__pic {
-    width: 35%;
+    width: 30%;
     margin-bottom: 39px;
   }
 
@@ -4165,6 +4530,7 @@ section {
     flex-direction: column;
     width: 20%;
     margin: 0;
+    padding: 0;
   }
 
   .years__sistem {
@@ -4237,6 +4603,7 @@ section {
 
   .wrapper {
     max-width: 1200px;
+    padding: 18px 0 53px;
   }
 
   .data {
@@ -4320,6 +4687,10 @@ section {
   .data__list__change4 {
     order: 1;
     position: relative;
+  }
+
+  .imp_wrapper {
+    padding: 57px 0 56px;
   }
 
   .imp_mobile {
@@ -4514,6 +4885,64 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+
+  .header__logo {
+    width: 90px;
+  }
+
+  .header__wrapper2 {
+    padding-bottom: 222px;
+  }
+
+  .button__align {
+    text-align: left;
+    padding-bottom: 70px;
+  }
+
+  .course__button {
+    font-size: 25px;
+  }
+
+  .header__course--button {
+    width: 260px;
+    height: 70px;
+  }
+
+  .header__course--title {
+    color: white;
+    text-align: left;
+    font-size: 87px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .header__course--text {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .header__course--text1 {
+    color: white;
+    text-align: left;
+    font-size: 33px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bolder;
+  }
+
+  .header__course--text2 {
+    color: #afb0b3;
+    text-align: left;
+    font-size: 21px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
   }
 
   .manyPeople {
@@ -4772,6 +5201,64 @@ section {
     background-position: center center;
   }
 
+  .header__logo {
+    width: 90px;
+  }
+
+  .header__wrapper2 {
+    padding-bottom: 222px;
+  }
+
+  .button__align {
+    text-align: left;
+    padding-bottom: 70px;
+  }
+
+  .course__button {
+    font-size: 25px;
+  }
+
+  .header__course--button {
+    width: 260px;
+    height: 70px;
+  }
+
+  .header__course--title {
+    color: white;
+    text-align: left;
+    font-size: 87px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .header__course--text {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .header__course--text1 {
+    color: white;
+    text-align: left;
+    font-size: 33px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: bolder;
+  }
+
+  .header__course--text2 {
+    color: #afb0b3;
+    text-align: left;
+    font-size: 21px;
+    font-family: "Acrom", "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+  }
+
   .register19-go-vert {
     font-size: 163px;
     top: 0;
@@ -4860,48 +5347,50 @@ section {
   .warning-box2 {
     width: 50%;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 8px;
   }
 
   .box1-image {
     width: 192px;
     height: 459px;
-    top: 100px;
-    left: 70px;
+    top: 75px;
+    left: 168px;
   }
 
   .warning-heds {
     font-size: 30px;
     width: 100%;
-    padding: 10px 100px 21px 0;
+    padding: 10px 100px 22px 0;
   }
 
   .warning-opus {
     font-size: 10px;
-    padding: 0 35px 25px 55px;
+    padding: 0 140px 51px 52px;
   }
 
   .warning-opus::before {
     width: 32px;
     height: 5px;
+    left: 0;
   }
 
   .warning-list-item {
     font-size: 10px;
-    padding-bottom: 12px;
+    padding-bottom: 0px;
     width: 60%;
     text-align: left;
+    padding-left: 15px;
   }
 
   .warning-list-text {
     font-size: 10px;
-    padding-bottom: 23px;
+    padding-bottom: 21px;
     width: 80%;
     text-align: left;
   }
 
   .box-hard {
-    font-size: 157px;
+    font-size: 156px;
   }
 
   .warning-box1 {
@@ -4911,20 +5400,30 @@ section {
 
   .box-hard-text {
     position: absolute;
-    top: -20px;
-    left: -260px;
+    top: -148px;
+    left: -246px;
   }
 
-  .step__numer {
-    width: 28%;
+  .warning-list {
+    padding-left: 16px;
   }
 
-  .descr__step {
-    width: 70%;
+  .stepCourse {
+    width: 60%;
+    padding: 76px 0;
+  }
+
+  .numer__title {
+    font-size: 11px;
+  }
+
+  .numer__abz {
+    font-size: 10px;
   }
 
   .descr__big {
-    width: 30%;
+    font-size: 12px;
+    width: 20%;
   }
 
   .txt__step {
@@ -4933,6 +5432,16 @@ section {
 
   .stepCourse__footer {
     width: 80%;
+  }
+
+  .wonder__how {
+    font-size: 10px;
+    width: 80%;
+  }
+
+  .txt__fastStart1 {
+    font-size: 10px;
+    width: 50%;
   }
 
   section {
@@ -5015,6 +5524,56 @@ section {
     margin-left: 20px;
   }
 
+  .afterTheCourse {
+    width: 60%;
+  }
+
+  .course-left__chapter {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .course-left__sign {
+    font-size: 10px;
+    line-height: 10.25px;
+  }
+
+  .course-left__sign--first::before {
+    font-size: 18.75px;
+    line-height: 22.5px;
+    top: -4px;
+  }
+
+  .course-left__sign--second::before {
+    font-size: 18.75px;
+    line-height: 22.5px;
+    top: -4px;
+  }
+
+  .course-left__sign--third::before {
+    font-size: 18.75px;
+    line-height: 22.5px;
+    top: -4px;
+  }
+
+  .course-left__sign--squer::after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .course-left__about {
+    font-size: 10px;
+    line-height: 11.25px;
+  }
+
+  .course-left__about--orange {
+    padding-right: 40px;
+  }
+
+  .course-right__img {
+    max-width: 350px;
+  }
+
   .blackFonP {
     font-size: 45px;
     line-height: 65px;
@@ -5041,21 +5600,30 @@ section {
     margin-bottom: 40px;
   }
 
+  .proffesion {
+    width: 56%;
+    padding: 62px 0 62px 0;
+  }
+
   .hended__proff {
-    font-size: 37px;
+    font-size: 30px;
   }
 
   .hended__brain {
-    font-size: 18px;
+    font-size: 10px;
     width: 85%;
   }
 
   .years__sistem {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .years__simple {
-    font-size: 13.4px;
+    font-size: 10px;
+  }
+
+  .all__pic {
+    width: 30%;
   }
 
   .forRec_half {
@@ -5289,8 +5857,7 @@ section {
   .section-expert {
     display: flex;
     justify-content: space-between;
-    padding-top: 35px;
-    margin-bottom: 56px;
+    padding: 54px 0 55px;
   }
 
   .box-1-photo {
