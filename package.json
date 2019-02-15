@@ -1,7 +1,6 @@
 {
   "name": "gulp-starter-kit",
   "version": "1.1.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "prepare": "gulp prepare",
@@ -43,5 +42,7 @@
     "gulp-uglify": "^3.0.1",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.6.0"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
