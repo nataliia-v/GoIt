@@ -2870,7 +2870,6 @@ section {
 }
 
 .proffesion {
-  width: 80%;
   margin: auto;
   padding: 30px 0;
 }
@@ -2883,7 +2882,7 @@ section {
 .all__hended {
   display: flex;
   flex-direction: column;
-  width: 67%;
+  width: 50%;
   margin: auto;
 }
 
@@ -2899,8 +2898,8 @@ section {
   font-family: "Acrom" , sans-serif;
   font-weight: bold;
   font-size: 13.5px;
-  width: 85%;
   margin-bottom: 24px;
+  width: 90%;
 }
 
 .beforeCacher {
@@ -2910,15 +2909,16 @@ section {
 .beforeCacher::before {
   content: '';
   height: 4px;
-  width: 13.5px;
+  width: 10%;
   background-color: #000000;
   display: block;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .all__pic {
-  width: 100%;
+  width: 94%;
   margin-bottom: 39px;
+  margin: auto;
 }
 
 .pic__friends {
@@ -2928,8 +2928,9 @@ section {
 .all__years {
   display: flex;
   flex-direction: column;
-  width: 67%;
+  width: 50%;
   margin: auto;
+  padding-top: 45px;
 }
 
 .years__sistem {
@@ -4431,6 +4432,10 @@ section {
     width: 80%;
   }
 
+  .proffesion {
+    width: 80%;
+  }
+
   .proffesion__all {
     flex-direction: row;
     align-items: flex-start;
@@ -4474,7 +4479,7 @@ section {
   }
 
   .all__pic {
-    width: 35%;
+    width: 30%;
     margin-bottom: 39px;
   }
 
@@ -4487,6 +4492,7 @@ section {
     flex-direction: column;
     width: 20%;
     margin: 0;
+    padding: 0;
   }
 
   .years__sistem {
@@ -5554,21 +5560,29 @@ section {
     margin-bottom: 40px;
   }
 
+  .proffesion {
+    width: 56%;
+  }
+
   .hended__proff {
-    font-size: 37px;
+    font-size: 30px;
   }
 
   .hended__brain {
-    font-size: 18px;
+    font-size: 10px;
     width: 85%;
   }
 
   .years__sistem {
-    font-size: 18px;
+    font-size: 10px;
   }
 
   .years__simple {
-    font-size: 13.4px;
+    font-size: 10px;
+  }
+
+  .all__pic {
+    width: 30%;
   }
 
   .forRec_half {
