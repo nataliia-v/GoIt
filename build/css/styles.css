@@ -2095,7 +2095,6 @@ template {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid green;
 }
 
 .wrapperMoney {
@@ -6167,6 +6166,14 @@ template {
     font-weight: 600;
     color: #ff905c;
     display: block;
+  }
+
+  .backYou {
+    top: 200px;
+    left: 200px;
+    position: absolute;
+    width: 70px;
+    height: auto;
   }
 
   .header-sec9 {
