@@ -1,14 +1,141 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import'./normalize.scss';
+@import'./fonts.scss';
 @import './1@header.scss';
 @import './variables.scss';
-@import'./warning.scss';
+@import '../sass/normalize.scss';
 @import './fonts.scss';
+@import './manyPeople[corr].scss';
+@import "./mixin.scss";
+@import "./variables.scss";
+@import './PossibleToStudy.scss';
+@import './expert_numbers.scss';
+@import './variables.scss';
+@import '../sass/fonts.scss';
+@import "../sass/mixin.scss";
+@import './1@header.scss';
+@import'./register19.scss';
+@import "../sass/placeholder";
+@import'./warning.scss';
 @import './stepCourse.scss';
+@import '../sass/5LookStyle.scss';
 @import './style-money.scss';
 @import "../sass/mixin.scss";
 @import "../sass/variables.scss";
+@import'./style9.scss';
+@import './style_career.scss';
+@import "../sass/section15.scss";
+@import "../sass/proffesionStyle.scss";
+@import "./12new.scss";
+@import './data';
+@import "./important.scss";
 
 
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   scroll-behavior: smooth;
+}
+.header__menu {
+   display: flex;
+   justify-content: space-between;
+   padding: 14px 0 20px;
+   position: absolute;
+   z-index: 9999;
+}
+
+.header__logo--size {
+   position: fixed;
+   z-index: 9998;
+}
+
+.positioning {
+   position: relative;
+}
+
+.shield__sections {
+   position: relative;
+   z-index: 1;
+}
+
+.push__push {
+   position: relative;
+   z-index: 99999;
+   background-color: #181c28;
+   padding: 2px;
+}
+
+.header__list {
+   display: flex;
+   flex-direction: column;
+   width: 40px;
+   height: 20px;
+   right: 20px;
+   top: 10px;
+   position: fixed;
+   z-index: 9999;
+}
+
+.header__list-item1 {
+   width: 35px;
+   height: 1px;
+   background-color: #ffffff;
+   display: block;
+   margin: 5px auto 1px;
+   padding-top: 3px;
+}
+
+.drop__submenu--item {
+   // background-color: rgba(255, 166, 0, 0.527);
+   width: 25%;
+   // text-align: center;
+   // border: 1px solid #000000;
+}
+
+.drop__submenu--item:hover {
+   background-color: #000000;
+}
+
+.drop__submenu {
+   display: none;
+   list-style: none;
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   z-index: 9998;
+   background-image: linear-gradient(to bottom, #807a7a7a, #4613138c);
+}
+
+.submenu__list {
+   text-decoration: none;
+   color: #000000;
+   background-color: rgba(255, 166, 0, 0.527);
+   width: 100%;
+   text-align: center;
+   border: 1px solid #000000;
+display: block;
+}
+
+.drop__submenu--item:hover .submenu__list {
+   color: #ffffff;
+}
+
+#dropdown:checked~.drop__submenu {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.click {
+   display: none;
+}
