@@ -2667,36 +2667,38 @@ template {
 }
 
 .sectionOne {
+  max-width: 480px;
   margin: auto;
-  padding: 16px 0 43px;
+  padding: 18px 18px 43px 18px;
 }
 
 .wrapper {
-  width: 80%;
   margin: auto;
 }
 
 .topImg {
   position: relative;
-  width: 80%;
-  margin: 21px auto 30px;
+  margin: 21px auto 45px;
 }
 
 .backFon {
   position: absolute;
   height: 100%;
   top: 0px;
-  right: -25px;
+  right: 67px;
 }
 
 .boyFoto {
   left: 50px;
   position: -webkit-sticky;
   position: sticky;
+  text-align: center;
+  width: 220px;
+  margin: auto;
 }
 
 .textOrange {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .orange {
@@ -2708,6 +2710,7 @@ template {
 }
 
 .orange::before {
+  margin-right: 7px;
   content: "";
   display: block;
   width: 20px;
@@ -2733,11 +2736,11 @@ template {
 }
 
 .nextText {
-  width: 60%;
+  width: 67%;
   text-align: left;
   display: flex;
   font-size: 13.5px;
-  margin: 0 auto 20px;
+  margin: 0 auto 56px;
 }
 
 .newTextP {
@@ -2759,7 +2762,7 @@ template {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13.5px;
-  margin: 0 auto 20px;
+  margin: 0 auto 33px;
 }
 
 .step__number {
@@ -3128,7 +3131,7 @@ template {
 }
 
 .imp_wrapper {
-  padding: 55px 18px 66px 18px;
+  padding: 18px 18px 66px 18px;
   font-family: "Acrom";
   line-height: 19px;
   font-size: 14px;
@@ -4878,8 +4881,9 @@ html {
   }
 
   .sectionOne {
+    max-width: 768px;
     margin: auto;
-    padding: 37px 0 54px;
+    padding: 55px 65px;
   }
 
   .topOne {
@@ -4942,8 +4946,30 @@ html {
     display: flex;
   }
 
+  .orange::before {
+    margin-right: 12px;
+    width: 40px;
+    height: 3px;
+  }
+
   .textOrange {
     width: 80%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .number__abz {
+    font-size: 8px;
+  }
+
+  .number__title {
+    font-size: 9px;
+  }
+
+  .nextText2 {
+    font-size: 14px;
   }
 
   .proffesion {
@@ -6382,9 +6408,18 @@ html {
     max-width: 350px;
   }
 
+  .sectionOne {
+    max-width: 1200px;
+    margin: auto;
+    padding: 63px 244px;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
   .blackFonP {
-    font-size: 45px;
-    line-height: 65px;
+    font-size: 30px;
   }
 
   .nextText2 {
@@ -6404,8 +6439,48 @@ html {
     font-size: 25px;
   }
 
-  .topOne {
-    margin-bottom: 40px;
+  .orange {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .boyFoto {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 215px;
+    height: 241px;
+    margin-left: 20px;
+  }
+
+  .newTextP::before {
+    height: 4px;
+    margin-right: 17px;
+    width: 50%;
+  }
+
+  .nextText {
+    margin-bottom: 87px;
+  }
+
+  .textRightOne {
+    padding-bottom: 0;
+  }
+
+  .nextText2P {
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 60px;
+    line-height: 21px;
+  }
+
+  .number__abz {
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .number__title {
+    font-size: 10px;
+    line-height: 14px;
   }
 
   .proffesion {

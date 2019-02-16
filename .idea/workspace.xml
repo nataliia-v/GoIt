@@ -5,23 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-10/768px.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-10/768px.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-10/image-block-10-1-@2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-10/image-block-10-1-@2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-10/image-block-10-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-10/image-block-10-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-11/image-block-11-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-11/image-block-11-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-11/image-block-11-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-11/image-block-11-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-14/image-block-14-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-14/image-block-14-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-16/hiden_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-16/hiden_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-5/image-block-5-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-5/image-block-5-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-7/Layer338.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-7/Layer338.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-7/Layer338w768.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-7/Layer338w768.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-7/Layer338w768@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-7/Layer338w768@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/block-8/image-block-8-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/block-8/image-block-8-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoIt-Project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/important.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/important.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/register19.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/register19.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style9.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/section15.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/section15.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,17 +23,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sass/important.scss">
+        <entry file="file://$PROJECT_DIR$/src/sass/section15.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+            <state relative-caret-position="577">
+              <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -64,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/expert_numbers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
+            <state relative-caret-position="706">
               <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
             </state>
           </provider>
@@ -80,7 +75,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/src/html/expert_numbers.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/styles.scss" />
         <option value="$PROJECT_DIR$/src/sass/expert_numbers.scss" />
         <option value="$PROJECT_DIR$/../Homework11/src/index.html" />
@@ -90,7 +84,9 @@
         <option value="$PROJECT_DIR$/../Homework11/src/html/hw10.html" />
         <option value="$PROJECT_DIR$/src/sass/style9.scss" />
         <option value="$PROJECT_DIR$/src/sass/register19.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/important.scss" />
+        <option value="$PROJECT_DIR$/src/sass/section15.scss" />
       </list>
     </option>
   </component>
@@ -180,12 +176,12 @@
       <workItem from="1549880401678" duration="2060000" />
       <workItem from="1549994985938" duration="274000" />
       <workItem from="1550042358313" duration="14746000" />
-      <workItem from="1550323810790" duration="5450000" />
+      <workItem from="1550323810790" duration="10468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39791000" />
+    <option name="totallyTimeSpent" value="44809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,13 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Homework11/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -323,13 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/expert_numbers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/expert_numbers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -347,13 +329,6 @@
     <entry file="file://$PROJECT_DIR$/src/html/9section4sters.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/register19.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -361,10 +336,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/15course.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/expert_numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/important.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+        <state relative-caret-position="-2512">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/section15.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
         </state>
       </provider>
     </entry>
