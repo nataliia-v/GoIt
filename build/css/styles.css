@@ -409,6 +409,8 @@ template {
   background-repeat: no-repeat;
   background-position: center center;
   margin: auto;
+  padding: 15px 18px 41px;
+  max-width: 480px;
 }
 
 .header__menu {
@@ -453,16 +455,48 @@ template {
   font-weight: bold;
   color: white;
   font-size: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 43px;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+.dash__tablet {
+  display: none;
 }
 
 .header__course--text {
-  font-size: 14px;
+  font-size: 13.5px;
   color: white;
   font-family: "Acrom", "sans-serif";
   font-style: normal;
-  font-weight: bold;
-  padding-bottom: 70px;
+  font-weight: 400;
+  margin-bottom: 165px;
+  line-height: 19.5px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  position: relative;
+}
+
+.header__course--text::before {
+  content: "\2039";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 18px;
+  color: aqua;
+  font-size: 22.5px;
+  font-weight: 900;
+}
+
+.header__course--text::after {
+  content: "\002F\203A";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  color: aqua;
+  font-size: 22.5px;
+  font-weight: 900;
 }
 
 .arrow {
@@ -480,18 +514,23 @@ template {
   font-weight: bolder;
   font-size: 13.5px;
   color: white;
-  padding-top: 60px;
   text-align: left;
+  text-transform: uppercase;
+  line-height: 19.5px;
+  margin-bottom: 15px;
+  padding: 0 40px;
 }
 
 .header__course--text2 {
   font-family: "Acrom", "sans-serif";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   color: #afb0b3;
-  font-size: 14px;
-  padding: 20px 0 30px;
+  font-size: 13.5px;
   text-align: left;
+  line-height: 19.5px;
+  margin-bottom: 38px;
+  padding: 0 40px;
 }
 
 .button__align {
@@ -500,22 +539,33 @@ template {
 
 .header__course--button {
   width: 219px;
-  height: 54px;
+  line-height: 54px;
   border: 0;
   background-color: #ff6b08;
-  margin-bottom: 40px;
 }
 
 .course__button {
   font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 
 .header__icons {
+  display: none;
+}
+
+.header__numbers {
+  width: 50px;
+  height: 17px;
+  color: white;
+  font-size: 15px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  padding-bottom: 50px;
   display: none;
 }
 
@@ -1352,6 +1402,8 @@ template {
   background-repeat: no-repeat;
   background-position: center center;
   margin: auto;
+  padding: 15px 18px 41px;
+  max-width: 480px;
 }
 
 .header__menu {
@@ -1396,16 +1448,48 @@ template {
   font-weight: bold;
   color: white;
   font-size: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 43px;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
+
+.dash__tablet {
+  display: none;
 }
 
 .header__course--text {
-  font-size: 14px;
+  font-size: 13.5px;
   color: white;
   font-family: "Acrom", "sans-serif";
   font-style: normal;
-  font-weight: bold;
-  padding-bottom: 70px;
+  font-weight: 400;
+  margin-bottom: 165px;
+  line-height: 19.5px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  position: relative;
+}
+
+.header__course--text::before {
+  content: "\2039";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 18px;
+  color: aqua;
+  font-size: 22.5px;
+  font-weight: 900;
+}
+
+.header__course--text::after {
+  content: "\002F\203A";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  color: aqua;
+  font-size: 22.5px;
+  font-weight: 900;
 }
 
 .arrow {
@@ -1423,18 +1507,23 @@ template {
   font-weight: bolder;
   font-size: 13.5px;
   color: white;
-  padding-top: 60px;
   text-align: left;
+  text-transform: uppercase;
+  line-height: 19.5px;
+  margin-bottom: 15px;
+  padding: 0 40px;
 }
 
 .header__course--text2 {
   font-family: "Acrom", "sans-serif";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   color: #afb0b3;
-  font-size: 14px;
-  padding: 20px 0 30px;
+  font-size: 13.5px;
   text-align: left;
+  line-height: 19.5px;
+  margin-bottom: 38px;
+  padding: 0 40px;
 }
 
 .button__align {
@@ -1443,22 +1532,33 @@ template {
 
 .header__course--button {
   width: 219px;
-  height: 54px;
+  line-height: 54px;
   border: 0;
   background-color: #ff6b08;
-  margin-bottom: 40px;
 }
 
 .course__button {
   font-family: "Acrom", "sans-serif";
   font-style: normal;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 12px;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 
 .header__icons {
+  display: none;
+}
+
+.header__numbers {
+  width: 50px;
+  height: 17px;
+  color: white;
+  font-size: 15px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  padding-bottom: 50px;
   display: none;
 }
 
@@ -3269,35 +3369,34 @@ template {
 
 @media (min-width: 768px) {
   .header {
-    background-image: url(../images/block-1/bg-768.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    padding: 0 65px;
+    max-width: 768px;
   }
 
-  .wrapper {
+  .wrapper__main {
     width: 100%;
+    background-image: url(../images/block-1/bg-768.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
   }
 
   .header__course {
-    display: flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
-    padding-top: 20px 0 35px 0;
   }
 
   .header__wrapper1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-right: 200px;
+    width: 60%;
   }
 
   .header__wrapper2 {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding: 30px 0 170px;
+    width: 24%;
   }
 
   .header__icons {
@@ -3312,18 +3411,31 @@ template {
     font-weight: bold;
     color: white;
     text-align: left;
-    padding-top: 30px;
     font-size: 8px;
+    line-height: 13.46px;
+    padding: 0 155px 0 50px;
+    margin-bottom: 27px;
+  }
+
+  .header__course--text::after {
+    right: 135px;
   }
 
   .header__course--title {
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
     color: white;
     text-align: left;
     font-size: 45px;
-    padding: 30px 0;
+    padding: 0;
+    margin-bottom: 33px;
+  }
+
+  .dash__tablet {
+    display: inline;
+    font-size: 50px;
+  }
+
+  .dash__mobile {
+    display: none;
   }
 
   .header__course--text1 {
@@ -3334,12 +3446,18 @@ template {
     text-align: left;
     padding: 0;
     font-size: 10.5px;
+    line-height: 16.82px;
   }
 
   .header__course--text2 {
-    padding-top: 30px;
+    padding: 0;
     text-align: left;
     font-size: 10px;
+    line-height: 13.46px;
+  }
+
+  .header__icon1 {
+    margin-right: 15px;
   }
 
   .course__button {
@@ -3348,16 +3466,17 @@ template {
 
   .header__course--button {
     width: 110px;
-    height: 28px;
+    line-height: 28px;
   }
 
   .button__align {
     text-align: left;
-    padding-bottom: 60px;
+    padding-left: 50px;
   }
 
   .header__numbers {
-    width: 11px;
+    display: block;
+    width: 50px;
     height: 17px;
     color: white;
     font-size: 15px;
@@ -3615,35 +3734,34 @@ template {
   }
 
   .header {
-    background-image: url(../images/block-1/bg-768.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    padding: 0 65px;
+    max-width: 768px;
   }
 
-  .wrapper {
+  .wrapper__main {
     width: 100%;
+    background-image: url(../images/block-1/bg-768.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px;
   }
 
   .header__course {
-    display: flex;
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
-    padding-top: 20px 0 35px 0;
   }
 
   .header__wrapper1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-right: 200px;
+    width: 60%;
   }
 
   .header__wrapper2 {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding: 30px 0 170px;
+    width: 24%;
   }
 
   .header__icons {
@@ -3658,18 +3776,31 @@ template {
     font-weight: bold;
     color: white;
     text-align: left;
-    padding-top: 30px;
     font-size: 8px;
+    line-height: 13.46px;
+    padding: 0 155px 0 50px;
+    margin-bottom: 27px;
+  }
+
+  .header__course--text::after {
+    right: 135px;
   }
 
   .header__course--title {
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
     color: white;
     text-align: left;
     font-size: 45px;
-    padding: 30px 0;
+    padding: 0;
+    margin-bottom: 33px;
+  }
+
+  .dash__tablet {
+    display: inline;
+    font-size: 50px;
+  }
+
+  .dash__mobile {
+    display: none;
   }
 
   .header__course--text1 {
@@ -3680,12 +3811,18 @@ template {
     text-align: left;
     padding: 0;
     font-size: 10.5px;
+    line-height: 16.82px;
   }
 
   .header__course--text2 {
-    padding-top: 30px;
+    padding: 0;
     text-align: left;
     font-size: 10px;
+    line-height: 13.46px;
+  }
+
+  .header__icon1 {
+    margin-right: 15px;
   }
 
   .course__button {
@@ -3694,16 +3831,17 @@ template {
 
   .header__course--button {
     width: 110px;
-    height: 28px;
+    line-height: 28px;
   }
 
   .button__align {
     text-align: left;
-    padding-bottom: 60px;
+    padding-left: 50px;
   }
 
   .header__numbers {
-    width: 11px;
+    display: block;
+    width: 50px;
     height: 17px;
     color: white;
     font-size: 15px;
@@ -4847,68 +4985,67 @@ template {
 
 @media (min-width: 1200px) {
   .header {
-    background-image: url(../images/block-1/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    max-width: 1200px;
+    background-color: #181c28;
+    margin: 0;
+    position: relative;
   }
 
-  .header__logo {
-    width: 90px;
+  .header__logo--size {
+    position: absolute;
+    top: 25px;
+    left: 28px;
   }
 
-  .header__wrapper2 {
-    padding-bottom: 222px;
+  .header__list {
+    position: absolute;
+    top: 25px;
+    right: 28px;
   }
 
-  .button__align {
-    text-align: left;
-    padding-bottom: 70px;
+  .header__icons {
+    position: absolute;
+    right: 38px;
+    bottom: 28px;
   }
 
-  .course__button {
-    font-size: 25px;
+  .header__numbers {
+    position: absolute;
+    left: 38px;
+    bottom: 38px;
   }
 
-  .header__course--button {
-    width: 260px;
-    height: 70px;
-  }
-
-  .header__course--title {
-    color: white;
-    text-align: left;
-    font-size: 87px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
+  .header__menu {
+    margin-bottom: 60px;
   }
 
   .header__course--text {
-    color: white;
-    text-align: left;
-    font-size: 25px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
+    font-size: 8.75px;
+    line-height: 15px;
+    padding: 0px 126px 0 34px;
+  }
+
+  .header__course--text::after {
+    right: 100px;
   }
 
   .header__course--text1 {
-    color: white;
-    text-align: left;
-    font-size: 33px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bolder;
+    font-size: 11.25px;
+    line-height: 18.75px;
   }
 
   .header__course--text2 {
-    color: #afb0b3;
-    text-align: left;
-    font-size: 21px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .wrapper__main {
+    background-image: url(../images/block-1/bg.png);
+    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0 210px 108px;
   }
 
   .manyPeople {
@@ -5157,68 +5294,67 @@ template {
   }
 
   .header {
-    background-image: url(../images/block-1/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    max-width: 1200px;
+    background-color: #181c28;
+    margin: 0;
+    position: relative;
   }
 
-  .header__logo {
-    width: 90px;
+  .header__logo--size {
+    position: absolute;
+    top: 25px;
+    left: 28px;
   }
 
-  .header__wrapper2 {
-    padding-bottom: 222px;
+  .header__list {
+    position: absolute;
+    top: 25px;
+    right: 28px;
   }
 
-  .button__align {
-    text-align: left;
-    padding-bottom: 70px;
+  .header__icons {
+    position: absolute;
+    right: 38px;
+    bottom: 28px;
   }
 
-  .course__button {
-    font-size: 25px;
+  .header__numbers {
+    position: absolute;
+    left: 38px;
+    bottom: 38px;
   }
 
-  .header__course--button {
-    width: 260px;
-    height: 70px;
-  }
-
-  .header__course--title {
-    color: white;
-    text-align: left;
-    font-size: 87px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
+  .header__menu {
+    margin-bottom: 60px;
   }
 
   .header__course--text {
-    color: white;
-    text-align: left;
-    font-size: 25px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bold;
+    font-size: 8.75px;
+    line-height: 15px;
+    padding: 0px 126px 0 34px;
+  }
+
+  .header__course--text::after {
+    right: 100px;
   }
 
   .header__course--text1 {
-    color: white;
-    text-align: left;
-    font-size: 33px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: bolder;
+    font-size: 11.25px;
+    line-height: 18.75px;
   }
 
   .header__course--text2 {
-    color: #afb0b3;
-    text-align: left;
-    font-size: 21px;
-    font-family: "Acrom", "sans-serif";
-    font-style: normal;
-    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .wrapper__main {
+    background-image: url(../images/block-1/bg.png);
+    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0 210px 108px;
   }
 
   .register19-go-vert {
