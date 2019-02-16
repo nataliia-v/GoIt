@@ -3267,6 +3267,215 @@ template {
   box-sizing: border-box;
 }
 
+.bonusesMainContainer {
+  min-width: 480px;
+  margin: 0 auto;
+  padding: 40px 18px 45px;
+}
+
+.bonusesMainContainer .TitleContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner {
+  margin: 0 auto 60px;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses {
+  margin: 0 auto 18px;
+  font-family: "Acrom";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses .blackBG_txt {
+  background-color: black;
+  color: white;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+}
+
+.bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses {
+  padding: 0 20px 0 60px;
+  position: relative;
+  font-size: 14px;
+  font-family: "Acrom";
+  line-height: 20px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 28px;
+  padding: 0 0 0 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 5px 0 10px 0 white;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .proffesionCard_pdf::before {
+  content: '01.';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -8px;
+  font-size: 26px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .translatorTo_pdf::before {
+  content: '02.';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -8px;
+  font-size: 26px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #16ebfe;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .topTitle_PDF {
+  margin: 0 auto 10px;
+  text-transform: uppercase;
+  font-family: "Acrom";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF {
+  font-family: "Acrom";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF .blackBG_txt {
+  background-color: black;
+  color: white;
+}
+
+.bonusesMainContainer .formContainer {
+  width: 372px;
+  height: 347px;
+  margin: 0 auto;
+  padding: 65px;
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow: 0px 10px 20px 0px #cbcbcb;
+}
+
+.bonusesMainContainer .formContainer .inputTitle {
+  color: #bfbfbf;
+  font-size: 8px;
+  font-family: "Acrom";
+}
+
+.bonusesMainContainer .formContainer .inputTitle:focus + .inputYourData {
+  color: #ff6b08;
+}
+
+.bonusesMainContainer .formContainer .inputYourData {
+  border: none;
+  border-bottom: 1px solid #bfbfbf;
+  height: 30px;
+  font-size: 9px;
+  color: black;
+  font-family: "Acrom";
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.bonusesMainContainer .formContainer .inputYourData[type=email] {
+  margin: 0 0 35px 0;
+}
+
+.bonusesMainContainer .formContainer .inputYourData:focus {
+  border-bottom: 1px solid #ff6b08;
+  outline: none;
+}
+
+.bonusesMainContainer .formContainer .inputYourData:focus + .inputTitle {
+  color: #ff6b08;
+}
+
+.bonusesMainContainer .formContainer .inputYourData:focus::-webkit-input-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.8s ease;
+}
+
+.bonusesMainContainer .formContainer .inputYourData:focus::-ms-input-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.8s ease;
+}
+
+.bonusesMainContainer .formContainer .inputYourData:focus::placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.8s ease;
+}
+
+.bonusesMainContainer .formContainer .inputYourData::-webkit-input-placeholder {
+  color: black;
+  font-family: "Acrom";
+  font-weight: bold;
+}
+
+.bonusesMainContainer .formContainer .inputYourData::-ms-input-placeholder {
+  color: black;
+  font-family: "Acrom";
+  font-weight: bold;
+}
+
+.bonusesMainContainer .formContainer .inputYourData::placeholder {
+  color: black;
+  font-family: "Acrom";
+  font-weight: bold;
+}
+
+.bonusesMainContainer .formContainer .buttonContainer {
+  width: 174px;
+  height: 34px;
+}
+
+.bonusesMainContainer .formContainer .buttonContainer .formBTNgetVideo {
+  width: 174px;
+  height: 34px;
+  background-color: #ff6b08;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: "Acrom";
+}
+
+.bonusesMainContainer .formContainer .buttonContainer .formBTNgetVideo:hover {
+  background-color: #17ecff;
+}
+
+.bonusesMainContainer .formContainer .buttonContainer .formBTNgetVideo:focus {
+  background-color: #06a4b2;
+  border: none;
+  outline: none;
+}
+
 @media (min-width: 768px) {
   .header {
     background-image: url(../images/block-1/bg-768.png);
@@ -4830,6 +5039,69 @@ template {
     padding: 45px 25px;
     margin-top: 25px;
   }
+
+  .bonusesMainContainer {
+    max-width: 768px;
+    display: flex;
+    padding: 57px 65px 57px;
+  }
+
+  .bonusesMainContainer .TitleContainer {
+    width: 54%;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner {
+    margin: 0 auto 38px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses {
+    font-size: 27px;
+    margin: 0 auto 27px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
+    width: 30px;
+    height: 3px;
+    left: 0;
+    top: 6px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses {
+    font-size: 9px;
+    padding: 0 140px 0 48px;
+    line-height: 13px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer {
+    padding: 0 130px 0 38px;
+    margin: 0 auto 0;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .proffesionCard_pdf::before {
+    font-size: 17px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .translatorTo_pdf::before {
+    font-size: 17px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .topTitle_PDF {
+    font-size: 9px;
+    margin: 0 auto 12px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF::before {
+    height: 8px;
+    width: 8px;
+    top: 20px;
+    left: 12px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF {
+    font-size: 8px;
+    line-height: 12px;
+    margin: 0 auto 21px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -5817,6 +6089,78 @@ template {
 
   .imp_price {
     padding-top: 28px;
+  }
+
+  .bonusesMainContainer {
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding: 63px 244px 63px;
+  }
+
+  .bonusesMainContainer .TitleContainer {
+    width: 50%;
+    margin: 0;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner {
+    margin: 0 auto 45px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .topTitle_takeBonuses {
+    font-size: 30px;
+    margin: 0 auto 26px;
+    line-height: 41px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
+    width: 30px;
+    height: 3px;
+    left: 0;
+    top: 5px;
+  }
+
+  .bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses {
+    font-size: 10px;
+    padding: 0 160px 0 54px;
+    line-height: 13px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer {
+    padding: 0 130px 0 38px;
+    margin: 0 auto;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .proffesionCard_pdf::before {
+    font-size: 17px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .translatorTo_pdf::before {
+    font-size: 17px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .topTitle_PDF {
+    font-size: 10px;
+    margin: 0 auto 14px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF::before {
+    height: 8px;
+    width: 8px;
+    top: 20px;
+    left: 12px;
+  }
+
+  .bonusesMainContainer .TitleContainer .secondTitleContainer .bottomTitle_PDF {
+    font-size: 9px;
+    line-height: 12px;
+    margin: 0 auto 24px;
+  }
+
+  .bonusesMainContainer .formContainer {
+    width: 50%;
+    margin: 0;
+    padding: 62px;
   }
 }
 
