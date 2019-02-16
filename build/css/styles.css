@@ -2878,7 +2878,8 @@ template {
 
 .proffesion {
   margin: auto;
-  padding: 36px 0 31px;
+  padding: 36px 18px 31px;
+  max-width: 480px;
 }
 
 .proffesion__all {
@@ -2923,7 +2924,7 @@ template {
 }
 
 .all__pic {
-  width: 94%;
+  width: 100%;
   margin-bottom: 39px;
   margin: auto;
 }
@@ -4503,8 +4504,8 @@ template {
   }
 
   .proffesion {
-    width: 80%;
-    padding: 55px 0 37px 0;
+    padding: 55px 65px 37px;
+    max-width: 768px;
   }
 
   .proffesion__all {
@@ -5666,8 +5667,8 @@ template {
   }
 
   .proffesion {
-    width: 56%;
-    padding: 62px 0 62px 0;
+    padding: 62px 244px 62px;
+    max-width: 1200px;
   }
 
   .hended__proff {
