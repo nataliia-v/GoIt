@@ -2984,8 +2984,8 @@ template {
 }
 
 .forRec_wrapper {
-  padding: 19px 0 32px;
-  width: 70%;
+  padding: 19px 18px 32px;
+  max-width: 480px;
   margin: auto;
 }
 
@@ -4613,7 +4613,8 @@ template {
   .forRec_wrapper {
     margin: auto;
     display: flex;
-    width: 80%;
+    max-width: 768px;
+    padding: 55px 65px;
   }
 
   .forRec_picTablet {
@@ -5728,7 +5729,8 @@ template {
   .forRec_wrapper {
     margin: auto;
     display: flex;
-    width: 60%;
+    max-width: 1200px;
+    padding: 60px 244px;
   }
 
   .forRec_picTablet {
