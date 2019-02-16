@@ -5,9 +5,9 @@
 }
 
 .FiveSectionLook {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 15px 0 50px 0;
+    max-width: 480px;
+    margin: auto;
+    padding: 15px 18px 50px;
 }
 
 .mainTextContainer {
@@ -198,11 +198,11 @@
 @media (min-width: 768px) {
 
     .FiveSectionLook {
-        min-width: 50%;
+        min-width: 768px;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 39px 0 39px 0;
+        padding: 39px 65 39px ;
     }
 
     .textContainer {
@@ -253,14 +253,14 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
 
     .FiveSectionLook {
-        width: 80%;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 55px 0;
+        padding: 55px 244px 55px;
+        max-width: 1200px;
     }
 
     .textContainer {
@@ -328,73 +328,73 @@
     }
 }
 
-@media (min-width: 1440px) {
+// @media (min-width: 1440px) {
 
-    .FiveSectionLook {
-        width: 80%;
-        display: flex;
-        justify-content: space-around;
-        margin: 0 auto;
-        padding: 55px 0 55px 0;
-    }
+//     .FiveSectionLook {
+//         max-width: 1200px;
+//         display: flex;
+//         justify-content: space-around;
+//         margin: 0 auto;
+//         padding: 55px 244px 55px;
+//     }
 
-    .textContainer {
-        max-width: 50%;
-    }
+//     .textContainer {
+//         max-width: 50%;
+//     }
 
-    .mainTextContainer {
-        max-width: 50%;
-        margin: 0 auto 40px;
-    }
+//     .mainTextContainer {
+//         max-width: 50%;
+//         margin: 0 auto 40px;
+//     }
 
-    .mainText {
-        font-size: 30px;
-        margin: 0;
+//     .mainText {
+//         font-size: 30px;
+//         margin: 0;
 
-    }
+//     }
 
-    .secondTextContainer {
-        max-width: 40%;
-        margin: 0 auto 0 160px;
-        font-size: 18px;
+//     .secondTextContainer {
+//         max-width: 40%;
+//         margin: 0 auto 0 160px;
+//         font-size: 18px;
 
-    }
+//     }
 
-    .secondText {
-        font-size: 16px;
-    }
+//     .secondText {
+//         font-size: 16px;
+//     }
 
-    .SliderPicture {
-        width: 75px;
-        height: 75px;
-    }
+//     .SliderPicture {
+//         width: 75px;
+//         height: 75px;
+//     }
 
-    .pictureTitle {
-        font-size: 12px;
-    }
+//     .pictureTitle {
+//         font-size: 12px;
+//     }
 
-    .titleAbout {
-        font-size: 10px;
-    }
+//     .titleAbout {
+//         font-size: 10px;
+//     }
 
-    .slider {
-        max-width: 60%;
-        height: 350px;
-    }
+//     .slider {
+//         max-width: 60%;
+//         height: 350px;
+//     }
 
-    .titleAbout {
-        line-height: 15px;
-        font-size: 12px;
-        height: 270px;
-    }
+//     .titleAbout {
+//         line-height: 15px;
+//         font-size: 12px;
+//         height: 270px;
+//     }
 
-    .secondTextContainer::before {
-        width: 35px;
-        height: 4px;
-        margin-left: -15px;
-    }
+//     .secondTextContainer::before {
+//         width: 35px;
+//         height: 4px;
+//         margin-left: -15px;
+//     }
 
-    .sliderLinks {
-        font-size: 12px;
-    }
-}
+//     .sliderLinks {
+//         font-size: 12px;
+//     }
+// }

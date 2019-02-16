@@ -4,14 +4,12 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 480px;
-}
 
 .PossybleToStudy {
   background-color: #ffffff;
-  padding: 36px 0 58px;
+  padding: 36px 18px 58px;
   margin: auto;
+  max-width: 480px;
 }
 
 .PossybleToStudy__conteiner {
@@ -98,7 +96,7 @@
 }
 
 .PossybleToStudy__Img {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 62px;
 }
@@ -160,13 +158,10 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper {
-    max-width: 1200px;
-  }
 
   .PossybleToStudy {
-    width: 85%;
-    padding: 46px 0 53px;
+    max-width: 768px;
+    padding: 46px 65px 53px;
   }
 
   .PossybleToStudy__conteiner {
@@ -322,17 +317,15 @@
 }
 
 @media (min-width: 1200px) {
-  .wrapper {
-    max-width: 1440px;
-  }
 
   .PossybleToStudy {
-    width: 80%;
+    max-width: 1200px;
+    padding: 46px 244px 53px;
   }
 
   .PossybleToStudy__title {
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
 
   .PossybleToStudy__title2 {

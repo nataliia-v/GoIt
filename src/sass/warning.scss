@@ -1,7 +1,7 @@
 .warning{
-    width: 80%;
     padding: 9px 0 47px;
     margin: auto;
+    max-width: 480px;
 }
 .warning-box1{
     display: none;
@@ -67,7 +67,7 @@ font-family: "Acrom", sans-serif;
 }
 .warning-list-text{
     font-family: "Acrom", sans-serif;
-    font-weight: 100;
+    font-weight: bold;
     font-style: normal;
     text-transform: none;
     font-size: 13.05px;
@@ -78,10 +78,10 @@ font-family: "Acrom", sans-serif;
 }
 @media(min-width:768px){
             .warning{
-            width: 80%;
-            padding: 39px 0 54px;
+            padding: 39px 65px 54px;
             margin: auto;
             display: flex;
+            max-width: 768px;
             justify-content: space-between;
         }
         .warning-box1{
@@ -162,6 +162,11 @@ font-family: "Acrom", sans-serif;
     }
 }
 @media(min-width:1200px){
+    .warning {
+        max-width: 1200px;
+        padding: 62px 244px 60px;
+    }
+
     .warning-box2{
         width: 50%;
         padding-top: 50px;
