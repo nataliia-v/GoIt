@@ -1187,7 +1187,7 @@ template {
 .section-expert {
   margin: auto;
   text-align: center;
-  width: 80%;
+  width: 93%;
   font-family: "Acrom" , sans-serif;
   padding: 25px 0 40px;
 }
@@ -1198,7 +1198,7 @@ template {
 }
 
 .man-with-tea {
-  margin-bottom: 34px;
+  margin-bottom: 32px;
   width: 100%;
 }
 
@@ -1208,16 +1208,23 @@ template {
 
 .section-name {
   text-align: left;
-  width: 80%;
-  font-size: 18px;
+  width: 60%;
+  font-size: 15px;
   color: white;
+  letter-spacing: 2.2px;
   font-weight: normal;
   text-transform: uppercase;
-  margin: auto auto 10px;
+  margin: auto auto 5px;
+}
+
+.list-section-expert {
+  margin-left: 18px;
+  word-spacing: 2px;
 }
 
 .wrapper-future-1 {
-  margin-bottom: 31px;
+  margin-bottom: 30px;
+  padding-left: 10px;
 }
 
 .section-name-end {
@@ -1228,7 +1235,8 @@ template {
   font-size: 13px;
   color: black;
   text-align: left;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
 }
 
 .section-text {
@@ -1236,8 +1244,9 @@ template {
   color: #3f4144;
   text-align: left;
   font-weight: 100;
-  line-height: normal;
-  margin-bottom: 52px;
+  line-height: 18px;
+  margin-bottom: 49px;
+  word-spacing: 2px;
 }
 
 .blue-color {
@@ -1245,6 +1254,7 @@ template {
   color: black;
   margin-bottom: 20px;
   font-weight: bold;
+  line-height: 20px;
 }
 
 .line-with-text {
@@ -1252,7 +1262,11 @@ template {
   display: flex;
   justify-content: center;
   width: 70%;
-  margin-bottom: 43px;
+  margin-bottom: 44px;
+  padding-top: 13px;
+  padding-left: 12px;
+  line-height: 18px;
+  word-spacing: 4px;
 }
 
 .line-with-text__wrapper {
@@ -1283,15 +1297,17 @@ template {
 
 .item-list__name {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   font-size: 13px;
 }
 
 .item-list__text {
   color: #3f4144;
-  margin-bottom: 21px;
+  margin-bottom: 22px;
   font-size: 13px;
   font-weight: 100;
+  word-spacing: 3px;
+  line-height: 17px;
 }
 
 .none-margin {
@@ -1434,16 +1450,16 @@ template {
 }
 
 .register19-section {
-  width: 80%;
-  padding: 0;
+  max-width: 480px;
   margin: auto;
-  padding: 16px 0 42px;
+  padding: 15px 18px 42px 18px;
 }
 
 .register19 {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .register19-box1-heds {
@@ -1548,7 +1564,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 50px;
 }
 
 .register19-box2-cont2_text {
@@ -1558,7 +1573,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 45px;
 }
 
 .register19-box2-cont3_text {
@@ -1568,7 +1582,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 30px;
 }
 
 .another-text-box3 {
@@ -2219,8 +2232,9 @@ template {
 .sec9 {
   background-color: white;
   text-align: center;
-  padding: 17px 0 33px;
-  max-width: 712px;
+  padding: 15px 18px 33px 18px;
+  max-width: 480px;
+  margin: auto;
 }
 
 .first-sec9 {
@@ -2340,7 +2354,6 @@ template {
   color: black;
   text-align: left;
   margin-bottom: 17px;
-  width: 220px;
 }
 
 .sec9-h4sec-h4 {
@@ -2349,7 +2362,6 @@ template {
   line-height: 19.5px;
   color: #3f4144;
   text-align: left;
-  width: 230px;
 }
 
 .main-sec9h5 {
@@ -2358,7 +2370,7 @@ template {
   line-height: 19.5px;
   color: #ff6b08;
   text-align: left;
-  width: 276px;
+  width: 352px;
   margin: auto;
   position: relative;
 }
@@ -3116,11 +3128,11 @@ template {
 }
 
 .imp_wrapper {
-  padding: 18px 0 66px;
+  padding: 55px 18px 66px 18px;
   font-family: "Acrom";
   line-height: 19px;
   font-size: 14px;
-  width: 80%;
+  max-width: 480px;
   margin: auto;
 }
 
@@ -3129,7 +3141,6 @@ template {
   padding: 65px 45px;
   color: white;
   background-color: #052139;
-  margin-bottom: 40px;
 }
 
 .imp_flex {
@@ -3201,7 +3212,6 @@ template {
 
 .imp_title {
   font-weight: 18px;
-  padding-top: 25px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -4112,10 +4122,13 @@ html {
   }
 
   .register19-section {
-    padding: 57px 0 100px;
+    max-width: 768px;
+    padding: 55px 65px 112px 65px;
   }
 
   .register19 {
+    margin: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -4599,17 +4612,17 @@ html {
 
   .sec9 {
     display: flex;
-    width: 90%;
+    justify-content: space-around;
     margin: auto;
     align-content: flex-start;
-    padding: 40px 0 54px;
+    padding: 46px 65px 54px 65px;
+    max-width: 768px;
   }
 
   .first-sec9 {
     margin: 0;
     width: 50%;
     text-align: left;
-    margin-left: 10%;
   }
 
   .header-sec9 {
@@ -4658,6 +4671,7 @@ html {
   }
 
   .sec9-h3 {
+    font-weight: 400;
     font-family: "Acrom", sans-serif;
     font-size: 9px;
     line-height: 14px;
@@ -5153,7 +5167,8 @@ html {
   }
 
   .imp_wrapper {
-    padding: 57px 0 56px;
+    max-width: 768px;
+    padding: 71px 65px 69px 65px;
   }
 
   .imp_mobile {
@@ -5258,7 +5273,7 @@ html {
 
   .imp_blueBox {
     padding: 45px 25px;
-    margin-top: 25px;
+    margin-top: 5px;
   }
 
   .curse {
@@ -5866,6 +5881,7 @@ html {
     text-align: left;
     margin-bottom: 0;
     font-weight: 100;
+    line-height: 17.2px;
   }
 
   .test-2 {
@@ -5960,6 +5976,11 @@ html {
     font-weight: 400;
   }
 
+  .register19-section {
+    max-width: 1200px;
+    padding: 62px 244px 125px 244px;
+  }
+
   .register19-go-vert {
     font-size: 163px;
     top: 0;
@@ -6018,19 +6039,16 @@ html {
   .register19-box2-cont1_text {
     font-size: 10px;
     margin-bottom: 18px;
-    padding-right: 80px;
   }
 
   .register19-box2-cont2_text {
     font-size: 9px;
     margin-bottom: 30px;
-    padding-right: 175px;
   }
 
   .register19-box2-cont3_text {
     font-size: 8.75px;
     line-height: 1.5;
-    padding-right: 150px;
   }
 
   .another-text-box3 {
@@ -6269,6 +6287,11 @@ html {
     height: auto;
   }
 
+  .sec9 {
+    padding: 63px 244px 61px 244px;
+    max-width: 1200px;
+  }
+
   .header-sec9 {
     font-size: 30px;
     line-height: 37px;
@@ -6504,12 +6527,13 @@ html {
   }
 
   .imp_wrapper {
-    max-width: 1440px;
+    max-width: 1200px;
+    padding: 78px 244px 77px 244px;
   }
 
   .imp_blueBox {
     padding: 55px 25px;
-    margin-top: 35px;
+    margin-top: 5px;
   }
 
   .imp_whiteLine {
@@ -6521,10 +6545,6 @@ html {
   .imp_aqua {
     font-size: 14px;
     width: 68%;
-  }
-
-  .imp_wrapper {
-    width: 60%;
   }
 
   .imp_firstPrice {
