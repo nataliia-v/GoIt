@@ -14,9 +14,9 @@
 //   padding: 56px 0 39px;
 // }
 
-.wrapper {
+.wrapperMoney {
   position: relative;
-  width: 80%;
+  width: 92%;
   margin: auto;
 }
 
@@ -30,62 +30,76 @@
 }
 
 .topText {
-  font-size: 18px;
+  width: 100%;
+  font-size: 14px;
   color: rgba(0, 0, 0, 255);
   text-align: left;
-  margin-bottom: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 20px;
 }
 
 .textRight::before {
 
   content: "";
   display: block;
-  width: 30px;
+  width: 25px;
   height: 3px;
   background-color: black;
   position: absolute;
-  top: 10px;
-  left: 0;
+  top: 8px;
+  left: 20px;
 
 
 }
 
 .textRight {
-  font-size: 20pt;
-  font-weight: 900;
+  margin: auto;
+  font-size: 10pt;
+  font-weight: 400;
   position: relative;
   padding-left: 60px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .topLeft {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 
 }
 
 
 .topRightH2 {
   font-family: 'Acrom'sans-serif;
-  font-size: 26pt;
+  font-size: 15pt;
+  font-weight: 400;
   text-transform: uppercase;
+  margin-left: 23px;
 }
 
 .topRightH22 {
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 26pt;
+  font-size: 15pt;
+  display: inline;
+  line-height: 35px;
+  margin-left: 22px;
 
 }
 
 .topRight {
-  margin: auto;
+margin-left: 55px;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 6px;
 }
 
 .bottomTwo {
-  padding: 20px 30px 0;
-  width: 100%;
+  // padding: 20px 30px 0;
+  margin: auto;
 
 }
 
@@ -96,14 +110,15 @@
 }
 
 
-.boxTwo {
-  margin-bottom: 30px;
-}
+// .boxTwo {
+//   margin-bottom: 10px;
+// }
 
 .kybik {
   background-color: black;
-  width: 15px;
-  height: 15px;
+  width: 8px;
+  height: 8px;
+  margin-top: 5px;
   
 }
 .topBox {
@@ -119,21 +134,28 @@
 .textBox {
   width: 95%;
   margin: auto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+
 }
 
 .ifYou {
-  font-size: 25px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 30px 0;
+  margin: 30px 0 20px;
 }
 
 .orangeText {
-margin: auto;
-  width: 70%;
-font-size: 14pt;
+margin: 35px auto 0;
+  width: 68%;
+font-size: 10pt;
+line-height: 20px;
 text-align: center;
+font-weight: 600;
 color: #ff905c;
+text-align: center;
 
 }
 
@@ -172,7 +194,7 @@ color: #ff905c;
 {
   section {
     max-width: 968px;
-    
+    padding: 94px 0 38px;
   }
 
   .topLeft {
@@ -181,6 +203,9 @@ color: #ff905c;
 
   .topLeft768 {
     display: block;
+    width: 260px;
+    height: 240px;
+    margin: auto;
   }
 
 
@@ -190,7 +215,6 @@ color: #ff905c;
  }
 .top {
   width: 50%;
-  padding: 0 60px;
 }
 
 .centerMakeMoney {
@@ -198,22 +222,81 @@ color: #ff905c;
   width: 100%;
 }
 
+.topText {
+  width: 68%;
+  font-size: 11px;
+  margin-bottom: 26px;
+  line-height: 13px;
+  margin-left: 8px;
+}
+
+.topRight {
+  margin: 0;
+  margin-left: 10px;
+width: 68%;
+}
+
+.textRight {
+  width: 80%;
+    font-size: 9pt;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 13px;
+    margin-left:-20px;
+}
 .boxTwo {
-  width: 25%;
+  width: 24%;
 }
 
 .orangeText {
   
-  margin: 0;
-  width: 50%;
+  width: 31%;
+  line-height: 14px;
+  font-size: 10px;
   text-align: left;
-  margin-left: auto;
+  margin: 0 0 0 auto;
+}
   
-  }
+  
   
   .kybik {
     display: none;
   }
+
+
+  .topRightH2 {
+    font-size: 20pt;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .topRightH22 {
+    font-size: 20pt;
+    line-height: 35px;
+    margin: 0;
+    
+  
+  }
+  
+.ifYou {
+  font-size: 17px;
+  margin: 65px 32px 14px;
+}
+
+.textBox {
+  margin: auto;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+}
+
+
+
+.blokiTwo {margin-left: 21px;
+}
+
+
 
 }
 
@@ -221,53 +304,153 @@ color: #ff905c;
 @media (min-width: 1200px)
 {
 
-  section {
+  section 
+  {
     max-width: 1440px;
     
   }
 
-  .bottoTwo {
-    display: flex;
-    margin-top: 60px;
-    width: 100%;
 
-  }
+  .topLeft768
+
+  {
+    width: 287px;
+    height: 269px;
+    margin-left: 200px;
+}
+
+
+
+.topText {
+width: 45%;
+font-size: 11px;
+margin-bottom: 26px;
+line-height: 15px;
+margin-left: 8px;
+}
+
+.topRight {
+margin: 0;
+margin-left: 10px;
+width: 43%;
+}
+
+.textRight {
+  width: 80%;
+  font-size: 9pt;
+  line-height: 22px;
+  font-weight: 600;
+  margin: 3px 0 12px -13px;
+}
+
+
+.boxTwo {
+width: 32%;
+margin-bottom: 10px;
+}
+
+.orangeText {
+
+width: 31%;
+line-height: 14px;
+font-size: 10px;
+text-align: left;
+margin: 0 0 0 auto;
+}
+
+
+
+.kybik {
+  display: none;
+}
+
+
+.topRightH2 {
+  font-size: 22pt;
+  font-weight: 400;
+  margin: 0;
+}
+
+.topRightH22 {
+  font-size: 22pt;
+  line-height: 39px;
+  margin: 0;
+  
+
+}
 
 .ifYou {
-  width: 30%;
-  margin: 0;
+width: 20%;
+font-size: 18px;
+text-align: right;
+margin: 0;
+}
+
+.textBox {
+margin: auto;
+font-size: 10px;
+font-weight: 300;
+line-height: 14px;
+}
+
+
+
+.blokiTwo {margin-left: 21px;
+}
+
+.centerMakeMoney {
+  margin-bottom: 72px;
+}
+.bottomTwo {
+  display: flex;
+  width: 79%;
+  margin: auto;
+  justify-content: space-between;
 }
 
 
 .blokiTwo {
-  width: 70%;
-}
-
-.boxTwo {
-  width: 33%;
+  width: 71%;
 }
 
 
-.backYou {
-  top: 400px;
-  left: 50px;
-  width: 70px;
-   position: absolute;
- }
 
 
- .orangeText2 {
-  
-  width: 33%;
-  text-align: left;
-  display: block;
+.orangeText {
+  margin: 35px auto 0;
+    width: 68%;
+  font-size: 10pt;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #ff905c;
+  text-align: center;
+  display: none;
+
   
   }
-
-  .orangeText {
-    display: none;
-    
-  }
   
+  
+  
+  
+  .orangeText2 {
+     
+    margin: 13px auto 0;
+    width:35%;
+    font-size: 9pt;
+    line-height: 11px;
+    font-weight: 600;
+    color: #ff905c;
+    display: block;
+    }
+
+    .backYou {
+      top: 200px;
+      left: 200px;
+       position: absolute;
+       width: 70px;
+       height: auto;
+     }
+
 
 }
