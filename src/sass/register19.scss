@@ -2,7 +2,7 @@
   width: 80%;
   padding: 0;
   margin: auto;
-  padding-top: 40px;
+  padding: 16px 0 42px;
 }
 
 .register19 {
@@ -76,6 +76,13 @@
   background-color: #ff6b08;
   padding: 16px 40px;
 }
+
+.button-register-19:focus{
+  background-color: #15bbca;
+ }
+ .register19-box1-button:hover .button-register-19{
+  background-color: #17ecff;
+ }
 
 .register19-box1-go {
   position: relative;
@@ -157,6 +164,9 @@
 }
 
 @media(min-width:768px) {
+  .register19-section {
+    padding: 57px 0 100px;
+  }
   .register19 {
     display: -webkit-box;
     display: -ms-flexbox;
