@@ -6,8 +6,10 @@
 
 // main section
 .curse {
-    width: 90%;
+    padding: 0 18px;
+    // width: 90%;
     margin: auto;
+    max-width: 480px;
 }
 
 // header block
@@ -322,7 +324,9 @@
     // main block
 
     .curse {
-        margin-top: 55px;
+        padding: 55px 65px 0;
+        max-width: 768px;
+
     }
 
     // header block
@@ -339,7 +343,7 @@
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .curse__hederBlock__heder {
@@ -366,7 +370,7 @@
     .line {
         border: 1px solid black;
         background-color: black;
-        width: 29px;
+        width: 80px;
         height: 4px;
         margin-right: 14px;
         margin-top: -20px;
@@ -397,7 +401,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
+        width: 100%;
     }
 
     .curse__explanationBlock__reverse {
@@ -462,7 +466,7 @@
         flex-direction: row;
         align-content: flex-start;
         margin-top: 0;
-        width: 90%;
+        width: 100%;
         margin: auto;
         padding-top: 54px;
     }
@@ -551,7 +555,11 @@
     }
 
 }
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
+    .curse {
+        max-width: 1200px;
+        padding: 33px 244px 60px;
+    }
     .line {
         border: 1px solid black;
         background-color: black;
