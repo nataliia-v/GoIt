@@ -410,9 +410,9 @@ template {
 }
 
 .bonusesMainContainer {
-  width: 90%;
+  min-width: 480;
   margin: 0 auto;
-  padding: 40px 0 45px;
+  padding: 40px 18px 45px;
 }
 
 .bonusesMainContainer .TitleContainer {
@@ -620,9 +620,9 @@ template {
 
 @media (min-width: 768px) {
   .bonusesMainContainer {
-    width: 90%;
+    max-width: 768px;
     display: flex;
-    padding: 57px 0 57px;
+    padding: 57px 65px 57px;
   }
 
   .bonusesMainContainer .TitleContainer {
@@ -653,6 +653,7 @@ template {
 
   .bonusesMainContainer .TitleContainer .secondTitleContainer {
     padding: 0 130px 0 38px;
+    margin: 0 auto 0;
   }
 
   .bonusesMainContainer .TitleContainer .secondTitleContainer .proffesionCard_pdf::before {
@@ -684,14 +685,14 @@ template {
 
 @media (min-width: 1200px) {
   .bonusesMainContainer {
-    width: 90%;
+    min-width: 1200px;
     display: flex;
     justify-content: center;
-    padding: 63px 0 63px;
+    padding: 63px 244px 63px;
   }
 
   .bonusesMainContainer .TitleContainer {
-    width: 35%;
+    width: 50%;
     margin: 0;
   }
 
@@ -750,7 +751,7 @@ template {
   }
 
   .bonusesMainContainer .formContainer {
-    width: 35%;
+    width: 50%;
     margin: 0;
     padding: 62px;
   }
