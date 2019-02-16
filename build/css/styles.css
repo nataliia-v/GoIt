@@ -924,9 +924,9 @@ template {
 }
 
 .manyPeople {
-  width: 90%;
   margin: auto;
-  padding: 24px 0 49px;
+  padding: 24px 18px 49px;
+  max-width: 480px;
 }
 
 .people-top {
@@ -3368,7 +3368,8 @@ template {
   }
 
   .manyPeople {
-    padding: 41px 0 53 px;
+    padding: 41px 65px 53px;
+    max-width: 768px;
   }
 
   .people-top {
@@ -4915,7 +4916,8 @@ template {
   }
 
   .manyPeople {
-    width: 60%;
+    padding: 62px 244px 59px;
+    max-width: 1200px;
   }
 
   .people-top__chapter {
