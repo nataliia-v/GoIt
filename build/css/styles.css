@@ -1203,9 +1203,9 @@ template {
 .section-expert {
   margin: auto;
   text-align: center;
-  width: 80%;
   font-family: "Acrom" , sans-serif;
-  padding: 25px 0 40px;
+  padding: 25px 18px 40px;
+  max-width: 480px;
 }
 
 .wrapper-image {
@@ -1251,7 +1251,7 @@ template {
   font-size: 13px;
   color: #3f4144;
   text-align: left;
-  font-weight: 100;
+  font-weight: bold;
   line-height: normal;
   margin-bottom: 52px;
 }
@@ -1260,7 +1260,7 @@ template {
   background-color: aqua;
   color: black;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .line-with-text {
@@ -1286,7 +1286,7 @@ template {
 
 .line-with-text__text {
   font-size: 13px;
-  font-weight: 100;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -1307,7 +1307,7 @@ template {
   color: #3f4144;
   margin-bottom: 21px;
   font-size: 13px;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 .none-margin {
@@ -1616,9 +1616,9 @@ template {
 }
 
 .warning {
-  width: 80%;
   padding: 9px 0 47px;
   margin: auto;
+  max-width: 480px;
 }
 
 .warning-box1 {
@@ -1689,7 +1689,7 @@ template {
 
 .warning-list-text {
   font-family: "Acrom", sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-style: normal;
   text-transform: none;
   font-size: 13.05px;
@@ -1903,9 +1903,9 @@ template {
 }
 
 .FiveSectionLook {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 15px 0 50px 0;
+  max-width: 480px;
+  margin: auto;
+  padding: 15px 18px 50px;
 }
 
 .mainTextContainer {
@@ -2089,9 +2089,14 @@ template {
   box-sizing: border-box;
 }
 
-.wrapper {
+.make-money {
+  margin: auto;
+  padding: 56px 18px 42px;
+  max-width: 480px;
+}
+
+.wrapperMoney {
   position: relative;
-  width: 80%;
   margin: auto;
 }
 
@@ -2102,7 +2107,7 @@ template {
 }
 
 .topText {
-  font-size: 18px;
+  font-size: 13.5px;
   color: black;
   text-align: left;
   margin-bottom: 30px;
@@ -2120,12 +2125,13 @@ template {
 }
 
 .textRight {
-  font-size: 20pt;
+  font-size: 15px;
   font-weight: 900;
   position: relative;
   padding-left: 60px;
   text-align: left;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .topLeft {
@@ -2134,7 +2140,7 @@ template {
 
 .topRightH2 {
   font-family: 'Acrom'sans-serif;
-  font-size: 26pt;
+  font-size: 20.5px;
   text-transform: uppercase;
 }
 
@@ -2142,7 +2148,7 @@ template {
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 26pt;
+  font-size: 20.5px;
 }
 
 .topRight {
@@ -2182,10 +2188,12 @@ template {
 .textBox {
   width: 95%;
   margin: auto;
+  font-size: 13.5px;
+  font-weight: bolder;
 }
 
 .ifYou {
-  font-size: 25px;
+  font-size: 13.5px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 30px 0;
@@ -2194,9 +2202,10 @@ template {
 .orangeText {
   margin: auto;
   width: 70%;
-  font-size: 14pt;
+  font-size: 13.5px;
   text-align: center;
   color: #ff905c;
+  font-weight: bold;
 }
 
 .orangeText2 {
@@ -2206,14 +2215,14 @@ template {
 }
 
 .backYou {
-  top: 300px;
+  top: 100px;
   left: 50px;
   position: absolute;
 }
 
 .topLeft768 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(../images/block-2/Image-block.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -3016,28 +3025,28 @@ template {
   box-sizing: border-box;
 }
 
-.wrapper {
+.wrapperData {
   max-width: 480px;
   margin: auto;
 }
 
 .data {
-  width: 80%;
-  padding: 39px 0 50px;
+  padding: 39px 18px 50px;
   overflow: hidden;
+  position: relative;
 }
 
 .data__item {
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Acrom";
   font-weight: 400;
 }
 
 .data__text {
   font-family: "Acrom";
-  font-size: 17px;
+  font-size: 13.5px;
   font-weight: bolder;
   position: relative;
 }
@@ -3068,7 +3077,7 @@ template {
   margin: auto;
   list-style: none;
   display: flex;
-  font-size: 17px;
+  font-size: 13.5px;
 }
 
 .data__icon {
@@ -3088,14 +3097,14 @@ template {
 .data__letter {
   font-family: "Acrom";
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   text-transform: uppercase;
 }
 
 .data__list__text1 {
   font-family: "Acrom";
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 23px;
   margin-bottom: 10px;
 }
 
@@ -3827,10 +3836,10 @@ template {
   }
 
   .warning {
-    width: 80%;
-    padding: 39px 0 54px;
+    padding: 39px 65px 54px;
     margin: auto;
     display: flex;
+    max-width: 768px;
     justify-content: space-between;
   }
 
@@ -4044,11 +4053,11 @@ template {
   }
 
   .FiveSectionLook {
-    min-width: 50%;
+    min-width: 768px;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 39px 0 39px 0;
+    padding: 39px 65 39px;
   }
 
   .textContainer {
@@ -4096,8 +4105,33 @@ template {
     height: 240px;
   }
 
-  section {
-    max-width: 968px;
+  .make-money {
+    max-width: 768px;
+    padding: 111px 65px 37px;
+  }
+
+  .textBox {
+    font-size: 9px;
+  }
+
+  .ifYou {
+    font-size: 17px;
+  }
+
+  .topRightH2 {
+    font-size: 27px;
+  }
+
+  .topRight {
+    font-size: 10px;
+  }
+
+  .topRightH22 {
+    font-size: 27px;
+  }
+
+  .topText {
+    font-size: 9px;
   }
 
   .topLeft {
@@ -4127,6 +4161,7 @@ template {
   }
 
   .orangeText {
+    font-size: 10px;
     margin: 0;
     width: 50%;
     text-align: left;
@@ -4604,14 +4639,11 @@ template {
     width: 70px;
   }
 
-  .wrapper {
-    max-width: 1200px;
-    padding: 18px 0 53px;
-  }
-
   .data {
-    width: 80%;
     display: flex;
+    padding: 18px 65px 53px;
+    max-width: 768px;
+    justify-content: space-around;
   }
 
   .data__icon {
@@ -4636,6 +4668,7 @@ template {
     flex-wrap: wrap;
     align-content: flex-start;
     padding-left: 3%;
+    justify-content: space-around;
   }
 
   .data__letter {
@@ -4668,7 +4701,7 @@ template {
     display: block;
     position: absolute;
     top: 113px;
-    right: -43px;
+    right: -37px;
   }
 
   .data__img {
@@ -4812,76 +4845,6 @@ template {
     position: absolute;
     top: -150px;
     left: -210px;
-  }
-
-  .FiveSectionLook {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 55px 0 55px 0;
-  }
-
-  .textContainer {
-    max-width: 40%;
-  }
-
-  .mainTextContainer {
-    max-width: 60%;
-    margin: 0 auto 40px;
-  }
-
-  .mainText {
-    font-size: 27px;
-    margin: 0;
-  }
-
-  .secondTextContainer {
-    max-width: 40%;
-    margin: 0 auto 0 120px;
-    font-size: 16px;
-  }
-
-  .secondText {
-    font-size: 12px;
-  }
-
-  .secondTextContainer::before {
-    width: 35px;
-    height: 4px;
-    margin-left: -15px;
-  }
-
-  .SliderPicture {
-    width: 75px;
-    height: 75px;
-  }
-
-  .pictureTitle {
-    font-size: 9px;
-  }
-
-  .titleAbout {
-    font-size: 8px;
-  }
-
-  .slideContainer {
-    padding: 30px 0 30px;
-  }
-
-  .slider {
-    max-width: 60%;
-    height: 320px;
-  }
-
-  .titleAbout {
-    line-height: 15px;
-    font-size: 12px;
-    height: 230px;
-  }
-
-  .sliderLinks {
-    font-size: 12px;
   }
 }
 
@@ -5081,11 +5044,9 @@ template {
   .section-expert {
     display: flex;
     justify-content: center;
-    padding-top: 62px;
-    margin-bottom: 61px;
-    padding-left: 243px;
-    padding-right: 243px;
+    padding: 63px 244px 62px;
     width: 100%;
+    max-width: 1200px;
   }
 
   .box-1-photo {
@@ -5134,7 +5095,7 @@ template {
     color: #3f4144;
     margin-bottom: 20px;
     font-size: 10px;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   .none-margin {
@@ -5177,7 +5138,7 @@ template {
     color: #3f4144;
     text-align: left;
     margin-bottom: 0;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   .test-2 {
@@ -5350,6 +5311,11 @@ template {
     font-size: 16px;
   }
 
+  .warning {
+    max-width: 1200px;
+    padding: 62px 244px 60px;
+  }
+
   .warning-box2 {
     width: 50%;
     padding-top: 50px;
@@ -5450,8 +5416,79 @@ template {
     width: 50%;
   }
 
-  section {
-    max-width: 1440px;
+  .FiveSectionLook {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 55px 244px 55px;
+    max-width: 1200px;
+  }
+
+  .textContainer {
+    max-width: 40%;
+  }
+
+  .mainTextContainer {
+    max-width: 60%;
+    margin: 0 auto 40px;
+  }
+
+  .mainText {
+    font-size: 27px;
+    margin: 0;
+  }
+
+  .secondTextContainer {
+    max-width: 40%;
+    margin: 0 auto 0 120px;
+    font-size: 16px;
+  }
+
+  .secondText {
+    font-size: 12px;
+  }
+
+  .secondTextContainer::before {
+    width: 35px;
+    height: 4px;
+    margin-left: -15px;
+  }
+
+  .SliderPicture {
+    width: 75px;
+    height: 75px;
+  }
+
+  .pictureTitle {
+    font-size: 9px;
+  }
+
+  .titleAbout {
+    font-size: 8px;
+  }
+
+  .slideContainer {
+    padding: 30px 0 30px;
+  }
+
+  .slider {
+    max-width: 60%;
+    height: 320px;
+  }
+
+  .titleAbout {
+    line-height: 15px;
+    font-size: 12px;
+    height: 230px;
+  }
+
+  .sliderLinks {
+    font-size: 12px;
+  }
+
+  .make-money {
+    max-width: 1200px;
+    padding: 124px 244px 61px;
   }
 
   .bottoTwo {
@@ -5473,8 +5510,12 @@ template {
     width: 33%;
   }
 
+  .orangeText2 {
+    font-size: 10px;
+  }
+
   .backYou {
-    top: 400px;
+    top: 100px;
     left: 50px;
     width: 70px;
     position: absolute;
@@ -5488,6 +5529,30 @@ template {
 
   .orangeText {
     display: none;
+  }
+
+  .textBox {
+    font-size: 10px;
+  }
+
+  .ifYou {
+    font-size: 19px;
+  }
+
+  .topRightH2 {
+    font-size: 30px;
+  }
+
+  .topRight {
+    font-size: 11.5px;
+  }
+
+  .topRightH22 {
+    font-size: 30px;
+  }
+
+  .topText {
+    font-size: 10px;
   }
 
   .header-sec9 {
@@ -5688,7 +5753,9 @@ template {
   }
 
   .data {
-    width: 80%;
+    padding: 61px 244px 72px;
+    max-width: 1200px;
+    margin: auto;
   }
 
   .data__item {
@@ -5696,28 +5763,28 @@ template {
   }
 
   .data__text {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .data__list__text1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .data__letter {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .data__list__text2 {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .data__list__text3 {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .data__pic {
-    top: 192px;
-    right: -10px;
+    top: 160px;
+    right: 100px;
   }
 
   .data__container {
@@ -5757,94 +5824,6 @@ template {
   }
 }
 
-@media (min-width: 1440px) {
-  .FiveSectionLook {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 55px 0 55px 0;
-  }
-
-  .textContainer {
-    max-width: 50%;
-  }
-
-  .mainTextContainer {
-    max-width: 50%;
-    margin: 0 auto 40px;
-  }
-
-  .mainText {
-    font-size: 30px;
-    margin: 0;
-  }
-
-  .secondTextContainer {
-    max-width: 40%;
-    margin: 0 auto 0 160px;
-    font-size: 18px;
-  }
-
-  .secondText {
-    font-size: 16px;
-  }
-
-  .SliderPicture {
-    width: 75px;
-    height: 75px;
-  }
-
-  .pictureTitle {
-    font-size: 12px;
-  }
-
-  .titleAbout {
-    font-size: 10px;
-  }
-
-  .slider {
-    max-width: 60%;
-    height: 350px;
-  }
-
-  .titleAbout {
-    line-height: 15px;
-    font-size: 12px;
-    height: 270px;
-  }
-
-  .secondTextContainer::before {
-    width: 35px;
-    height: 4px;
-    margin-left: -15px;
-  }
-
-  .sliderLinks {
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 766px) {
-  .test {
-    display: none;
-  }
-
-  .box-2-section {
-    text-align: center;
-  }
-
-  .first {
-    width: 100%;
-  }
-
-  .wrapper-name {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 1199px) {
   .wrapper-image {
     width: 100%;
@@ -5867,7 +5846,8 @@ template {
   .section-expert {
     display: flex;
     justify-content: space-between;
-    padding: 54px 0 55px;
+    padding: 54px 65px 55px;
+    max-width: 768px;
   }
 
   .box-1-photo {
@@ -5915,7 +5895,7 @@ template {
     color: #3f4144;
     margin-bottom: 20px;
     font-size: 10px;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   .none-margin {
@@ -5959,7 +5939,7 @@ template {
     color: #3f4144;
     text-align: left;
     margin-bottom: 0;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   .box-2-section {

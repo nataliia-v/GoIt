@@ -14,9 +14,14 @@
 //   padding: 56px 0 39px;
 // }
 
-.wrapper {
+.make-money {
+  margin: auto;
+  padding: 56px 18px 42px;
+  max-width: 480px;
+}
+
+.wrapperMoney {
   position: relative;
-  width: 80%;
   margin: auto;
 }
 
@@ -30,7 +35,7 @@
 }
 
 .topText {
-  font-size: 18px;
+  font-size: 13.5px;
   color: rgba(0, 0, 0, 255);
   text-align: left;
   margin-bottom: 30px;
@@ -51,12 +56,13 @@
 }
 
 .textRight {
-  font-size: 20pt;
+  font-size: 15px;
   font-weight: 900;
   position: relative;
   padding-left: 60px;
   text-align: left;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .topLeft {
@@ -67,7 +73,7 @@
 
 .topRightH2 {
   font-family: 'Acrom'sans-serif;
-  font-size: 26pt;
+  font-size: 20.5px;
   text-transform: uppercase;
 }
 
@@ -75,7 +81,7 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 26pt;
+  font-size: 20.5px;
 
 }
 
@@ -119,10 +125,12 @@
 .textBox {
   width: 95%;
   margin: auto;
+  font-size: 13.5px;
+  font-weight: bolder;
 }
 
 .ifYou {
-  font-size: 25px;
+  font-size: 13.5px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 30px 0;
@@ -131,9 +139,10 @@
 .orangeText {
 margin: auto;
   width: 70%;
-font-size: 14pt;
+font-size: 13.5px;
 text-align: center;
 color: #ff905c;
+font-weight: bold;
 
 }
 
@@ -150,14 +159,14 @@ color: #ff905c;
 
 
 .backYou {
- top: 300px;
+ top: 100px;
  left: 50px;
   position: absolute;
 }
 
 .topLeft768 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(../images/block-2/Image-block.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -170,10 +179,30 @@ color: #ff905c;
 
 @media (min-width: 768px)
 {
-  section {
-    max-width: 968px;
-    
+ .make-money {
+    max-width: 768px;
+    padding: 111px 65px 37px;
   }
+.textBox {
+  font-size: 9px;
+}
+.ifYou {
+font-size: 17px;
+}
+.topRightH2 {
+  font-size: 27px;
+}
+.topRight {
+  font-size: 10px;
+}
+
+.topRightH22 {
+font-size: 27px;
+}
+
+.topText {
+  font-size: 9px;
+}
 
   .topLeft {
     display: none;
@@ -203,7 +232,7 @@ color: #ff905c;
 }
 
 .orangeText {
-  
+  font-size: 10px;
   margin: 0;
   width: 50%;
   text-align: left;
@@ -221,9 +250,9 @@ color: #ff905c;
 @media (min-width: 1200px)
 {
 
-  section {
-    max-width: 1440px;
-    
+  .make-money {
+    max-width: 1200px;
+    padding: 124px 244px 61px;
   }
 
   .bottoTwo {
@@ -247,9 +276,12 @@ color: #ff905c;
   width: 33%;
 }
 
+.orangeText2 {
+  font-size: 10px;
+}
 
 .backYou {
-  top: 400px;
+  top: 100px;
   left: 50px;
   width: 70px;
    position: absolute;
@@ -269,5 +301,26 @@ color: #ff905c;
     
   }
   
+
+  .textBox {
+    font-size: 10px;
+  }
+  .ifYou {
+  font-size: 19px;
+  }
+  .topRightH2 {
+    font-size: 30px;
+  }
+  .topRight {
+    font-size: 11.5px;
+  }
+  
+  .topRightH22 {
+  font-size: 30px;
+  }
+  
+  .topText {
+    font-size: 10px;
+  }
 
 }
