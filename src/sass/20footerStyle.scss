@@ -8,11 +8,13 @@
     background-color: #181c27;
     background-size: cover;
 
-    .wrapper {
-        width: 90%;
+    .wrapperFooter {
+        max-width: 480px;
+        margin: auto;
+        // width: 90%;
         display: flex;
         justify-content: space-between;
-        padding: 36px 0 31px;
+        padding: 36px 18px 31px;
 
 
         .footerInfoContainer {
@@ -67,8 +69,9 @@
 @media (min-width: 768px) {
 
     .footerContainer {
-        .wrapper {
-            padding: 55px 0;
+        .wrapperFooter {
+            min-width: 768px;
+            padding: 55px 65px;
 
             .footerInfoContainer {
                 width: 16%;
@@ -118,8 +121,10 @@
 
 @media (min-width: 1200px) {
     .footerContainer {
-        .wrapper {
-            width: 60%;
+        .wrapperFooter {
+            // width: 60%;
+            max-width: 1200px;
+            padding: 55px 244px;
 
             .footerInfoContainer {
                 .footerInfoTop {
