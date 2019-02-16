@@ -1707,7 +1707,8 @@ template {
 
 .stepCourse {
   margin: auto;
-  padding: 0 0 45px 0;
+  padding: 0 18px 45px;
+  max-width: 480px;
 }
 
 .stepCourse__headr {
@@ -1715,7 +1716,7 @@ template {
 }
 
 .headr__pic {
-  width: 93%;
+  width: 100%;
   margin-bottom: 30px;
   margin: auto;
 }
@@ -3921,8 +3922,8 @@ template {
   }
 
   .stepCourse {
-    width: 80%;
-    padding: 24px 0 48px 0;
+    padding: 24px 65px 48px;
+    max-width: 768px;
   }
 
   .stepCourse__headr {
@@ -5384,8 +5385,8 @@ template {
   }
 
   .stepCourse {
-    width: 60%;
-    padding: 76px 0;
+    padding: 76px 244px;
+    max-width: 1200px;
   }
 
   .numer__title {
