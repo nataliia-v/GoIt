@@ -1,12 +1,11 @@
 .register19-section {
-  width: 80%;
-  padding: 0;
+  max-width: 480px;
   margin: auto;
-  padding: 16px 0 42px;
+  padding: 15px 18px 42px 18px;
 }
 
 .register19 {
-  width: 100%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,6 +13,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin: auto;
 }
 
 .register19-box1-heds {
@@ -77,6 +77,13 @@
   padding: 16px 40px;
 }
 
+.button-register-19:focus{
+  background-color: #15bbca;
+ }
+ .register19-box1-button:hover .button-register-19{
+  background-color: #17ecff;
+ }
+
 .register19-box1-go {
   position: relative;
   width: 1px;
@@ -113,7 +120,6 @@
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 50px;
 }
 
 .register19-box2-cont2_text {
@@ -123,7 +129,6 @@
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 45px;
 }
 
 .register19-box2-cont3_text {
@@ -133,7 +138,6 @@
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 30px;
 }
 
 .another-text-box3 {
@@ -157,10 +161,15 @@
 }
 
 @media(min-width:768px) {
+
   .register19-section {
-    padding: 57px 0 100px;
+    max-width: 768px;
+    padding: 55px 65px 112px 65px;
   }
+
   .register19 {
+    margin: 0;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -288,6 +297,12 @@
 }
 
 @media(min-width:1200px) {
+
+  .register19-section {
+    max-width: 1200px;
+    padding: 62px 244px 125px 244px;
+  }
+
   .register19-go-vert {
     font-size: 163px;
     top: 0;
@@ -346,19 +361,16 @@
   .register19-box2-cont1_text {
     font-size: 10px;
     margin-bottom: 18px;
-    padding-right: 80px;
   }
 
   .register19-box2-cont2_text {
     font-size: 9px;
     margin-bottom: 30px;
-    padding-right: 175px;
   }
 
   .register19-box2-cont3_text {
     font-size: 8.75px;
     line-height: 1.5;
-    padding-right: 150px;
   }
 
   .another-text-box3 {

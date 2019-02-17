@@ -1563,16 +1563,16 @@ template {
 }
 
 .register19-section {
-  width: 80%;
-  padding: 0;
+  max-width: 480px;
   margin: auto;
-  padding: 16px 0 42px;
+  padding: 15px 18px 42px 18px;
 }
 
 .register19 {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .register19-box1-heds {
@@ -1635,6 +1635,14 @@ template {
   padding: 16px 40px;
 }
 
+.button-register-19:focus {
+  background-color: #15bbca;
+}
+
+.register19-box1-button:hover .button-register-19 {
+  background-color: #17ecff;
+}
+
 .register19-box1-go {
   position: relative;
   width: 1px;
@@ -1669,7 +1677,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 50px;
 }
 
 .register19-box2-cont2_text {
@@ -1679,7 +1686,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 45px;
 }
 
 .register19-box2-cont3_text {
@@ -1689,7 +1695,6 @@ template {
   font-size: 13.5px;
   margin-bottom: 30px;
   line-height: 1.5;
-  padding-right: 30px;
 }
 
 .another-text-box3 {
@@ -2334,8 +2339,9 @@ template {
 .sec9 {
   background-color: white;
   text-align: center;
-  padding: 17px 0 33px;
-  max-width: 712px;
+  padding: 15px 18px 33px 18px;
+  max-width: 480px;
+  margin: auto;
 }
 
 .first-sec9 {
@@ -2455,7 +2461,6 @@ template {
   color: black;
   text-align: left;
   margin-bottom: 17px;
-  width: 220px;
 }
 
 .sec9-h4sec-h4 {
@@ -2464,7 +2469,6 @@ template {
   line-height: 19.5px;
   color: #3f4144;
   text-align: left;
-  width: 230px;
 }
 
 .main-sec9h5 {
@@ -2473,7 +2477,7 @@ template {
   line-height: 19.5px;
   color: #ff6b08;
   text-align: left;
-  width: 276px;
+  width: 352px;
   margin: auto;
   position: relative;
 }
@@ -2770,36 +2774,38 @@ template {
 }
 
 .sectionOne {
+  max-width: 480px;
   margin: auto;
-  padding: 16px 0 43px;
+  padding: 18px 18px 43px 18px;
 }
 
 .wrapper {
-  width: 80%;
   margin: auto;
 }
 
 .topImg {
   position: relative;
-  width: 80%;
-  margin: 21px auto 30px;
+  margin: 21px auto 45px;
 }
 
 .backFon {
   position: absolute;
   height: 100%;
   top: 0px;
-  right: -25px;
+  right: 67px;
 }
 
 .boyFoto {
   left: 50px;
   position: -webkit-sticky;
   position: sticky;
+  text-align: center;
+  width: 220px;
+  margin: auto;
 }
 
 .textOrange {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .orange {
@@ -2811,6 +2817,7 @@ template {
 }
 
 .orange::before {
+  margin-right: 7px;
   content: "";
   display: block;
   width: 20px;
@@ -2836,11 +2843,11 @@ template {
 }
 
 .nextText {
-  width: 60%;
+  width: 67%;
   text-align: left;
   display: flex;
   font-size: 13.5px;
-  margin: 0 auto 20px;
+  margin: 0 auto 56px;
 }
 
 .newTextP {
@@ -2862,7 +2869,7 @@ template {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13.5px;
-  margin: 0 auto 20px;
+  margin: 0 auto 33px;
 }
 
 .step__number {
@@ -3231,11 +3238,11 @@ template {
 }
 
 .imp_wrapper {
-  padding: 18px 0 66px;
+  padding: 18px 18px 66px 18px;
   font-family: "Acrom";
   line-height: 19px;
   font-size: 14px;
-  width: 80%;
+  max-width: 480px;
   margin: auto;
 }
 
@@ -3244,7 +3251,6 @@ template {
   padding: 65px 45px;
   color: white;
   background-color: #052139;
-  margin-bottom: 40px;
 }
 
 .imp_flex {
@@ -3316,7 +3322,6 @@ template {
 
 .imp_title {
   font-weight: 18px;
-  padding-top: 25px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -4060,10 +4065,13 @@ template {
   }
 
   .register19-section {
-    padding: 57px 0 100px;
+    max-width: 768px;
+    padding: 55px 65px 112px 65px;
   }
 
   .register19 {
+    margin: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -4517,17 +4525,17 @@ template {
 
   .sec9 {
     display: flex;
-    width: 90%;
+    justify-content: space-around;
     margin: auto;
     align-content: flex-start;
-    padding: 40px 0 54px;
+    padding: 46px 65px 54px 65px;
+    max-width: 768px;
   }
 
   .first-sec9 {
     margin: 0;
     width: 50%;
     text-align: left;
-    margin-left: 10%;
   }
 
   .header-sec9 {
@@ -4576,6 +4584,7 @@ template {
   }
 
   .sec9-h3 {
+    font-weight: 400;
     font-family: "Acrom", sans-serif;
     font-size: 9px;
     line-height: 14px;
@@ -4782,8 +4791,9 @@ template {
   }
 
   .sectionOne {
+    max-width: 768px;
     margin: auto;
-    padding: 37px 0 54px;
+    padding: 55px 65px;
   }
 
   .topOne {
@@ -4846,8 +4856,30 @@ template {
     display: flex;
   }
 
+  .orange::before {
+    margin-right: 12px;
+    width: 40px;
+    height: 3px;
+  }
+
   .textOrange {
     width: 80%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .number__abz {
+    font-size: 8px;
+  }
+
+  .number__title {
+    font-size: 9px;
+  }
+
+  .nextText2 {
+    font-size: 14px;
   }
 
   .proffesion {
@@ -5070,7 +5102,8 @@ template {
   }
 
   .imp_wrapper {
-    padding: 57px 0 56px;
+    max-width: 768px;
+    padding: 71px 65px 69px 65px;
   }
 
   .imp_mobile {
@@ -5175,7 +5208,7 @@ template {
 
   .imp_blueBox {
     padding: 45px 25px;
-    margin-top: 25px;
+    margin-top: 5px;
   }
 
   .bonusesMainContainer {
@@ -5629,6 +5662,11 @@ template {
     padding: 0 210px 108px;
   }
 
+  .register19-section {
+    max-width: 1200px;
+    padding: 62px 244px 125px 244px;
+  }
+
   .register19-go-vert {
     font-size: 163px;
     top: 0;
@@ -5687,19 +5725,16 @@ template {
   .register19-box2-cont1_text {
     font-size: 10px;
     margin-bottom: 18px;
-    padding-right: 80px;
   }
 
   .register19-box2-cont2_text {
     font-size: 9px;
     margin-bottom: 30px;
-    padding-right: 175px;
   }
 
   .register19-box2-cont3_text {
     font-size: 8.75px;
     line-height: 1.5;
-    padding-right: 150px;
   }
 
   .another-text-box3 {
@@ -5958,6 +5993,11 @@ template {
     font-size: 10px;
   }
 
+  .sec9 {
+    padding: 63px 244px 61px 244px;
+    max-width: 1200px;
+  }
+
   .header-sec9 {
     font-size: 30px;
     line-height: 37px;
@@ -6049,9 +6089,18 @@ template {
     max-width: 350px;
   }
 
+  .sectionOne {
+    max-width: 1200px;
+    margin: auto;
+    padding: 63px 244px;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
   .blackFonP {
-    font-size: 45px;
-    line-height: 65px;
+    font-size: 30px;
   }
 
   .nextText2 {
@@ -6071,8 +6120,48 @@ template {
     font-size: 25px;
   }
 
-  .topOne {
-    margin-bottom: 40px;
+  .orange {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .boyFoto {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 215px;
+    height: 241px;
+    margin-left: 20px;
+  }
+
+  .newTextP::before {
+    height: 4px;
+    margin-right: 17px;
+    width: 50%;
+  }
+
+  .nextText {
+    margin-bottom: 87px;
+  }
+
+  .textRightOne {
+    padding-bottom: 0;
+  }
+
+  .nextText2P {
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 60px;
+    line-height: 21px;
+  }
+
+  .number__abz {
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .number__title {
+    font-size: 10px;
+    line-height: 14px;
   }
 
   .proffesion {
@@ -6197,12 +6286,13 @@ template {
   }
 
   .imp_wrapper {
-    max-width: 1440px;
+    max-width: 1200px;
+    padding: 78px 244px 77px 244px;
   }
 
   .imp_blueBox {
     padding: 55px 25px;
-    margin-top: 35px;
+    margin-top: 5px;
   }
 
   .imp_whiteLine {
@@ -6214,10 +6304,6 @@ template {
   .imp_aqua {
     font-size: 14px;
     width: 68%;
-  }
-
-  .imp_wrapper {
-    width: 60%;
   }
 
   .imp_firstPrice {

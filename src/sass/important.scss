@@ -5,11 +5,11 @@
 }
 
 .imp_wrapper {
-    padding: 18px 0 66px;
+    padding: 18px 18px 66px 18px;
     font-family: "Acrom";
     line-height: 19px;
     font-size: 14px;
-    width: 80%;
+    max-width: 480px;
     margin: auto;
 }
 
@@ -18,14 +18,11 @@
     padding: 65px 45px;
     color: white;
     background-color: #052139;
-    margin-bottom: 40px;
-
 }
 
 .imp_flex {
     display: flex;
     flex-direction: column;
-
 }
 
 .imp_otstup {
@@ -92,7 +89,6 @@
 
 .imp_title {
     font-weight: 18px;
-    padding-top: 25px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -140,9 +136,12 @@
 }
 
 @media (min-width:768px) {
+
     .imp_wrapper {
-        padding: 57px 0 56px;
+        max-width: 768px;
+        padding: 71px 65px 69px 65px;
         }
+
     .imp_mobile {
         display: none;
     }
@@ -247,17 +246,19 @@
 
     .imp_blueBox {
         padding: 45px 25px;
-        margin-top: 25px;
+        margin-top: 5px;
     }
 }
 
 @media (min-width:1200px) {
+
     .imp_wrapper {
-        max-width: 1440px;
+        max-width: 1200px;
+        padding: 78px 244px 77px 244px;
     }
     .imp_blueBox {
         padding: 55px 25px;
-        margin-top: 35px;
+        margin-top: 5px;
     }
 
     .imp_whiteLine {
@@ -265,17 +266,11 @@
         margin-top: 20px;
         width: 35px;
         height: 2px;
-
     }
 
     .imp_aqua {
         font-size: 14px;
         width: 68%;
-
-    }
-
-    .imp_wrapper {
-        width: 60%;
     }
 
     .imp_firstPrice {
@@ -284,7 +279,5 @@
 
     .imp_price {
         padding-top: 28px;
-
     }
-
 }
