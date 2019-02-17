@@ -3,6 +3,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    
+}
+
+.wrapper__main {
     margin: auto;
     padding: 15px 18px 41px;
     max-width: 480px;
@@ -169,17 +173,16 @@
 @media (min-width: 768px) {
     .header {
         background-position: center center;
-        padding: 0 65px;
-        max-width: 768px;
+        
     }
 
     .wrapper__main {
-        width: 100%;
+        max-width: 768px;
         background-image: url(../images/block-1/bg-768.png);
         background-size: auto;
         background-repeat: no-repeat;
         background-position: center center;
-        padding-bottom: 30px;
+        padding: 0 65px 39px;
     }
 
     .header__course {
@@ -286,11 +289,13 @@
 
 @media (min-width: 1200px) {
     .header {
-        max-width: 1200px;
+        // max-width: 1200px;
         background-color: #181c28;
         margin: 0;
         position: relative;
     }
+
+   
 
     .header__logo--size {
         position: absolute;
@@ -341,12 +346,12 @@
 }
 
     .wrapper__main {
-        background-image: url(../images/block-1/bg.png);
+        // background-image: url(../images/block-1/bg.png);
         background-size: auto;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        padding: 0 210px 108px;
+        // padding: 0 210px 108px;
     }
 
 }

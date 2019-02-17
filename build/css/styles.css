@@ -408,6 +408,9 @@ template {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.wrapper__main {
   margin: auto;
   padding: 15px 18px 41px;
   max-width: 480px;
@@ -1401,6 +1404,9 @@ template {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.wrapper__main {
   margin: auto;
   padding: 15px 18px 41px;
   max-width: 480px;
@@ -3936,92 +3942,18 @@ template {
   display: none;
 }
 
-@media (min-width: 120px) {
-  .FiveSectionLook {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 55px 244px 55px;
-  }
-
-  .textContainer {
-    max-width: 40%;
-  }
-
-  .mainTextContainer {
-    max-width: 60%;
-    margin: 0 auto 40px;
-  }
-
-  .mainText {
-    font-size: 27px;
-    margin: 0;
-  }
-
-  .secondTextContainer {
-    max-width: 40%;
-    margin: 0 auto 0 120px;
-    font-size: 16px;
-  }
-
-  .secondText {
-    font-size: 12px;
-  }
-
-  .secondTextContainer::before {
-    width: 35px;
-    height: 4px;
-    margin-left: -15px;
-  }
-
-  .SliderPicture {
-    width: 75px;
-    height: 75px;
-  }
-
-  .pictureTitle {
-    font-size: 9px;
-  }
-
-  .titleAbout {
-    font-size: 8px;
-  }
-
-  .slideContainer {
-    padding: 30px 0 30px;
-  }
-
-  .slider {
-    max-width: 60%;
-    height: 320px;
-  }
-
-  .titleAbout {
-    line-height: 15px;
-    font-size: 12px;
-    height: 230px;
-  }
-
-  .sliderLinks {
-    font-size: 12px;
-  }
-}
-
 @media (min-width: 768px) {
   .header {
     background-position: center center;
-    padding: 0 65px;
-    max-width: 768px;
   }
 
   .wrapper__main {
-    width: 100%;
+    max-width: 768px;
     background-image: url(../images/block-1/bg-768.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-bottom: 30px;
+    padding: 0 65px 39px;
   }
 
   .header__course {
@@ -4376,17 +4308,15 @@ template {
 
   .header {
     background-position: center center;
-    padding: 0 65px;
-    max-width: 768px;
   }
 
   .wrapper__main {
-    width: 100%;
+    max-width: 768px;
     background-image: url(../images/block-1/bg-768.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-bottom: 30px;
+    padding: 0 65px 39px;
   }
 
   .header__course {
@@ -5986,7 +5916,6 @@ template {
 
 @media (min-width: 1200px) {
   .header {
-    max-width: 1200px;
     background-color: #181c28;
     margin: 0;
     position: relative;
@@ -6041,12 +5970,10 @@ template {
   }
 
   .wrapper__main {
-    background-image: url(../images/block-1/bg.png);
     background-size: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 0 210px 108px;
   }
 
   .manyPeople {
@@ -6295,7 +6222,6 @@ template {
   }
 
   .header {
-    max-width: 1200px;
     background-color: #181c28;
     margin: 0;
     position: relative;
@@ -6350,12 +6276,10 @@ template {
   }
 
   .wrapper__main {
-    background-image: url(../images/block-1/bg.png);
     background-size: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 0 210px 108px;
   }
 
   .register19-section {
@@ -6548,6 +6472,76 @@ template {
   .txt__fastStart1 {
     font-size: 10px;
     width: 50%;
+  }
+
+  .FiveSectionLook {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 55px 244px 55px;
+  }
+
+  .textContainer {
+    max-width: 40%;
+  }
+
+  .mainTextContainer {
+    max-width: 60%;
+    margin: 0 auto 40px;
+  }
+
+  .mainText {
+    font-size: 27px;
+    margin: 0;
+  }
+
+  .secondTextContainer {
+    max-width: 40%;
+    margin: 0 auto 0 120px;
+    font-size: 16px;
+  }
+
+  .secondText {
+    font-size: 12px;
+  }
+
+  .secondTextContainer::before {
+    width: 35px;
+    height: 4px;
+    margin-left: -15px;
+  }
+
+  .SliderPicture {
+    width: 75px;
+    height: 75px;
+  }
+
+  .pictureTitle {
+    font-size: 9px;
+  }
+
+  .titleAbout {
+    font-size: 8px;
+  }
+
+  .slideContainer {
+    padding: 30px 0 30px;
+  }
+
+  .slider {
+    max-width: 60%;
+    height: 320px;
+  }
+
+  .titleAbout {
+    line-height: 15px;
+    font-size: 12px;
+    height: 230px;
+  }
+
+  .sliderLinks {
+    font-size: 12px;
   }
 
   .make-money {
