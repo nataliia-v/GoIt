@@ -2007,8 +2007,8 @@ template {
 
 .FiveSectionLook {
   max-width: 480px;
-  margin: auto;
-  padding: 15px 18px 50px;
+  margin: 0 auto;
+  padding: 15px 18px 45px;
 }
 
 .mainTextContainer {
@@ -2056,7 +2056,7 @@ template {
 
 .slider {
   position: relative;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   box-shadow: 0px 10px 20px 5px #dfdfdf;
 }
@@ -4759,11 +4759,10 @@ template {
   }
 
   .FiveSectionLook {
-    min-width: 768px;
+    max-width: 768px;
     display: flex;
-    justify-content: space-around;
     margin: 0 auto;
-    padding: 39px 65 39px;
+    padding: 55px 64px 55px;
   }
 
   .textContainer {
@@ -4782,7 +4781,7 @@ template {
 
   .secondTextContainer {
     max-width: 38%;
-    margin: 0 auto 0 120px;
+    margin: 0 0 40px 82px;
   }
 
   .secondText {
@@ -5911,6 +5910,76 @@ template {
     top: -150px;
     left: -210px;
   }
+
+  .FiveSectionLook {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 55px 244px 55px;
+  }
+
+  .textContainer {
+    max-width: 40%;
+  }
+
+  .mainTextContainer {
+    max-width: 60%;
+    margin: 0 auto 40px;
+  }
+
+  .mainText {
+    font-size: 27px;
+    margin: 0;
+  }
+
+  .secondTextContainer {
+    max-width: 40%;
+    margin: 0 auto 0 120px;
+    font-size: 16px;
+  }
+
+  .secondText {
+    font-size: 12px;
+  }
+
+  .secondTextContainer::before {
+    width: 35px;
+    height: 4px;
+    margin-left: -15px;
+  }
+
+  .SliderPicture {
+    width: 75px;
+    height: 75px;
+  }
+
+  .pictureTitle {
+    font-size: 9px;
+  }
+
+  .titleAbout {
+    font-size: 8px;
+  }
+
+  .slideContainer {
+    padding: 30px 0 30px;
+  }
+
+  .slider {
+    max-width: 60%;
+    height: 320px;
+  }
+
+  .titleAbout {
+    line-height: 15px;
+    font-size: 12px;
+    height: 230px;
+  }
+
+  .sliderLinks {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -6479,76 +6548,6 @@ template {
     width: 50%;
   }
 
-  .FiveSectionLook {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 55px 244px 55px;
-    max-width: 1200px;
-  }
-
-  .textContainer {
-    max-width: 40%;
-  }
-
-  .mainTextContainer {
-    max-width: 60%;
-    margin: 0 auto 40px;
-  }
-
-  .mainText {
-    font-size: 27px;
-    margin: 0;
-  }
-
-  .secondTextContainer {
-    max-width: 40%;
-    margin: 0 auto 0 120px;
-    font-size: 16px;
-  }
-
-  .secondText {
-    font-size: 12px;
-  }
-
-  .secondTextContainer::before {
-    width: 35px;
-    height: 4px;
-    margin-left: -15px;
-  }
-
-  .SliderPicture {
-    width: 75px;
-    height: 75px;
-  }
-
-  .pictureTitle {
-    font-size: 9px;
-  }
-
-  .titleAbout {
-    font-size: 8px;
-  }
-
-  .slideContainer {
-    padding: 30px 0 30px;
-  }
-
-  .slider {
-    max-width: 60%;
-    height: 320px;
-  }
-
-  .titleAbout {
-    line-height: 15px;
-    font-size: 12px;
-    height: 230px;
-  }
-
-  .sliderLinks {
-    font-size: 12px;
-  }
-
   .make-money {
     max-width: 1200px;
     padding: 124px 244px 61px;
@@ -7049,6 +7048,74 @@ template {
 
   .footerContainer .wrapperFooter .footerInfoContainer .footerSocialLinksContainer .footerBtnLink .footerButton {
     font-size: 7.5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .FiveSectionLook {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 55px 0 55px 0;
+  }
+
+  .textContainer {
+    max-width: 50%;
+  }
+
+  .mainTextContainer {
+    max-width: 50%;
+    margin: 0 auto 40px;
+  }
+
+  .mainText {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .secondTextContainer {
+    max-width: 40%;
+    margin: 0 auto 0 160px;
+    font-size: 18px;
+  }
+
+  .secondText {
+    font-size: 16px;
+  }
+
+  .SliderPicture {
+    width: 75px;
+    height: 75px;
+  }
+
+  .pictureTitle {
+    font-size: 12px;
+  }
+
+  .titleAbout {
+    font-size: 10px;
+  }
+
+  .slider {
+    max-width: 60%;
+    height: 350px;
+  }
+
+  .titleAbout {
+    line-height: 15px;
+    font-size: 12px;
+    height: 270px;
+  }
+
+  .secondTextContainer::before {
+    width: 35px;
+    height: 4px;
+    margin-left: -15px;
+  }
+
+  .sliderLinks {
+    font-size: 12px;
   }
 }
 
