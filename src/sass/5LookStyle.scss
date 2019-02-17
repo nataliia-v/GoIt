@@ -5,9 +5,9 @@
 }
 
 .FiveSectionLook {
-    max-width: 90%;
+    min-width: 480px;
     margin: 0 auto;
-    padding: 15px 0 45px 0;
+    padding: 15px 18px 45px;
 }
 
 .mainTextContainer {
@@ -198,11 +198,10 @@
 @media (min-width: 768px) {
 
     .FiveSectionLook {
-        min-width: 50%;
+        max-width: 768px;
         display: flex;
-        justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 55px 0;
+        padding: 55px 64px 55px;
     }
 
     .textContainer {
@@ -222,7 +221,7 @@
 
     .secondTextContainer {
         max-width: 38%;
-        margin: 0 auto 0 120px;
+        margin: 0 0 40px 82px;
 
     }
 
@@ -256,11 +255,11 @@
 @media (min-width: 1024px) {
 
     .FiveSectionLook {
-        width: 80%;
+        max-width: 1200px;
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        padding: 55px 0 55px 0;
+        padding: 55px 244px 55px;
     }
 
     .textContainer {
