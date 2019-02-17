@@ -2530,23 +2530,19 @@ template {
 }
 
 .services {
-  width: 100%;
+  max-width: 480px;
+  padding: 19px 18px 39px;
   margin: auto;
-  padding: 0 0 50px;
 }
 
 /*  Hide block */
 
 .services__hide1 {
-  width: 80%;
   text-align: center;
-  margin: auto;
 }
 
 .services__hide2 {
   text-align: center;
-  width: 80%;
-  margin: auto;
 }
 
 /* services__block1 */
@@ -2568,7 +2564,6 @@ template {
   font-weight: 800;
   font-size: 17px;
   text-align: left;
-  margin-left: 20%;
 }
 
 .services__block2__line {
@@ -2577,7 +2572,6 @@ template {
   width: 21px;
   height: 3px;
   margin-right: 16px;
-  margin-left: 20%;
 }
 
 .services__block2__paragraph {
@@ -2603,7 +2597,6 @@ template {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 20%;
 }
 
 .services__block4__header {
@@ -2628,8 +2621,6 @@ template {
   font-weight: 400;
   text-align: left;
   font-size: 14px;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .services__block4__hiden {
@@ -4643,7 +4634,8 @@ template {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 28px 0 47px;
+    max-width: 768px;
+    padding: 36px 65px 47px;
   }
 
   .services_hide {
@@ -4652,18 +4644,19 @@ template {
     justify-content: center;
     align-content: center;
     width: 100%;
+    justify-content: space-between;
   }
 
   .services__hide1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 47%;
   }
 
   .services__hide2 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 47%;
   }
 
   .services__block4__hiden {
@@ -6036,6 +6029,11 @@ template {
     margin: 0;
     width: 276px;
     margin-left: 20px;
+  }
+
+  .services {
+    max-width: 1200px;
+    padding: 60px 244px 51px;
   }
 
   .afterTheCourse {
