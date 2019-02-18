@@ -5390,7 +5390,6 @@ template {
     font-size: 15px;
     margin-top: 0;
     margin-left: 0;
-    margin-right: 4%;
   }
 
   .data__container {
@@ -5398,10 +5397,10 @@ template {
   }
 
   .data__container__text {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-left: 3%;
     justify-content: space-around;
   }
 
@@ -5434,8 +5433,8 @@ template {
   .data__pic {
     display: block;
     position: absolute;
-    top: 113px;
-    right: -37px;
+    top: 80px;
+    right: -30px;
   }
 
   .data__img {
@@ -6902,8 +6901,8 @@ template {
   }
 
   .data__pic {
-    top: 160px;
-    right: 100px;
+    top: 90px;
+    right: -30px;
   }
 
   .data__container {
