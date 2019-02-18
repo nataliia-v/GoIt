@@ -7,8 +7,10 @@
     background-color: white;
     text-align: center;
     // outline: 1px solid red;
-    padding: 17px 0 33px;
-    max-width: 712px;
+    //padding: 17px 0 33px;
+    padding: 15px 18px 33px 18px;
+    max-width: 480px;
+    margin: auto;
 }
 
 .first-sec9 {
@@ -131,7 +133,6 @@
         color: rgba(0, 0, 0, 255);
         text-align: left;
         margin-bottom: 17px;
-        width: 220px;
     }
 
     .sec9-h4sec-h4 {
@@ -140,7 +141,7 @@
         line-height: 19.5px;
         color: rgba(63, 65, 68, 255);
         text-align: left;
-        width: 230px;
+
     }
 
     .main-sec9h5 {
@@ -149,7 +150,7 @@
         line-height: 19.5px;
         color: rgba(255, 107, 8, 255);
         text-align: left;
-        width: 276px;
+        width: 352px;
         margin: auto;
         position: relative;
     }
@@ -169,18 +170,17 @@
 
         .sec9 {
             display: flex;
-            width: 90%;
+            justify-content: space-around;
             margin: auto;
             align-content: flex-start;
-            padding: 40px 0 54px;
+            padding: 46px 65px 54px 65px;
+            max-width: 768px;
         }
 
         .first-sec9 {
             margin: 0;
             width: 50%;
             text-align: left;
-            margin-left: 10%;
-
         }
 
         .header-sec9 {
@@ -231,7 +231,7 @@
         }
 
         .sec9-h3 {
-
+            font-weight: 400;
             font-family: "Acrom", sans-serif;
             font-size: 9px;
             line-height: 14px;
@@ -284,6 +284,10 @@
     }
 
     @media (min-width:1200px) {
+        .sec9 {
+            padding: 63px 244px 61px 244px;
+            max-width: 1200px;
+        }
 
         .header-sec9 {
             font-size: 30px;

@@ -6,9 +6,9 @@
     // outline: 1px solid green;
 }
 .manyPeople {
-    width: 90%;
     margin: auto;
-    padding: 24px 0 49px;
+    padding: 24px 18px 49px;
+    max-width: 480px;
 }
 .people-top {
     width: 100%;
@@ -95,7 +95,8 @@
 }
 @media (min-width: 768px) {
     .manyPeople {
-        padding: 41px 0 53 px;
+        padding: 41px 65px 53px;
+        max-width: 768px;
     }
     .people-top {
         flex-direction: row;
@@ -171,7 +172,8 @@
 }
 @media (min-width: 1200px) {
     .manyPeople {
-        width: 60%;
+        padding: 62px 244px 59px;
+        max-width: 1200px;
     }
     .people-top {
         &__chapter {

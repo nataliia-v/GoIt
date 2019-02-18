@@ -1,6 +1,7 @@
 .proffesion {
     margin: auto;
-    padding: 36px 0 31px;
+    padding: 36px 18px 31px;
+    max-width: 480px;
 }
 
 .proffesion__all {
@@ -45,7 +46,7 @@
 }
 
 .all__pic {
-    width: 94%;
+    width: 100%;
     margin-bottom: 39px;
     margin: auto;
 }
@@ -78,8 +79,9 @@
 
 @media (min-width: 768px) {
     .proffesion {
-        width: 80%;
-        padding: 55px 0 37px 0;
+        // width: 80%;
+        padding: 55px 65px 37px;
+        max-width: 768px;
     }
 
 
@@ -159,8 +161,9 @@
 
 @media (min-width: 1200px) {
     .proffesion {
-        width: 56%;
-        padding: 62px 0 62px 0;
+        // width: 56%;
+        padding: 62px 244px 62px;
+        max-width: 1200px;
     }
 
     .hended__proff {

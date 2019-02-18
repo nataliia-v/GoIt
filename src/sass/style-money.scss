@@ -14,9 +14,14 @@
 //   padding: 56px 0 39px;
 // }
 
+.make-money {
+  margin: auto;
+  padding: 56px 18px 42px;
+  max-width: 480px;
+}
+
 .wrapperMoney {
   position: relative;
-  width: 92%;
   margin: auto;
 }
 
@@ -30,76 +35,63 @@
 }
 
 .topText {
-  width: 100%;
-  font-size: 14px;
+  font-size: 13.5px;
   color: rgba(0, 0, 0, 255);
   text-align: left;
-  font-weight: 600;
-  margin-bottom: 25px;
-  line-height: 20px;
+  margin-bottom: 30px;
 }
 
 .textRight::before {
 
   content: "";
   display: block;
-  width: 25px;
+  width: 30px;
   height: 3px;
   background-color: black;
   position: absolute;
-  top: 8px;
-  left: 20px;
+  top: 10px;
+  left: 0;
 
 
 }
 
 .textRight {
-  margin: auto;
-  font-size: 10pt;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 900;
   position: relative;
   padding-left: 60px;
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   text-transform: uppercase;
-  margin-bottom: 12px;
 }
 
 .topLeft {
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 
 }
 
 
 .topRightH2 {
   font-family: 'Acrom'sans-serif;
-  font-size: 15pt;
-  font-weight: 400;
+  font-size: 20.5px;
   text-transform: uppercase;
-  margin-left: 23px;
 }
 
 .topRightH22 {
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-size: 15pt;
-  display: inline;
-  line-height: 35px;
-  margin-left: 22px;
+  font-size: 20.5px;
 
 }
 
 .topRight {
-margin-left: 55px;
-  width: 80%;
-  text-align: left;
-  margin-bottom: 6px;
+  margin: auto;
 }
 
 .bottomTwo {
-  // padding: 20px 30px 0;
-  margin: auto;
+  padding: 20px 30px 0;
+  width: 100%;
 
 }
 
@@ -110,15 +102,14 @@ margin-left: 55px;
 }
 
 
-// .boxTwo {
-//   margin-bottom: 10px;
-// }
+.boxTwo {
+  margin-bottom: 30px;
+}
 
 .kybik {
   background-color: black;
-  width: 8px;
-  height: 8px;
-  margin-top: 5px;
+  width: 15px;
+  height: 15px;
   
 }
 .topBox {
@@ -134,28 +125,24 @@ margin-left: 55px;
 .textBox {
   width: 95%;
   margin: auto;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 22px;
-
+  font-size: 13.5px;
+  font-weight: bolder;
 }
 
 .ifYou {
-  font-size: 14px;
+  font-size: 13.5px;
   text-transform: uppercase;
   font-weight: 400;
-  margin: 30px 0 20px;
+  margin: 30px 0;
 }
 
 .orangeText {
-margin: 35px auto 0;
-  width: 68%;
-font-size: 10pt;
-line-height: 20px;
+margin: auto;
+  width: 70%;
+font-size: 13.5px;
 text-align: center;
-font-weight: 600;
 color: #ff905c;
-text-align: center;
+font-weight: bold;
 
 }
 
@@ -172,14 +159,14 @@ text-align: center;
 
 
 .backYou {
- top: 300px;
+ top: 100px;
  left: 50px;
   position: absolute;
 }
 
 .topLeft768 {
   width: 100%;
-  height: 400px;
+  height: 240px;
   background-image: url(../images/block-2/Image-block.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -192,10 +179,30 @@ text-align: center;
 
 @media (min-width: 768px)
 {
-  section {
-    max-width: 968px;
-    padding: 94px 0 38px;
+ .make-money {
+    max-width: 768px;
+    padding: 111px 65px 37px;
   }
+.textBox {
+  font-size: 9px;
+}
+.ifYou {
+font-size: 17px;
+}
+.topRightH2 {
+  font-size: 27px;
+}
+.topRight {
+  font-size: 10px;
+}
+
+.topRightH22 {
+font-size: 27px;
+}
+
+.topText {
+  font-size: 9px;
+}
 
   .topLeft {
     display: none;
@@ -203,9 +210,6 @@ text-align: center;
 
   .topLeft768 {
     display: block;
-    width: 260px;
-    height: 240px;
-    margin: auto;
   }
 
 
@@ -215,6 +219,7 @@ text-align: center;
  }
 .top {
   width: 50%;
+  padding: 0 60px;
 }
 
 .centerMakeMoney {
@@ -222,81 +227,22 @@ text-align: center;
   width: 100%;
 }
 
-.topText {
-  width: 68%;
-  font-size: 11px;
-  margin-bottom: 26px;
-  line-height: 13px;
-  margin-left: 8px;
-}
-
-.topRight {
-  margin: 0;
-  margin-left: 10px;
-width: 68%;
-}
-
-.textRight {
-  width: 80%;
-    font-size: 9pt;
-    line-height: 17px;
-    font-weight: 600;
-    margin: 0;
-    margin-bottom: 13px;
-    margin-left:-20px;
-}
 .boxTwo {
-  width: 24%;
+  width: 25%;
 }
 
 .orangeText {
-  
-  width: 31%;
-  line-height: 14px;
   font-size: 10px;
+  margin: 0;
+  width: 50%;
   text-align: left;
-  margin: 0 0 0 auto;
-}
+  margin-left: auto;
   
-  
+  }
   
   .kybik {
     display: none;
   }
-
-
-  .topRightH2 {
-    font-size: 20pt;
-    font-weight: 400;
-    margin: 0;
-  }
-  
-  .topRightH22 {
-    font-size: 20pt;
-    line-height: 35px;
-    margin: 0;
-    
-  
-  }
-  
-.ifYou {
-  font-size: 17px;
-  margin: 65px 32px 14px;
-}
-
-.textBox {
-  margin: auto;
-  font-size: 10px;
-  font-weight: 300;
-  line-height: 12px;
-}
-
-
-
-.blokiTwo {margin-left: 21px;
-}
-
-
 
 }
 
@@ -304,153 +250,77 @@ width: 68%;
 @media (min-width: 1200px)
 {
 
-  section 
-  {
-    max-width: 1440px;
-    
+  .make-money {
+    max-width: 1200px;
+    padding: 124px 244px 61px;
   }
 
+  .bottoTwo {
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
 
-  .topLeft768
-
-  {
-    width: 287px;
-    height: 269px;
-    margin-left: 200px;
-}
-
-
-
-.topText {
-width: 45%;
-font-size: 11px;
-margin-bottom: 26px;
-line-height: 15px;
-margin-left: 8px;
-}
-
-.topRight {
-margin: 0;
-margin-left: 10px;
-width: 43%;
-}
-
-.textRight {
-  width: 80%;
-  font-size: 9pt;
-  line-height: 22px;
-  font-weight: 600;
-  margin: 3px 0 12px -13px;
-}
-
-
-.boxTwo {
-width: 32%;
-margin-bottom: 10px;
-}
-
-.orangeText {
-
-width: 31%;
-line-height: 14px;
-font-size: 10px;
-text-align: left;
-margin: 0 0 0 auto;
-}
-
-
-
-.kybik {
-  display: none;
-}
-
-
-.topRightH2 {
-  font-size: 22pt;
-  font-weight: 400;
-  margin: 0;
-}
-
-.topRightH22 {
-  font-size: 22pt;
-  line-height: 39px;
-  margin: 0;
-  
-
-}
+  }
 
 .ifYou {
-width: 20%;
-font-size: 18px;
-text-align: right;
-margin: 0;
-}
-
-.textBox {
-margin: auto;
-font-size: 10px;
-font-weight: 300;
-line-height: 14px;
-}
-
-
-
-.blokiTwo {margin-left: 21px;
-}
-
-.centerMakeMoney {
-  margin-bottom: 72px;
-}
-.bottomTwo {
-  display: flex;
-  width: 79%;
-  margin: auto;
-  justify-content: space-between;
+  width: 30%;
+  margin: 0;
 }
 
 
 .blokiTwo {
-  width: 71%;
+  width: 70%;
 }
 
+.boxTwo {
+  width: 33%;
+}
+
+.orangeText2 {
+  font-size: 10px;
+}
+
+.backYou {
+  top: 100px;
+  left: 50px;
+  width: 70px;
+   position: absolute;
+ }
 
 
-
-.orangeText {
-  margin: 35px auto 0;
-    width: 68%;
-  font-size: 10pt;
-  line-height: 20px;
-  text-align: center;
-  font-weight: 600;
-  color: #ff905c;
-  text-align: center;
-  display: none;
-
+ .orangeText2 {
+  
+  width: 33%;
+  text-align: left;
+  display: block;
   
   }
-  
-  
-  
-  
-  .orangeText2 {
-     
-    margin: 13px auto 0;
-    width:35%;
-    font-size: 9pt;
-    line-height: 11px;
-    font-weight: 600;
-    color: #ff905c;
-    display: block;
-    }
 
-    .backYou {
-      top: 200px;
-      left: 200px;
-       position: absolute;
-       width: 70px;
-       height: auto;
-     }
+  .orangeText {
+    display: none;
+    
+  }
+  
 
+  .textBox {
+    font-size: 10px;
+  }
+  .ifYou {
+  font-size: 19px;
+  }
+  .topRightH2 {
+    font-size: 30px;
+  }
+  .topRight {
+    font-size: 11.5px;
+  }
+  
+  .topRightH22 {
+  font-size: 30px;
+  }
+  
+  .topText {
+    font-size: 10px;
+  }
 
 }

@@ -5,14 +5,13 @@
 
 }
 
-.wrapper {
+.wrapperData {
    max-width: 480px;
    margin: auto;
 }
 
 .data {
-   width: 80%;
-   padding: 39px 0 50px;
+   padding: 39px 18px 50px;
    overflow: hidden;
    position: relative;
 }
@@ -20,14 +19,14 @@
 .data__item {
    text-align: center;
    text-transform: uppercase;
-   font-size: 22px;
+   font-size: 18px;
    font-family: "Acrom";
    font-weight: 400;
 }
 
 .data__text {
    font-family: "Acrom";
-   font-size: 17px;
+   font-size: 13.5px;
    font-weight: bolder;
    position: relative;
 }
@@ -59,7 +58,7 @@
    margin: auto;
    list-style: none;
    display: flex;
-   font-size: 17px;
+   font-size: 13.5px;
 }
 
 .data__icon {
@@ -79,14 +78,14 @@
 .data__letter {
    font-family: "Acrom";
    font-weight: 400;
-   font-size: 25px;
+   font-size: 23px;
    text-transform: uppercase;
 }
 
 .data__list__text1 {
    font-family: "Acrom";
    font-weight: bolder;
-   font-size: 17px;
+   font-size: 23px;
    margin-bottom: 10px;
 }
 
@@ -108,14 +107,13 @@
 }
 
 @media (min-width: 768px) {
-   .wrapper {
-      max-width: 1200px;
-      padding: 18px 0 53px;
-   }
-
+   
    .data {
-      width: 80%;
       display: flex;
+      padding: 18px 65px 53px;
+      max-width: 768px;
+      justify-content: space-around
+
    }
 
    .data__icon {
@@ -128,7 +126,7 @@
       font-size: 15px;
       margin-top: 0;
       margin-left: 0;
-      margin-right: 4%;
+      // margin-right: 4%;
    }
 
    .data__container {
@@ -136,10 +134,12 @@
    }
 
    .data__container__text {
+      position: relative;
       display: flex;
       flex-wrap: wrap;
       align-content: flex-start;
-      padding-left: 3%;
+      // padding-left: 3%;
+      justify-content: space-around;
    }
 
    .data__letter {
@@ -171,8 +171,8 @@
    .data__pic {
       display: block;
       position: absolute;
-      top: 113px;
-      right: -43px;
+      top: 80px;
+      right: -30px;
    }
 
    .data__img {
@@ -200,30 +200,32 @@
 
 @media (min-width: 1200px) {
    .data {
-      width: 80%;
+      padding: 61px 244px 72px;
+      max-width: 1200px;
+      margin: auto;
    }
    .data__item {
       font-size: 30px;
    }
    .data__text {
-      font-size: 16px;
+      font-size: 10px;
    }
    .data__list__text1 {
-      font-size: 20px;
+      font-size: 15px;
    }
    .data__letter {
-      font-size: 22px;
+      font-size: 18px;
    }
    .data__list__text2 {
-      font-size: 14px;
+      font-size: 10px;
    }
 
    .data__list__text3 {
-      font-size: 14px;
+      font-size: 10px;
    }
    .data__pic {
-      top: 192px;
-      right: -10px;
+      top: 90px;
+      right: -30px;
    }
    .data__container {
       width: 100%;

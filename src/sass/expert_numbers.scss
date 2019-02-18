@@ -7,9 +7,9 @@
 .section-expert {
   margin: auto;
   text-align: center;
-  width: 80%;
   font-family: "Acrom" , sans-serif;
-  padding: 25px 0 40px;
+  padding: 25px 18px 40px;
+  max-width: 480px;
 }
 
 .wrapper-image {
@@ -56,7 +56,7 @@
   font-size: 13px;
   color: rgba(63, 65, 68, 255);
   text-align: left;
-  font-weight: 100;
+  font-weight: bold;
   line-height: normal;
   margin-bottom: 52px;
 }
@@ -65,7 +65,7 @@
   background-color: aqua;
   color: black;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .line-with-text{
@@ -89,7 +89,7 @@
   }
   &__text {
     font-size: 13px;
-    font-weight: 100;
+    font-weight: bold;
     text-align: left;
 
   }
@@ -110,7 +110,7 @@
     color: rgba(63, 65, 68, 255);
     margin-bottom: 21px;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: bold;
   }
 }
 .none-margin {
@@ -121,35 +121,8 @@
   margin-bottom: 41px;
 }
 
-
-
-@media  (min-width: 480px) and (max-width: 766px) {
- .test{
-   display: none;
- }
-  .box-2-section {
-    text-align: center;
-  }
-  .first {
-    width: 100%;
-  }
-
-  .wrapper-name {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-
-
-}
-
-
-
-
-
-
-
 @media  (min-width: 768px) and (max-width: 1199px) {
+  
   .wrapper-image {
     width: 100%;
     height: auto;
@@ -170,7 +143,8 @@
   .section-expert {
     display: flex;
     justify-content: space-between;
-    padding: 54px 0 55px;
+    padding: 54px 65px 55px;
+    max-width: 768px;
     }
 
   .box-1-photo {
@@ -212,7 +186,7 @@
       color: rgba(63, 65, 68, 255);
       margin-bottom: 20px;
       font-size: 10px;
-      font-weight: 100;
+      font-weight: bold;
   }
   }
   .none-margin {
@@ -259,7 +233,7 @@
     color: rgba(63, 65, 68, 255);
     text-align: left;
     margin-bottom: 0;
-    font-weight: 100;
+    font-weight: bold;
   }
 
   .box-2-section {
@@ -299,11 +273,9 @@
   .section-expert {
     display: flex;
     justify-content: center;
-    padding-top: 62px;
-    margin-bottom: 61px;
-    padding-left: 243px;
-    padding-right: 243px;
+   padding: 63px 244px 62px;
     width: 100%;
+    max-width: 1200px;
   }
 
   .box-1-photo {
@@ -349,7 +321,7 @@
       color: rgba(63, 65, 68, 255);
       margin-bottom: 20px;
       font-size: 10px;
-      font-weight: 100;
+      font-weight: bold;
     }
   }
   .none-margin {
@@ -396,7 +368,7 @@
     color: rgba(63, 65, 68, 255);
     text-align: left;
     margin-bottom: 0;
-    font-weight: 100;
+    font-weight: bold;
   }
   .test-2 {
     display: none;

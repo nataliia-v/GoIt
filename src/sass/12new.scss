@@ -25,8 +25,9 @@
     }
 
     &_wrapper {
-        padding: 19px 0 32px;
-        width: 70%;
+        padding: 19px 18px 32px;
+        // width: 70%;
+        max-width: 480px;
         margin: auto;
     }
 
@@ -96,7 +97,9 @@ font-weight: 400px;
         &_wrapper {
             margin: auto;
             display: flex;
-            width: 80%;
+            // width: 80%;
+            max-width: 768px;
+            padding: 55px 65px;
         }
 
 
@@ -162,7 +165,10 @@ font-weight: 400px;
         &_wrapper {
             margin: auto;
             display: flex;
-            width: 60%;
+            // width: 60%;
+            max-width: 1200px;
+            padding: 60px 244px;
+
         }
 
 
