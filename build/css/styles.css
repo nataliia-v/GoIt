@@ -3342,7 +3342,7 @@ template {
 }
 
 .bonusesMainContainer {
-  min-width: 480px;
+  max-width: 480px;
   margin: 0 auto;
   padding: 40px 18px 45px;
 }
@@ -3781,7 +3781,7 @@ template {
 }
 
 .line2 {
-  width: 55px;
+  width: 60px;
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
   background-color: #ff6b08;
@@ -4263,7 +4263,7 @@ template {
   }
 
   .PossybleToStudy__photo {
-    max-height: 70%;
+    max-height: 40%;
     position: relative;
     z-index: 3;
   }
