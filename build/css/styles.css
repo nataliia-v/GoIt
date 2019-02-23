@@ -941,34 +941,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "Acrom";
-  src: url(../fonts/Acrom-Thin.woff) format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Acrom";
-  src: url(../fonts/Acrom-Regular.woff) format("woff");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Acrom";
-  src: url(../fonts/Acrom-Bold.woff) format("woff");
-  font-style: normal;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Acrom";
-  src: url(../fonts/Acrom-ExtraBold.woff) format("woff");
-  font-style: normal;
-  font-weight: bolder;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -1779,7 +1751,7 @@ template {
 .warning-list {
   display: flex;
   flex-direction: column;
-  list-style-image: url(/images/block-6/knopa.png);
+  list-style-image: url(./images/block-6/knopa.png);
   width: 100%;
   padding-left: 36px;
   margin-bottom: 15px;
@@ -2148,7 +2120,7 @@ template {
   height: 17px;
   background-color: black;
   border: none;
-  background-image: url(../images/block-5/SliderButtonArrowRight.png);
+  background-image: url(./images/block-5/SliderButtonArrowRight.png);
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -2490,7 +2462,7 @@ template {
 
 .main-sec9h5::before {
   content: "";
-  background: url(../images/block-9/Shape10@1X.png);
+  background: url(./images/block-9/Shape10@1X.png);
   width: 16px;
   height: 27px;
   display: block;
@@ -3097,7 +3069,7 @@ template {
 }
 
 .forRec_list {
-  list-style-image: url(../images/block-12/square.png);
+  list-style-image: url(./images/block-12/square.png);
   margin-left: 20px;
   margin-bottom: 25px;
 }
