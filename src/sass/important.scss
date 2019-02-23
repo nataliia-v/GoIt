@@ -18,6 +18,7 @@
     padding: 65px 45px;
     color: white;
     background-color: #052139;
+    margin-bottom: 30px;
 }
 
 .imp_flex {
@@ -31,7 +32,7 @@
 
 .imp_blueBox-flex {
     margin: auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -108,7 +109,7 @@
 .imp_whiteLine {
 
     margin-top: 28px;
-    width: 40px;
+    width: 25px;
     height: 1px;
     background-color: white;
 }
@@ -176,13 +177,14 @@
     }
 
     .imp_bold {
-        padding: 0;
+        padding: 0px;
         font-weight: 500;
         color: black;
         font-size: 9px;
         line-height: 12px;
         width: 80%;
         margin-bottom: 10px;
+        
     }
 
     .imp_orange {
@@ -247,6 +249,7 @@
     .imp_blueBox {
         padding: 45px 25px;
         margin-top: 5px;
+        margin-bottom: 30px;
     }
 }
 
