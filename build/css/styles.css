@@ -2455,7 +2455,7 @@ template {
   line-height: 19.5px;
   color: #ff6b08;
   text-align: left;
-  width: 352px;
+  max-width: 352px;
   margin: auto;
   position: relative;
 }
@@ -3447,7 +3447,7 @@ template {
 }
 
 .bonusesMainContainer .formContainer {
-  width: 372px;
+  max-width: 372px;
   height: 347px;
   margin: 0 auto;
   padding: 65px;
