@@ -377,34 +377,34 @@ template {
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Thin.woff) format("woff");
+  src: url(../fonts/Acrom-Thin.woff) format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Regular.woff) format("woff");
+  src: url(../fonts/Acrom-Regular.woff) format("woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Bold.woff) format("woff");
+  src: url(../fonts/Acrom-Bold.woff) format("woff");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-ExtraBold.woff) format("woff");
+  src: url(../fonts/Acrom-ExtraBold.woff) format("woff");
   font-style: normal;
   font-weight: bolder;
 }
 
 .header {
-  background-image: url(./images/block-1/bg-480.png);
+  background-image: url(../images/block-1/bg-480.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1345,34 +1345,34 @@ template {
 @orange : #ff6007;
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Thin.woff) format("woff");
+  src: url(../fonts/Acrom-Thin.woff) format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Regular.woff) format("woff");
+  src: url(../fonts/Acrom-Regular.woff) format("woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-Bold.woff) format("woff");
+  src: url(../fonts/Acrom-Bold.woff) format("woff");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Acrom";
-  src: url(./fonts/Acrom-ExtraBold.woff) format("woff");
+  src: url(../fonts/Acrom-ExtraBold.woff) format("woff");
   font-style: normal;
   font-weight: bolder;
 }
 
 .header {
-  background-image: url(./images/block-1/bg-480.png);
+  background-image: url(../images/block-1/bg-480.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3921,7 +3921,7 @@ template {
 
   .wrapper__main {
     max-width: 768px;
-    background-image: url(./images/block-1/bg-768.png);
+    background-image: url(../images/block-1/bg-768.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -4284,7 +4284,7 @@ template {
 
   .wrapper__main {
     max-width: 768px;
-    background-image: url(./images/block-1/bg-768.png);
+    background-image: url(../images/block-1/bg-768.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center center;
