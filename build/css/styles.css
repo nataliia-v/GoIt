@@ -425,8 +425,9 @@ template {
 .header__list {
   display: flex;
   flex-direction: column;
-  width: 40px;
-  height: 20px;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
 }
 
 .header__list-item1,
@@ -460,7 +461,7 @@ template {
   font-size: 30px;
   margin-bottom: 43px;
   text-transform: uppercase;
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .dash__tablet {
@@ -541,10 +542,22 @@ template {
 }
 
 .header__course--button {
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   width: 219px;
   line-height: 54px;
   border: 0;
   background-color: #ff6b08;
+  cursor: pointer;
+}
+
+.header__course--button:hover {
+  background-color: #17ecff;
+}
+
+.header__course--button:focus {
+  background-color: #06a4b2;
+  border: none;
+  outline: none;
 }
 
 .course__button {
@@ -984,7 +997,7 @@ template {
 
 .people-top__about::before {
   content: "";
-  width: 20px;
+  width: 29px;
   height: 3px;
   background-color: #000000;
   display: block;
@@ -1099,12 +1112,12 @@ template {
 
 .PossybleToStudy__text1::before {
   content: "";
-  width: 20px;
+  width: 29px;
   height: 3px;
   background-color: black;
   position: absolute;
-  top: 10px;
-  left: 0px;
+  top: 8px;
+  left: -15px;
 }
 
 .PossybleToStudy__line {
@@ -1299,8 +1312,8 @@ template {
 }
 
 .line-with-text__line {
-  width: 14px;
-  height: 4px;
+  width: 20px;
+  height: 3px;
   background-color: black;
   margin-right: 10px;
   margin-top: 6px;
@@ -1393,8 +1406,9 @@ template {
 .header__list {
   display: flex;
   flex-direction: column;
-  width: 40px;
-  height: 20px;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
 }
 
 .header__list-item1,
@@ -1428,7 +1442,7 @@ template {
   font-size: 30px;
   margin-bottom: 43px;
   text-transform: uppercase;
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .dash__tablet {
@@ -1509,10 +1523,22 @@ template {
 }
 
 .header__course--button {
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   width: 219px;
   line-height: 54px;
   border: 0;
   background-color: #ff6b08;
+  cursor: pointer;
+}
+
+.header__course--button:hover {
+  background-color: #17ecff;
+}
+
+.header__course--button:focus {
+  background-color: #06a4b2;
+  border: none;
+  outline: none;
 }
 
 .course__button {
@@ -1555,7 +1581,7 @@ template {
 
 .register19-box1-heds {
   padding-left: 50px;
-  width: 75%;
+  width: 80%;
   margin-bottom: 18px;
 }
 
@@ -1586,38 +1612,41 @@ template {
 
 .register19-box1-opus::before {
   content: '';
-  width: 14px;
-  height: 4px;
+  width: 29px;
+  height: 3px;
   display: block;
   background-color: black;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 15px;
 }
 
 .register19-box1-button {
   width: 100%;
-  padding-left: 55px;
-  text-align: left;
   margin-bottom: 45px;
+  padding: 0 15px;
 }
 
 .button-register-19 {
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   font-family: "Acrom", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  font-size: 10.06px;
+  font-size: 13px;
   color: #ffffff;
   background-color: #ff6b08;
-  padding: 16px 40px;
+  padding: 16px 30px;
+  border: none;
+  width: 210px;
+  cursor: pointer;
 }
 
 .button-register-19:focus {
   background-color: #15bbca;
 }
 
-.register19-box1-button:hover .button-register-19 {
+.button-register-19:hover {
   background-color: #17ecff;
 }
 
@@ -1659,18 +1688,18 @@ template {
 
 .register19-box2-cont2_text {
   font-family: "Acrom", sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-style: normal;
-  font-size: 13.5px;
+  font-size: 12px;
   margin-bottom: 30px;
   line-height: 1.5;
 }
 
 .register19-box2-cont3_text {
   font-family: "Acrom", sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-style: normal;
-  font-size: 13.5px;
+  font-size: 12px;
   margin-bottom: 30px;
   line-height: 1.5;
 }
@@ -1678,7 +1707,7 @@ template {
 .another-text-box3 {
   font-family: "Acrom", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 13.5px;
 }
 
@@ -1693,6 +1722,14 @@ template {
   font-weight: bold;
   font-size: 13.5px;
   color: #ff7518;
+}
+
+.register19-box2-cont1_link:hover {
+  color: #17ecff;
+}
+
+.register19-box2-cont1_link:focus {
+  color: #15bbca;
 }
 
 .warning {
@@ -1963,6 +2000,7 @@ template {
 }
 
 .btn__get {
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   text-decoration: none;
   color: #ffffff;
   background-color: #ff6007;
@@ -1975,6 +2013,16 @@ template {
   font-family: "Acrom", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.btn__get:hover {
+  background-color: #17ecff;
+}
+
+.btn__get:focus {
+  background-color: #06a4b2;
+  border: none;
+  outline: none;
 }
 
 * {
@@ -2018,9 +2066,9 @@ template {
   content: '';
   position: absolute;
   top: 5px;
-  left: -30px;
+  left: -40px;
   display: inline-block;
-  width: 20px;
+  width: 29px;
   height: 3px;
   background-color: black;
 }
@@ -2100,10 +2148,10 @@ template {
 
 .slideLeft {
   position: absolute;
-  bottom: -17px;
-  right: 18px;
-  width: 17px;
-  height: 17px;
+  bottom: -20px;
+  right: 25px;
+  width: 20px;
+  height: 20px;
   background-color: black;
   border: none;
   background-image: url(../images/block-5/SliderButtonArrowLeft.png);
@@ -2114,13 +2162,13 @@ template {
 
 .slideRight {
   position: absolute;
-  bottom: -17px;
+  bottom: -20px;
   right: 0;
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   background-color: black;
   border: none;
-  background-image: url(./images/block-5/SliderButtonArrowRight.png);
+  background-image: url(../images/block-5/SliderButtonArrowRight.png);
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -2137,7 +2185,7 @@ template {
 .sliderLinks {
   text-decoration: none;
   position: absolute;
-  font-size: 8px;
+  font-size: 10px;
   color: black;
   font-family: "Acrom";
   font-weight: bolder;
@@ -2151,7 +2199,7 @@ template {
 
 .sliderChengeToOne {
   bottom: -25px;
-  left: 25px;
+  left: 20px;
 }
 
 .sliderChengeToTwo {
@@ -2161,7 +2209,7 @@ template {
 
 .sliderChengeToThree {
   bottom: -25px;
-  left: 75px;
+  left: 80px;
 }
 
 * {
@@ -2375,17 +2423,18 @@ template {
   margin-bottom: 60px;
   position: relative;
   z-index: 10;
+  padding: 0 0 0 19px;
 }
 
 .sec9-h2::before {
   content: "";
-  width: 21px;
+  width: 29px;
   height: 3px;
   background-color: black;
   display: block;
   position: absolute;
   top: 8px;
-  left: -30px;
+  left: -25px;
 }
 
 .sec9-main {
@@ -2548,7 +2597,7 @@ template {
 .services__block2__line {
   border: 1px solid black;
   background-color: black;
-  width: 21px;
+  width: 29px;
   height: 3px;
   margin-right: 16px;
 }
@@ -2718,11 +2767,12 @@ template {
   color: #000000;
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 0;
 }
 
 .course-left__btn {
   width: 100%;
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   line-height: 45px;
   background-color: #ff6b08;
   color: #ffffff;
@@ -2731,6 +2781,17 @@ template {
   font-size: 10.81px;
   letter-spacing: 1px;
   font-weight: 900;
+  cursor: pointer;
+}
+
+.course-left__btn:hover {
+  background-color: #17ecff;
+}
+
+.course-left__btn:focus {
+  background-color: #06a4b2;
+  border: none;
+  outline: none;
 }
 
 .course-right {
@@ -2827,8 +2888,8 @@ template {
 .newTextP::before {
   content: "";
   display: block;
-  width: 40px;
-  height: 2px;
+  width: 100px;
+  height: 3px;
   background-color: black;
   margin-top: 6px;
   margin-right: 10px;
@@ -2989,12 +3050,16 @@ template {
 
 .beforeCacher {
   display: flex;
+  position: relative;
 }
 
 .beforeCacher::before {
   content: '';
-  height: 4px;
-  width: 10%;
+  position: absolute;
+  top: 5px;
+  left: -40px;
+  height: 3px;
+  width: 29px;
   background-color: #000000;
   display: block;
   margin-right: 5px;
@@ -3090,8 +3155,8 @@ template {
 }
 
 .lineFlex_left {
-  border-top: 4px solid black;
-  width: 70px;
+  border-top: 3px solid black;
+  width: 100px;
   margin: 10px 15px 0 0;
 }
 
@@ -3139,13 +3204,13 @@ template {
 
 .data__text::before {
   content: "";
-  width: 15%;
+  width: 29px;
   height: 3px;
   background-color: black;
   display: block;
   position: absolute;
-  top: 5%;
-  left: -25%;
+  top: 6px;
+  left: -40px;
 }
 
 .data__list {
@@ -3303,7 +3368,7 @@ template {
 }
 
 .imp_aqua {
-  width: 60%;
+  width: 65%;
   color: #052139;
   background-color: #16ebfe;
 }
@@ -3319,14 +3384,23 @@ template {
   box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   border: none;
   color: white;
-  padding: 15px 40px;
+  padding: 15px 15px;
   background-color: #ff6b08;
+  cursor: pointer;
+}
+
+.imp_button:focus {
+  background-color: #15bbca;
+}
+
+.imp_button:hover {
+  background-color: #17ecff;
 }
 
 .imp_price {
   font-weight: bold;
   font-size: 39px;
-  line-height: 50px;
+  line-height: 20px;
 }
 
 .imp_center {
@@ -3373,10 +3447,10 @@ template {
 .bonusesMainContainer .TitleContainer .mainTitleConteiner .bottomTitle_takeBonuses::before {
   content: '';
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: 20px;
   display: block;
-  width: 20px;
+  width: 29px;
   height: 3px;
   background-color: black;
 }
@@ -3526,12 +3600,13 @@ template {
 }
 
 .bonusesMainContainer .formContainer .buttonContainer {
-  width: 174px;
+  width: 170px;
   height: 34px;
 }
 
 .bonusesMainContainer .formContainer .buttonContainer .formBTNgetVideo {
-  width: 174px;
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
+  width: 183px;
   height: 34px;
   background-color: #ff6b08;
   border: none;
@@ -3599,7 +3674,7 @@ template {
 .line {
   border: 1px solid black;
   background-color: black;
-  width: 20px;
+  width: 100px;
   height: 3px;
   margin-right: 14px;
   margin-top: -30px;
@@ -3814,6 +3889,7 @@ template {
   align-items: flex-end;
   font-family: "Acrom", sans-serif;
   font-weight: 400;
+  margin: 0 0 20px 0;
 }
 
 .curse__priceBlock {
@@ -3852,6 +3928,7 @@ template {
   font-weight: 400;
   font-size: 35px;
   margin-left: 15px;
+  line-height: 25px;
 }
 
 * {
@@ -4046,7 +4123,7 @@ template {
   }
 
   .people-top__chapter {
-    width: 60%;
+    width: 62%;
     font-size: 27px;
     line-height: 33.65px;
   }
@@ -4060,7 +4137,7 @@ template {
 
   .people-top__about::before {
     content: "";
-    width: 27px;
+    width: 29px;
     left: 0;
   }
 
@@ -4201,8 +4278,8 @@ template {
 
   .PossybleToStudy__text1::before {
     width: 29px;
-    height: 4px;
-    top: 10px;
+    height: 3px;
+    top: 8px;
     left: 0px;
   }
 
@@ -4447,11 +4524,11 @@ template {
   .register19-box1-opus::before {
     content: '';
     width: 29px;
-    height: 5px;
+    height: 3px;
     display: block;
     background-color: black;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
   }
 
@@ -4637,10 +4714,11 @@ template {
 
   .txt__fastStart::before {
     content: '';
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 29px;
     background-color: #000000;
     display: block;
+    margin: 6px 15px 0 0;
   }
 
   .headr__pic {
@@ -5254,8 +5332,8 @@ template {
 
   .beforeCacher::before {
     content: '';
-    height: 4px;
-    width: 15px;
+    height: 3px;
+    width: 29px;
     background-color: #000000;
     display: block;
     margin-right: 10px;
@@ -5344,7 +5422,7 @@ template {
 
   .lineFlex_left {
     margin-top: 5px;
-    width: 70px;
+    width: 90px;
   }
 
   .data {
@@ -5459,7 +5537,8 @@ template {
 
   .imp_button {
     padding: 10px 10px;
-    width: 100%;
+    width: 80%;
+    height: 40px;
     font-size: 12px;
   }
 
@@ -5652,7 +5731,7 @@ template {
     border: 1px solid black;
     background-color: black;
     width: 80px;
-    height: 4px;
+    height: 3px;
     margin-right: 14px;
     margin-top: -20px;
   }
@@ -6040,7 +6119,7 @@ template {
   }
 
   .PossybleToStudy__text1::before {
-    top: 2px;
+    top: 8px;
   }
 
   .PossybleToStudy__descrip {
@@ -6104,6 +6183,7 @@ template {
   }
 
   .line-with-text__line {
+    width: 29px;
     margin-top: 7px;
     margin-right: 29px;
   }
@@ -6290,7 +6370,7 @@ template {
   .register19-box1-opus::before {
     top: 5px;
     width: 32px;
-    height: 5px;
+    height: 3px;
   }
 
   .register19-box1-button {
@@ -6481,8 +6561,8 @@ template {
   }
 
   .secondTextContainer::before {
-    width: 35px;
-    height: 4px;
+    width: 29px;
+    height: 3px;
     margin-left: -15px;
   }
 
@@ -6843,6 +6923,7 @@ template {
 
   .lineFlex_left {
     width: 100px;
+    margin-top: 8px;
   }
 
   .data {
@@ -6993,8 +7074,8 @@ template {
   .line {
     border: 1px solid black;
     background-color: black;
-    width: 32px;
-    height: 4px;
+    width: 80px;
+    height: 3px;
     margin-right: 14px;
     margin-top: -10px;
   }
@@ -7067,6 +7148,7 @@ template {
   }
 
   .line-with-text__line {
+    width: 29px;
     margin-top: 7px;
     margin-right: 29px;
   }

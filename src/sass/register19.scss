@@ -18,7 +18,7 @@
 
 .register19-box1-heds {
   padding-left: 50px;
-  width: 75%;
+  width: 80%;
   margin-bottom: 18px;
 }
 
@@ -50,37 +50,40 @@
 
 .register19-box1-opus::before {
   content: '';
-  width: 14px;
-  height: 4px;
+  width: 29px;
+  height: 3px;
   display: block;
   background-color: black;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 15px;
 }
 
 .register19-box1-button {
   width: 100%;
-  padding-left: 55px;
-  text-align: left;
   margin-bottom: 45px;
+  padding: 0 15px;
 }
 
 .button-register-19 {
+  box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
   font-family: "Acrom", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  font-size: 10.06px;
+  font-size: 13px;
   color: #ffffff;
   background-color: #ff6b08;
-  padding: 16px 40px;
+  padding: 16px 30px;
+  border: none;
+  width: 210px;
+  cursor: pointer;
 }
 
 .button-register-19:focus{
   background-color: #15bbca;
  }
- .register19-box1-button:hover .button-register-19{
+ .button-register-19:hover {
   background-color: #17ecff;
  }
 
@@ -124,18 +127,18 @@
 
 .register19-box2-cont2_text {
   font-family: "Acrom", sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-style: normal;
-  font-size: 13.5px;
+  font-size: 12px;
   margin-bottom: 30px;
   line-height: 1.5;
 }
 
 .register19-box2-cont3_text {
   font-family: "Acrom", sans-serif;
-  font-weight: 100;
+  font-weight: bold;
   font-style: normal;
-  font-size: 13.5px;
+  font-size: 12px;
   margin-bottom: 30px;
   line-height: 1.5;
 }
@@ -143,7 +146,7 @@
 .another-text-box3 {
   font-family: "Acrom", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 13.5px;
 }
 
@@ -159,6 +162,13 @@
   font-size: 13.5px;
   color: #ff7518;
 }
+.register19-box2-cont1_link:hover {
+  color: #17ecff;
+}
+.register19-box2-cont1_link:focus {
+  color: #15bbca;
+}
+
 
 @media(min-width:768px) {
 
@@ -222,11 +232,11 @@
   .register19-box1-opus::before {
     content: '';
     width: 29px;
-    height: 5px;
+    height: 3px;
     display: block;
     background-color: black;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
   }
 
@@ -332,7 +342,7 @@
   .register19-box1-opus::before {
     top: 5px;
     width: 32px;
-    height: 5px;
+    height: 3px;
   }
 
   .register19-box1-button {

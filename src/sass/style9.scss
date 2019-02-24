@@ -64,19 +64,19 @@
         width: 260px;
         margin-bottom: 60px;
         position: relative;
-        z-index: 10
+        z-index: 10;
+        padding: 0 0 0 19px;
     }
 
     .sec9-h2::before {
         content: "";
-        width: 21px;
+        width: 29px;
         height: 3px;
         background-color: black;
         display: block;
         position: absolute;
-        ;
         top: 8px;
-        left: -30px;
+        left: -25px;
     }
 
     .sec9-main {

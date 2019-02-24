@@ -180,6 +180,7 @@
 }
 
 .btn__get {
+    box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
     text-decoration: none;
     color: #ffffff;
     background-color: #ff6007;
@@ -191,7 +192,17 @@
     margin: auto;
     font-family: "Acrom", sans-serif;
     font-weight: 400;
-text-transform: uppercase;
+    text-transform: uppercase;
+
+        &:hover {
+        background-color: rgb(23, 236, 255);
+        }
+
+        &:focus {
+            background-color: rgb(6, 164, 178);
+            border: none;
+            outline: none;
+        }
 }
 
 @media (min-width: 768px) {
@@ -231,10 +242,11 @@ text-transform: uppercase;
 
     .txt__fastStart::before {
         content: '';
-        height: 4px;
-        width: 30px;
+        height: 3px;
+        width: 29px;
         background-color: #000000;
         display: block;
+        margin: 6px 15px 0 0;
     }
 
     .headr__pic {

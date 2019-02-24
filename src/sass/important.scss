@@ -101,7 +101,7 @@
 }
 
 .imp_aqua {
-    width: 60%;
+    width: 65%;
     color: #052139;
     background-color: #16ebfe;
 }
@@ -118,14 +118,22 @@
     box-shadow: 8px 8px 20px 0px rgba(228, 89, 34, 0.39);
     border: none;
     color: white;
-    padding: 15px 40px;
+    padding: 15px 15px;
     background-color: #ff6b08;
+    cursor: pointer;
 }
+.imp_button:focus{
+    background-color: #15bbca;
+}
+.imp_button:hover {
+    background-color: #17ecff;
+}
+
 
 .imp_price {
     font-weight: bold;
     font-size: 39px;
-    line-height: 50px;
+    line-height: 20px;
 }
 
 .imp_center {
@@ -165,7 +173,8 @@
 
     .imp_button {
         padding: 10px 10px;
-        width: 100%;
+        width: 80%;
+        height: 40px;
         font-size: 12px;
     }
 

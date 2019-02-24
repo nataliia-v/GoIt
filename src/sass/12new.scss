@@ -59,8 +59,8 @@
     padding: 25px 0 25px;
 
     &_left {
-        border-top: 4px solid black;
-        width: 70px;
+        border-top: 3px solid black;
+        width: 100px;
         margin: 10px 15px 0 0;
     }
 
@@ -127,7 +127,7 @@ font-weight: 400px;
 
     .lineFlex_left {
         margin-top: 5px;
-        width: 70px;
+        width: 90px;
     }
 
 }
@@ -196,6 +196,7 @@ font-weight: 400px;
 
     .lineFlex_left {
         width: 100px;
+        margin-top: 8px;
     }
     
 }
